@@ -1,1 +1,13 @@
 @import "theme-variables";
+
+.navbar-brand a{
+  color: $brand-secondary;
+
+  &:hover{
+    color: $brand-primary;
+  }
+}
+
+.form-search label{
+  color: white;
+}
