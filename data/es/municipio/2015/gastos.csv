@@ -1,514 +1,1190 @@
-#Aplicación Presupuestaria,Denominación,Créditos Iniciales,Modificaciones de Crédito,Créditos Definitivos,Obligaciones Reconocidas
-     161  61100,Acondicionamiento Depósitos Municipales de Agua,,120000.0,120000.0,
-     161  22114,Aguas depuradas para riego,200000.0,,200000.0,
-     161  60910,Instalaciones en BT Repetidor La Centinela,,164000.0,164000.0,
-     161  60208,Inversiones Red Saneamiento y Pluviales,,80663.38,80663.38,
-     161  76129,Saneamiento y Urbanización en El Fraile III Fase,,60280.73,60280.73,
-     161  22711,Servicio Abastecimiento de Agua y Alcantarillado,11600000.0,,11600000.0,11545609.8
-     161  22502,Tributos de las Entidades Locales,4300000.0,,4300000.0,4596224.68
-     430  41002,Al Patronato Municipal de Turismo,1035645.0,,1035645.0,1035645.0
-     430  46902,Convenio Regeneración espacio turístico,93718.0,,93718.0,93718.0
-     920  62301,Acondicionamiento Ingeniería CPD Municipales.,15000.0,,15000.0,
-     920  20200,Arrendamientos de Edificios y otras Construcciones,30000.0,,30000.0,24373.59
-     920  23300,Otras indemnizaciones ,5000.0,,5000.0,800.0
-     920  22103,Combustibles y carburantes,10000.0,,10000.0,6095.03
-     920  12100,Complemento de destino,175000.0,,175000.0,130024.07
-     920  12101,Complemento especifico,370000.0,,370000.0,253302.76
-     920  12102,Complemento de Residencia,42000.0,,42000.0,30465.07
-     920  23020,Dietas del personal no directivo,3000.0,,3000.0,715.23
-     920  23120,Locomoción del personal no directivo,8000.0,,8000.0,2071.84
-     920  21200,"Reparaciones, man. y conserv. Edificios y otras co",35000.0,,35000.0,18516.52
-     920  22605,Elecciones,,,,29345.72
-     920  21400,Repar. mant. y conserv. elementos de transporte,7000.0,,7000.0,4460.22
-     920  22100,Energía eléctrica,900000.0,,900000.0,673496.6
-     920  62617,Equipamiento Informático Centros Cívicios Medianía,32100.0,,32100.0,
-     920  21502,Equipamiento Mobiliario Centros Cívicios Medianías,18220.0,,18220.0,500.0
-     920  62503,Equipamiento Mobiliario Centros Civicos.,9695.0,,9695.0,
-     920  62600,Equipos para Proceso de Información,400000.0,,400000.0,335694.12
-     920  22706,Estudios y Trabajos Técnicos,280000.0,,280000.0,73669.16
-     920  16200,Formación y perfeccionamiento del Personal,5000.0,,5000.0,5779.0
-     920  15100,Gratificaciones,10000.0,,10000.0,32949.03
-     920  22203,Informáticas,45000.0,,45000.0,39213.76
-     920  22604,"Jurídicos, Contenciosos",200000.0,,200000.0,421456.74
-     920  22700,Limpieza y Aseo,2270000.0,,2270000.0,2000334.86
-     920  21304,Mantenimiento Aire Acondicionado,18000.0,,18000.0,17857.67
-     920  62300,"Maquinaria, Instalaciones y Utillaje",5000.0,,5000.0,5212.74
-     920  22002,Material informático no inventariable,250000.0,,250000.0,293245.11
-     920  22607,Oposiciones y pruebas selectivas,5000.0,,5000.0,7796.55
-     920  22000,Ordinario no inventariable,20000.0,,20000.0,35572.36
-     920  13100,Retribuciones personal temporal,335000.0,,335000.0,284370.85
-     920  22616,Plan de Formación Interno Empleados Públicos,10000.0,,10000.0,11993.65
-     920  22201,Postales,300000.0,,300000.0,204502.28
-     920  22001,"Prensa, revistas, libros y otras publicaciones",10000.0,,10000.0,19421.75
-     920  22401,Primas de seguros vehículos municipales.,3000.0,,3000.0,2240.0
-     920  15000,Productividad,13120.0,,13120.0,337.48
-     920  22105,Productos alimenticios,18000.0,,18000.0,12431.6
-     920  22110,Productos de limpieza y aseo,1000.0,,1000.0,211.21
-     920  22603,Publicación en Diarios Oficiales,9000.0,,9000.0,6714.44
-     920  22602,Publicidad y Propaganda,65000.0,,65000.0,76122.7
-     920  21600,Repar. mant. y cons. Equipos para procesos informa,31400.0,,31400.0,12665.1
-     920  21500,Repar. mant. y cons. Mobiliario,2000.0,,2000.0,2224.14
-     920  21000,"Reparaciones, man. y conserv. infraestructuras y b",1000.0,,1000.0,
-     920  13000,Retribuciones personal laboral fijo,290000.0,,290000.0,262148.29
-     920  14301,Retribuciones personal afecto a programas,145000.0,,145000.0,118511.93
-     920  16000,Seguridad Social,520000.0,,520000.0,508188.96
-     920  22701,Seguridad,18000.0,,18000.0,17579.76
-     920  22713,Servicio de mantenimiento de vías y edificios,320000.0,,320000.0,59.4
-     920  22716,Servicio de Mantenimiento Eléctrico de Edificios,72000.0,,72000.0,62360.31
-     920  12000,Sueldos del Grupo A1,145000.0,,145000.0,154454.54
-     920  12001,Sueldos del Grupo A2,14700.0,,14700.0,19723.89
-     920  12003,Sueldos del Grupo C1,45000.0,,45000.0,29328.94
-     920  12004,Sueldos del Grupo C2,72000.0,,72000.0,80772.15
-     920  12005,Sueldos del Grupo E,32000.0,,32000.0,39814.43
-     920  22112,"Suministros de material electrónico, eléctrico y t",2000.0,,2000.0,7636.68
-     920  22204,Telefónicas,52000.0,,52000.0,58149.14
-     920  12006,Trienios,55000.0,,55000.0,41772.77
-     920  22104,Vestuario,12000.0,,12000.0,4967.17
-     330  41000,Al Patronato Municipal de Cultura,2402141.95,,2402141.95,2402141.95
-     330  22100,Energía eléctrica,10000.0,,10000.0,
-     330  22713,Servicio de mantenimiento de vías y edificios,320000.0,,320000.0,
-     330  22204,Teléfonos,5000.0,,5000.0,4424.81
-     340  41001,Al Patronato Municipal de Deportes,2461395.0,,2461395.0,2461395.0
-     340  22100,Energía eléctrica,231000.0,,231000.0,223560.57
-     320  12100,Complemento de destino,7200.0,,7200.0,
-     320  12101,Complemento especifico,12000.0,,12000.0,
-     320  12102,Complemento de Residencia,1700.0,,1700.0,
-     320  23020,Dietas del personal no directivo,600.0,,600.0,
-     320  23120,Locomoción del personal no directivo,600.0,,600.0,
-     320  22100,Energía eléctrica,100000.0,,100000.0,82516.16
-     320  16200,Formación y Perfeccionamiento del Personal,600.0,,600.0,
-     320  15100,Gratificaciones,1000.0,,1000.0,
-     320  13100,Retribuciones personal temporal,77000.0,,77000.0,48721.93
-     320  22001,"Prensa, revistas, libros y otras publicaciones",1000.0,,1000.0,
-     320  15000,Productividad,1000.0,,1000.0,
-     320  13000,Retribuciones personal laboral fijo,206000.0,,206000.0,131592.61
-     320  14301,Retribuciones personal afecto a programas,19400.0,,19400.0,16615.22
-     320  16000,Seguridad Social,110000.0,,110000.0,73898.36
-     320  22713,Servicio de mantenimiento de vías y edificios,320000.0,,320000.0,5508.31
-     320  22716,Servicio de Mantenimiento Eléctrico de Edificios,198130.0,,198130.0,184783.45
-     320  12001,Sueldos del Grupo A2,15000.0,,15000.0,
-     150  20200,Arrendamientos de Edificios y otras construcciones,13500.0,,13500.0,13215.88
-     150  22103,Combustibles y carburantes,10000.0,,10000.0,11121.39
-     150  12100,Complemento de destino,200000.0,-50000.0,150000.0,142629.71
-     150  12101,Complemento especifico,440000.0,,440000.0,285095.08
-     150  12102,Complemento de Residencia,50000.0,-1800.0,48200.0,32445.07
-     150  23020,Dietas del personal no directivo,1000.0,,1000.0,416.89
-     150  23120,Locomoción del personal no directivo,2000.0,,2000.0,638.83
-     150  21400,"Reparación, man. y conserv. elementos de transport",7000.0,,7000.0,8073.12
-     150  22100,Energía eléctrica,250000.0,,250000.0,194063.56
-     150  22706,Estudios y trabajos técnicos,75000.0,,75000.0,3000.0
-     150  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,3783.59
-     150  15100,Gratificaciones,1000.0,,1000.0,8180.03
-     150  62300,"Maquinaria, Instalaciones y Utillaje",1000.0,,1000.0,
-     150  22000,Ordinario no inventariable,6000.0,,6000.0,242.85
-     150  60101,Parque Urbano Cho-Parque La Reina ,,58000.0,58000.0,
-     150  13100,Retribuciones personal temporal,280000.0,,280000.0,354940.88
-     150  22001,"Prensa, revistas, libros y otros",1000.0,,1000.0,
-     150  22401,Primas de seguros,7000.0,,7000.0,4587.94
-     150  15000,Productividad,5000.0,,5000.0,
-     150  21500,Repar. mant. y cons. Mobiliario,6000.0,,6000.0,3037.2
-     150  13000,Retribuciones personal laboral fijo,360000.0,,360000.0,305226.27
-     150  14301,Retribuciones personal afecto a programas,127500.0,,127500.0,110241.22
-     150  16000,Seguridad Social,552000.0,-14500.0,537500.0,534473.03
-     150  12000,Sueldos del Grupo A1,142000.0,,142000.0,150001.67
-     150  12001,Sueldos del Grupo A2,57000.0,,57000.0,53500.22
-     150  12003,Sueldos del Grupo C1,72000.0,,72000.0,33230.11
-     150  12004,Sueldos del Grupo C2,62000.0,,62000.0,92155.63
-     150  12005,Sueldos del Grupo E,25000.0,,25000.0,30356.62
-     150  12006,Trienios,72000.0,-20000.0,52000.0,51310.33
-     170  22103,Combustibles y carburantes.,3000.0,,3000.0,2598.02
-     170  12100,Complemento de destino,25000.0,,25000.0,8378.4
-     170  12101,Complemento especifico,52000.0,,52000.0,19370.28
-     170  12102,Complemento de Residencia,5200.0,,5200.0,2058.48
-     170  23020,Dietas del personal no directivo,1000.0,,1000.0,
-     170  23120,Locomoción del personal no directivo,2000.0,,2000.0,27.55
-     170  21400,Elementos de Transporte,,,,440.87
-     170  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,
-     170  15100,Gratificaciones,1000.0,,1000.0,
-     170  22000,Ordinario no inventariable,1000.0,,1000.0,217.21
-     170  13100,Retribuciones personal temporal,33000.0,,33000.0,33473.96
-     170  22001,"Prensa, revistas, libros y otras publicaciones",1000.0,,1000.0,
-     170  22401,Primas de seguros vehículos municipales.,1500.0,,1500.0,1347.0
-     170  15000,Productividad,1000.0,,1000.0,
-     170  22602,Publicidad y propaganda,10000.0,,10000.0,880.0
-     170  13000,Retribuciones personal laboral fijo,74000.0,,74000.0,14113.02
-     170  14301,Retribuciones personal afecto a programas,22200.0,,22200.0,19103.52
-     170  22606,"Reuniones, conferencias y cursos.",8000.0,,8000.0,
-     170  16000,Seguridad Social,75000.0,,75000.0,34838.53
-     170  12000,Sueldos del Grupo A1,36700.0,,36700.0,22145.42
-     170  12006,Trienios,2500.0,,2500.0,2047.2
-     130  22103,Combustibles y carburantes.,60000.0,,60000.0,48008.38
-     130  21305,Mantenimiento Cámaras de Seguridad,18000.0,,18000.0,28927.0
-     130  21303,Mantenimiento de Extintores,18000.0,,18000.0,9046.08
-     130  22002,Material informático no inventariable,1000.0,,1000.0,
-     130  22000,Ordinario no inventariable,10000.0,,10000.0,5532.44
-     130  22001,"Prensa, revistas, libros y otras publicaciones",1000.0,,1000.0,
-     130  22401,Primas de seguros vehiculos mples.,16000.0,,16000.0,16446.98
-     130  21500,Repar. mant. y cons. Mobiliario,1000.0,,1000.0,1924.49
-     130  22111,"Suministros de repuestos de maquinaria, utillaje",10000.0,,10000.0,4126.44
-     130  22204,Teléfonos,10500.0,,10500.0,5644.8
-     130  22104,Vestuario,120000.0,,120000.0,20757.39
-     160  76102,"Marco en Barranco La Sabinita-C/ El Horno, Cabo Bl",328577.0,,328577.0,
-     160  76101,Red drenaje para recogida aguas pluviales Morro G.,143581.0,,143581.0,
-     165  42393,Aportación Comité Español Iluminación,601.0,,601.0,440.0
-     165  62300,"Maquinaria, Instalaciones y Utillaje",5500.0,,5500.0,
-     165  22712,Servicio Mantenimiento Alumbrado Público,1293100.0,,1293100.0,1224632.55
-     3322  20200,Arrendamientos de Edificios y otras contrucciones,10000.0,,10000.0,9796.53
-     3322  12100,Complemento de destino,6700.0,,6700.0,5680.2
-     3322  12101,Complemento específico,11000.0,,11000.0,9138.6
-     3322  12102,Complemento residencia,1500.0,,1500.0,1387.2
-     3322  15100,Gratificaciones,1000.0,,1000.0,
-     3322  13100,Personal Laboral temporal,21000.0,,21000.0,8882.63
-     3322  15000,Productividad,1000.0,,1000.0,
-     3322  13000,Retribuciones básicas,20000.0,,20000.0,19816.68
-     3322  16000,Seguridad Social,22000.0,,22000.0,26517.51
-     3322  12003,Sueldos del Grupo C1,10000.0,,10000.0,13750.84
-     3322  12006,Trienios,3500.0,,3500.0,2740.56
-     231  62213,Adecuación N.V. Instalaciones Residencia Mayores C,,218394.02,218394.02,
-     231  41003,Al Patronato Municipal de Servicios Sociales,3583240.0,314009.33,3897249.33,3815139.32
-     231  63211,Ampliación Residencia de Mayores Los Cristianos,,28000.0,28000.0,
-     231  23020,Dietas del personal no directivo,,,,
-     231  23120,Locomoción del personal no directivo,,,,
-     231  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,
-     231  62300,"Maquinaria, instalaciones y utillaje",,6543.22,6543.22,
-     231  62400,Material de Transporte,,10181.27,10181.27,
-     231  62500,Mobiliario,,31374.02,31374.02,
-     231  13000,Retribuciones personal laboral fijo,168000.0,24000.0,192000.0,171233.91
-     231  16000,Seguridad Social,52000.0,4500.0,56500.0,51810.79
-     231  44221,Subvención a la Empresa Municipal ADESA,1020040.0,,1020040.0,1020040.0
-     925  12100,Complemento de destino,42000.0,,42000.0,29663.48
-     925  12101,Complemento específico,80000.0,,80000.0,53310.71
-     925  12102,Complemento de Residencia,9000.0,,9000.0,6624.43
-     925  23020,Dietas del personal no directivo,1000.0,,1000.0,
-     925  23120,Locomoción del personal no directivo,1000.0,,1000.0,535.79
-     925  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,
-     925  15100,Gratificaciones,1000.0,,1000.0,
-     925  13100,Retribuciones personal temporal,130000.0,,130000.0,182106.66
-     925  15000,Productividad,33500.0,,33500.0,153.3
-     925  13000,Retribuciones básicas,295000.0,,295000.0,201728.23
-     925  16000,Seguridad Social,190000.0,,190000.0,238541.63
-     925  22720,Servicio de Atención Telefónica,584590.0,,584590.0,476851.38
-     925  12003,Sueldos del Grupo C1,30000.0,,30000.0,14279.83
-     925  12004,Sueldos del Grupo C1,35000.0,,35000.0,56691.61
-     925  12006,Trienios,15000.0,,15000.0,10519.76
-     3321  20200,Arrendamientos de Edificios y otras Construcciones,,,,
-     453  60137,Conexión Peatonal Guargacho-Las Rosas,,967574.09,967574.09,
-     453  60816,Rehab. pav. de calzada núcleo Los Cristianos,,69982.94,69982.94,69982.94
-     453  60819,Rehab. pav. de calzada núcleo Valle S.L.,,63920.2,63920.2,42565.28
-     164  62214,Ampliación del Cementerio Municipal,,56225.85,56225.85,
-     164  62215,Construcción Nichos medidas especiales,,18000.0,18000.0,17308.89
-     164  22615,Inhumaciones,5000.0,,5000.0,543.84
-     164  21306,Mantenimiento Horno Pirolitico Cementerio Mpal.,,,,1300.0
-     164  13100,Retribuciones personal temporal,16000.0,,16000.0,13940.76
-     164  62302,"Plataformas, Escaleras y Maquinaria",35300.0,,35300.0,
-     164  22110,Productos de limpieza y aseo,1000.0,,1000.0,721.2
-     164  63202,Refuerzo Estructural Cementerio Municipal ,,23000.0,23000.0,22907.92
-     164  13000,Retribuciones personal laboral fijo,37000.0,,37000.0,35568.65
-     164  14301,Retribuciones personal afecto a programas,19600.0,,19600.0,16822.88
-     164  16000,Seguridad Social,26000.0,,26000.0,32800.13
-     164  22104,Vestuario,1000.0,,1000.0,1056.05
-     1522  60001,Adquisición de Suelo para Construcción V.P.O.,,210000.0,210000.0,
-     1522  78011,Ayudas Rehabilitacion viviendas 1ª Necesidad,100000.0,-25934.85,74065.15,20214.77
-     922  42392,Aportación a la FEMP,6000.0,,6000.0,5288.45
-     922  12100,Complemento de destino,6000.0,,6000.0,9474.96
-     922  12101,Complemento específico,8000.0,,8000.0,13176.72
-     922  12102,Complemento de Residencia,1200.0,,1200.0,2286.72
-     922  23020,Dietas del personal no directivo,1000.0,,1000.0,
-     922  23120,Locomoción del personal no directivo,600.0,,600.0,
-     922  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,
-     922  15100,Gratificaciones,1000.0,,1000.0,970.2
-     922  15000,Productividad,1000.0,,1000.0,
-     922  13000,Retribuciones personal laboral fijo,62000.0,,62000.0,62987.65
-     922  16000,Seguridad Social,28000.0,,28000.0,35956.57
-     922  12004,Sueldos del Grupo C2,9000.0,,9000.0,22660.42
-     922  12006,Trienios,2500.0,,2500.0,2900.88
-     433  22614,Plan de Promoción Económica,340000.0,-138720.0,201280.0,191034.37
-     414  46600,Aportación Desarrollo Rural Chasna- Isora,6010.0,,6010.0,6000.0
-     414  62507,Equipamiento Mercadillo Municipal del Agricultor,80000.0,-12000.0,68000.0,4130.2
-     414  22121,Suministro Mercadillo Municipal del Agricultor,6000.0,,6000.0,2503.28
-     011  91301,Amortización préstamos largo plazo entidades fin.,1100000.0,,1100000.0,906424.83
-     011  31000,Intereses,250000.0,,250000.0,174919.42
-     338  22610,Festejos y Actos Populares,175000.0,,175000.0,255670.62
-     338  22611,Fiestas del Municipio,213000.0,,213000.0,296442.99
-     338  48100,Subvenciones a Comisiones de Fiestas,67400.0,,67400.0,46900.0
-     3271  22609,Actividades Socioculturales,73500.0,,73500.0,61838.06
-     3271  20200,Arrendamientos de edificios y otras construcciones,,,,
-     3271  16200,Formación y perfeccionamiento del personal,600.0,,600.0,433.32
-     3271  13100,Personal laboral temporal,82000.0,,82000.0,78952.11
-     3271  13000,Retribuciones básicas,108000.0,,108000.0,106216.92
-     3271  14301,Retribuciones personal afecto a programas,44100.0,,44100.0,37574.52
-     3271  16000,Seguridad Social,80000.0,,80000.0,76102.68
-     241  20200,Arrendamientos de Edificios y otras Construcciones,22500.0,,22500.0,17641.64
-     241  23020,Dietas del personal no directivo,1000.0,,1000.0,336.6
-     241  23120,Locomoción del personal no directivo,1000.0,,1000.0,137.75
-     241  22706,Estudios y Trabajos Técnicos,88000.0,,88000.0,66785.79
-     241  14303,Retribuciones personal convenios,500000.0,,500000.0,528996.73
-     241  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,650.0
-     241  62300,"Maquinaria, Instalaciones y Utillaje",1000.0,,1000.0,
-     241  22612,Material Convenios Fomento Empleo,30000.0,,30000.0,8625.66
-     241  14342,Mejora de las Zonas Rurales de Medianias de Arona ,,101940.48,101940.48,67651.61
-     241  60812,Mobiliario Urbano,,54054.39,54054.39,
-     241  22000,Ordinario no inventariable,1000.0,,1000.0,
-     241  13100,Retribuciones personal temporal,95000.0,,95000.0,70859.12
-     241  14340,Programa Extraordinario Bianual de empleo social ,,531829.46,531829.46,531829.46
-     241  14302,Retribuciones convenios AEDL,35000.0,,35000.0,
-     241  13000,Retribuciones personal laboral fijo,73000.0,20000.0,93000.0,76932.95
-     241  14301,Retribuciones personal afecto a programas,,,,39054.66
-     241  22606,"Reuniones, Conferencias y Cursos",54000.0,,54000.0,30202.0
-     241  16000,Seguridad Social,55000.0,265543.46,320543.46,500437.16
-     241  48014,"Convnio Fundación Proyecto D,. Bosco",20000.0,,20000.0,
-     241  14341,Subvención para implementar Plan Especial Empleo S,,21778.08,21778.08,
-     323  20200,Arrendamientos de Edificios y otras Construcciones,6000.0,,6000.0,
-     323  21302,Mantenimiento de ascensores,15000.0,,15000.0,3008.7
-     1622  62304,Autocompactadores,,85000.0,85000.0,
-     933  16200,Formación y Perfeccionamiento del Personal,600.0,,600.0,
-     933  13000,Retribuciones personal laboral fijo,20000.0,,20000.0,14604.19
-     933  16000,Seguridad Social,6500.0,,6500.0,9589.92
-     312  20200,Arrendamientos de Edificios y otras Construcciones,,,,
-     312  22100,Energía eléctrica,53000.0,,53000.0,8926.11
-     929  20800,Arrendamientos de Otro Inmovilizado Material,7000.0,,7000.0,
-     929  22103,Combustibles y carburantes,1000.0,,1000.0,
-     929  12101,Complemento Especifico.,43380.0,,43380.0,
-     929  21400,Repar. mant. y cons. elementos de transporte,1000.0,,1000.0,
-     929  50000,Fondo de Contingencia,1000000.0,-869815.52,130184.48,
-     929  21300,"Reparaciones, Mante. y conserv. Maquinaria e Inst.",10000.0,,10000.0,2121.66
-     929  62500,Mobiliario,5000.0,,5000.0,2675.0
-     929  22000,Ordinario no inventariable,2000.0,,2000.0,
-     929  13002,Otras Remuneraciones,63000.0,,63000.0,118441.81
-     929  12009,Otras Retribuciones básicas.,58041.0,-40000.0,18041.0,
-     929  48102,Premios,2000.05,,2000.05,
-     929  22402,Primas de seguros resto,1000.0,,1000.0,333.0
-     929  21500,Repar. mant. y cons. Mobiliario,2000.0,,2000.0,1547.95
-     929  22606,"Reuniones, conferencias y cursos",2000.0,,2000.0,
-     929  22619,Sanciones,10000.0,,10000.0,5819.18
-     929  22702,Valoraciones y Peritajes,1000.0,,1000.0,120.0
-     432  63208,Adecuación Campo de Tiro de Arona,30000.0,,30000.0,
-     432  45392,Convenio Gesplan Redacción plan de Modernización ,80000.0,,80000.0,
-     432  46901,Convenio Promoción Turística SPET,150000.0,,150000.0,150000.0
-     432  76110,Estrategia de Mejora del Espacio Público Turístico,641526.0,,641526.0,
-     432  62255,Oficinas de Turismo Plan Q,,4028.75,4028.75,
-     432  76124,SPET Plan de Oficinas Turísticas,,12000.0,12000.0,
-     342  62250,Adecuación Reglamentación B.T. Campo Tiro de Arona,,2412.74,2412.74,
-     342  62207,Cámaras de seguridad Edificios Públicos,,6304.26,6304.26,
-     342  62901,Circuito Aire Libre Las Américas.,25000.0,,25000.0,
-     342  62226,Complejo Deportivo,,86448.09,86448.09,86448.09
-     342  62203,Cubierta Piscina Polivalente de Los Cristianos,,2003.42,2003.42,
-     342  62306,Desfibriladores Instalaciones Deportivas ,18000.0,,18000.0,17919.84
-     342  62305,Extracción de Aire Piscina Cubierta los Cristianos,18000.0,,18000.0,
-     342  22748,Reacondic. Pavimento Parket Pabellón Las Galletas,12466.0,,12466.0,12465.65
-     342  22751,Servicio de baño adaptado en Arona,,,,
-     342  22713,Servicio de mantenimiento de vías y edificios,320000.0,,320000.0,
-     342  22716,Servicio de Mantenimiento Eléctrico de Edificios,244500.0,,244500.0,218438.71
-     342  22752,Sustitución  césped artificial Pistas de Padel,12000.0,,12000.0,
-     342  22749,Sustitución Cesped Artificial Anexo Antonio Dguez.,160000.0,,160000.0,
-     342  22750,Sustitución Pavimento Pabellón El Fraile.,54000.0,,54000.0,
-     1722  21400,"Reparaciones, mante. y conservación elementos de t",2000.0,,2000.0,
-     1722  22751,Servicio de Baño Adaptado en Arona,14365.0,,14365.0,52670.75
-     133  22717,Servicio Grua Municipal,472000.0,,472000.0,
-     912  48201,Aportaciones a Partidos Políticos,35000.0,,35000.0,30943.1
-     912  23300,Otras Indemnizaciones,50000.0,,50000.0,97879.94
-     912  22601,Atenciones protocolarias y representativas,20000.0,,20000.0,46162.57
-     912  22103,Combustibles y carburantes,3000.0,,3000.0,4151.53
-     912  23000,Dietas de Miembros de Órganos de Gobierno,12000.0,60000.0,72000.0,5270.23
-     912  23100,Locomoción de Miembros de Órganos de Gobierno,12000.0,,12000.0,3110.4
-     912  21400,"Reparación, man. y conserv. elementos de transport",5000.0,,5000.0,3782.81
-     912  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,350.0
-     912  22000,Ordinario no inventariable,1000.0,,1000.0,2534.98
-     912  11002,Otras remuneraciones.,1740.0,,1740.0,
-     912  22001,"Prensa, revistas, libros y otros",1000.0,,1000.0,2199.34
-     912  22401,Primas de seguros,2500.0,,2500.0,2670.01
-     912  22105,Productos alimenticios,4000.0,,4000.0,1176.37
-     912  10000,Retribuciones básicas ,630000.0,-105000.0,525000.0,485465.3
-     912  11000,Retribuciones básicas,108800.0,,108800.0,74878.6
-     912  16000,Seguridad Social,204000.0,-1115.65,202884.35,184439.77
-     912  22204,Telefónicas,10000.0,,10000.0,7273.68
-     419  62227,Casa del Vino,,192907.3,192907.3,
-     221  16204,Acción Social,100000.0,,100000.0,99822.07
-     221  16006,Asistencia Farma-Protésica según Convenio,100000.0,25000.0,125000.0,73201.07
-     221  16008,Asistencia Médico-Farmacéutica,300000.0,,300000.0,201355.0
-     221  16206,Bolsa Convenio Personal Municipal,260000.0,,260000.0,206306.63
-     221  16205,Seguros,77500.0,,77500.0,56228.47
-     171  22719,Ajardinamiento Parque de Cho-Parque de la Reina,48000.0,,48000.0,
-     171  20000,Arrendamientos de Terrenos y Bienes Naturales,27000.0,,27000.0,17478.09
-     171  22741,Servicio Mantenimiento Jardines Municipales,4483226.0,,4483226.0,4512967.62
-     924  22609,Actividades Partiicipación Ciudanana,23000.0,,23000.0,11642.09
-     924  12100,Complemento de destino,1700.0,,1700.0,
-     924  12101,Complemento específico,3000.0,,3000.0,
-     924  12102,Complemento de Residencia,500.0,,500.0,
-     924  23020,Dietas del personal no directivo,600.0,,600.0,
-     924  22000,Ordinario no inventariable,1000.0,,1000.0,
-     924  13100,Retribuciones personal temporal,40000.0,,40000.0,37670.11
-     924  22606,"Reuniones, conferencia y cursos",,,,2407.5
-     924  16000,Seguridad Social,15000.0,,15000.0,13701.41
-     924  12003,Sueldos del Grupo C1,2600.0,,2600.0,
-     1532  65004,Acondicionamiento de la Travesía de Guaza,,14495.48,14495.48,7579.18
-     1532  60944,"Baranda Protección C/Santa Rita - Abrigaño, Cabo B",,12900.0,12900.0,
-     1532  60901,Mejora de la accesibildad Avda. Chayofita,,1508.24,1508.24,
-     1532  60943,Obras Adecuación Conexión Vía Serv. Avda Chayofita,,6551.0,6551.0,
-     1532  60941,Obras Seguridad Zon Pública CC Apolo Los Cristiano,,56028.0,56028.0,
-     1532  60902,Obras en Arona Casco,,25934.85,25934.85,
-     1532  60942,Obras en Crta. Cruz del Guanche-La Sabinita PK 0+0,,15827.0,15827.0,
-     1532  60123,Plan de Accesibilidad,,10000.0,10000.0,
-     1532  21201,Reparación Calzada C/ México.,,6289.43,6289.43,6289.43
-     1532  22613,Señalizaciones Municipales,,,,858.8
-     1532  22713,Servicio de mantenimiento de vías y edificios,900000.0,,900000.0,38303.48
-     931  83101,Anticipo de pagas a personal,10.0,227200.0,227210.0,227200.0
-     931  83001,Anticipos por cuenta terceros,10.0,26268.01,26278.01,26268.01
-     931  20200,Arrendamientos de Edificios y otras Construcciones,10000.0,,10000.0,9646.3
-     931  23300,Otras indemnizaciones,,,,200.0
-     931  62207,Cámaras de seguridad Edificios Públicos,,3000.0,3000.0,
-     931  22103,Combustibles y carburantes,,,,672.11
-     931  12100,Complemento de destino,150000.0,,150000.0,105801.45
-     931  12101,Complemento especifico,270000.0,,270000.0,198863.86
-     931  12102,Complemento de Residencia,33000.0,,33000.0,22801.79
-     931  23020,Dietas del personal no directivo,1000.0,,1000.0,582.07
-     931  23120,Locomoción del personal no directivo,6000.0,,6000.0,912.46
-     931  35700,Ejecucion de avales,1000.0,,1000.0,
-     931  21400,Elementos de Transporte,,,,71.45
-     931  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,1000.0
-     931  31100,Gastos de formalización y cancelación,1000.0,,1000.0,
-     931  15100,Gratificaciones,1000.0,,1000.0,1051.37
-     931  35200,Intereses de demora Capitulo 6,100000.0,44115.65,144115.65,184200.0
-     931  35201,Intereses de demora Capitulo 2,100000.0,42000.0,142000.0,97573.75
-     931  34000,Intereses de depósitos,1000.0,,1000.0,
-     931  34100,Intereses de fianzas,1000.0,,1000.0,
-     931  35800,Intereses por operaciones de arrendamiento financi,1000.0,,1000.0,
-     931  22618,Intereses y Comisiones,90000.0,,90000.0,166444.18
-     931  62500,Mobiliario,2000.0,,2000.0,
-     931  22000,Ordinario no inventariable,1000.0,,1000.0,1006.95
-     931  13100,Retribuciones personal temporal,250000.0,,250000.0,235511.54
-     931  22001,"Prensa, revistas, libros y otros",3000.0,,3000.0,1579.69
-     931  15000,Productividad,6000.0,,6000.0,5816.08
-     931  21500,Repar. mant. y cons. Mobiliario,1000.0,,1000.0,
-     931  13000,Retribuciones básicas.,420000.0,,420000.0,367556.97
-     931  16000,Seguridad Social,400000.0,,400000.0,379553.03
-     931  22708,Servicios de Recaudación,1200000.0,,1200000.0,1451579.87
-     931  12000,Sueldos del Grupo A1,110000.0,,110000.0,117832.45
-     931  12003,Sueldos del Grupo C1,90000.0,,90000.0,55165.24
-     931  12004,Sueldos del Grupo C2,32000.0,,32000.0,68212.89
-     931  22501,Tributos de las Comunidades Autónomas,1000.0,,1000.0,
-     931  22502,Tributos de las Entidades Locales,1000.0,,1000.0,
-     931  22500,Tributos Estatales,1000.0,,1000.0,3714.42
-     931  12006,Trienios,45000.0,,45000.0,37882.37
-     334  20200,Arrendamiento de Edificios y otras construcciones,717455.0,777078.0,1494533.0,1494533.0
-     334  62207,Cámaras de seguridad Edificios Públicos,,13776.48,13776.48,
-     334  47903,Convenio Uso Cultural Instalaciones Casino Arona,9000.0,,9000.0,
-     341  22706,Estudios y trabajos técnicos,30000.0,-12000.0,18000.0,
-     135  12100,Complemento de destino,3900.0,,3900.0,
-     135  12101,Complemento especifico,6700.0,,6700.0,
-     135  12102,Complemento de Residencia,850.0,,850.0,
-     135  62400,Material de Transporte,50000.0,,50000.0,
-     135  16000,Seguridad Social,6000.0,,6000.0,
-     135  12000,Sueldos del Grupo A1,7200.0,,7200.0,
-     135  26001,Trabajos realizados por Protección Civil,150000.0,,150000.0,148613.66
-     311  20200,Arrendamientos de Edificios y otras contrucciones,21000.0,,21000.0,20706.39
-     311  22731,Control de Aves.,10800.0,,10800.0,761.26
-     311  22704,Recogida y acogida de animales.,60000.0,,60000.0,52476.78
-     311  22115,"Desinfectantes, raticidas",60000.0,,60000.0,46636.6
-     311  16200,Formación y Perfeccionamiento del Personal,600.0,,600.0,
-     311  22617,Promoción Sanidad y Consumo,,,,7684.53
-     311  22722,Recogida Animales Exóticos,3000.0,,3000.0,3000.0
-     311  13000,Retribuciones personal laboral fijo,36000.0,,36000.0,35886.14
-     311  16000,Seguridad Social,12000.0,,12000.0,11613.23
-     336  76200,Acto. Cueva Santo Hermano Pedro,,62000.0,62000.0,
-     336  22609,Actividades Socioculturales,6000.0,,6000.0,5021.7
-     336  48301,Convenio Archivo Diocesano,7000.0,,7000.0,
-     336  22706,Estudios y trabajos técnicos,35000.0,,35000.0,30168.49
-     1721  65913,Aseos y Duchas en Playas,,50000.0,50000.0,
-     1721  65914,Balizamiento Playas,,200000.0,200000.0,77917.4
-     1721  20900,Cánones,175000.0,,175000.0,171789.51
-     1721  22730,Mantenimiento Integral del Litoral,364365.0,,364365.0,361498.6
-     1721  62300,"Maquinaria, Instalaciones y Utillaje",,41139.99,41139.99,
-     1721  21000,"Reparaciones, man. y conserv. infraestructuras y b",1000.0,,1000.0,
-     1721  22736,Servicio de Vigilancia y Socorrismo en Playas,389190.0,,389190.0,205664.15
-     1721  48015,Subvención Fundación Neotrópico Preservación Lagar,3000.0,,3000.0,
-     1621  22709,Servicio Recogida RSU y Lim. Viaria,12512221.0,,12512221.0,12373206.86
-     1621  22710,Servicio Recogida de Papel Cartón,200000.0,,200000.0,246951.88
-     1621  22502,Tributos de las Entidades Locales,2300000.0,,2300000.0,2383186.23
-     452  60610,Inversiones en la Red de Agua,,2710363.12,2710363.12,7960.83
-     132  20400,Arrendamientos de Material de Transporte,150000.0,,150000.0,137913.36
-     132  20200,Arrendamientos de Edificios y Otras Construcciones,23000.0,,23000.0,22103.16
-     132  12100,Complemento de destino,700000.0,,700000.0,495665.76
-     132  12101,Complemento especifico,1350000.0,-160000.0,1190000.0,920004.35
-     132  12102,Complemento de Residencia,192000.0,,192000.0,143966.06
-     132  23020,Dietas del personal no directivo,1000.0,,1000.0,499.89
-     132  23120,Locomoción del personal no directivo,10000.0,,10000.0,8160.89
-     132  21400,Repar. conserv. y man. elementos de transporte,30000.0,,30000.0,23963.33
-     132  62603,Emisoras Policía Local,,133008.43,133008.43,2060.89
-     132  16200,Formación y Perfeccionamiento del Personal,1000.0,,1000.0,3815.58
-     132  15100,Gratificaciones,150000.0,37800.0,187800.0,147766.46
-     132  62300,"Maquinaria, Instalaciones y Utillaje",10000.0,,10000.0,
-     132  62400,Material de Transporte,9000.0,36000.0,45000.0,
-     132  62500,Mobiliario,10000.0,,10000.0,
-     132  13100,Retribuciones personal temporal,45000.0,,45000.0,35143.88
-     132  22728,Plan de Seguridad Integral Edificios Municipales,100000.0,,100000.0,
-     132  62604,Plan de Seguridad Integral Edificios Municipales,70000.0,,70000.0,
-     132  15000,Productividad,30000.0,38000.0,68000.0,107434.19
-     132  13000,Retribuciones personal laboral fijo,60000.0,,60000.0,44275.5
-     132  16000,Seguridad Social,1160000.0,,1160000.0,1270974.95
-     132  22717,Servicio de Grúa Municipal,,,,379992.51
-     132  12000,Sueldos del Grupo A1,7500.0,,7500.0,
-     132  12001,Sueldos del Grupo A2,60000.0,,60000.0,72216.57
-     132  12003,Sueldos del Grupo C1,1330000.0,-63000.0,1267000.0,1383852.85
-     132  12004,Sueldos del Grupo C2,8400.0,,8400.0,5904.77
-     132  12006,Trienios,165000.0,,165000.0,154759.7
-     326  22609,Actividades Culturales y Deportivas,25500.0,58140.0,83640.0,36305.13
-     326  48005,Ayuda Actividades Permanencia (APAS),11550.0,,11550.0,3850.0
-     326  48001,Becas de Transporte,96000.0,-35040.0,60960.0,60959.97
-     326  48003,Becas de Enseñanza Especial,55000.0,-7700.0,47300.0,46750.0
-     326  48002,Becas Enseñanza Universitaria,253000.0,-15400.0,237600.0,237600.0
-     326  21302,Mantenimiento de Ascensores,,,,1684.01
-     326  22714,Servicios Varios a Colegios,5000.0,,5000.0,
-     326  48006,Conv. Master Inter-Universitario Innovación,,12000.0,12000.0,12000.0
-     326  48004,Subvenciones APAS,16200.0,,16200.0,11700.0
-     491  76103,Convenio Ayto. Cabildo obras Fibra Óptica Mpal. ,300000.0,444043.08,744043.08,
-     943  46701,Aportación Consorcio de Incendios,776904.0,,776904.0,776903.81
-     4411  46101,Convenio Transporte Colectivo,138000.0,,138000.0,77642.0
-     4911  65012,Acto. Pisaj. Margen Izgdo. TF66 Fraile-Galletas,,40697.41,40697.41,
-     4911  62309,Cartelería Digital Interior Urban,,50800.0,50800.0,
-     4911  62267,Centro Cívico El Fraile,81650.0,32750.0,114400.0,81641.0
-     4911  62246,Centro Civico Las Galletas,540000.0,1429543.39,1969543.39,44833.13
-     4911  63207,Centro Empresarial Integrado,400000.0,164150.55,564150.55,9630.0
-     4911  62701,Creación Zonas Wi-Fi Zona Urban/Urban Arona 07-15,400000.0,,400000.0,118368.24
-     4911  23020,Dietas del personal no directivo,500.0,,500.0,341.22
-     4911  23120,Locomoción de Personal,500.0,300.0,800.0,864.54
-     4911  62508,Equipamiento del Centro Cívico El Fraile,,24423.44,24423.44,
-     4911  21501,Equimpamiento mobiliario edificios Urban.,100000.0,,100000.0,
-     4911  62600,Equipos para Procesos de Información,160000.0,34604.02,194604.02,14289.85
-     4911  22740,Estudios y Trabajos. Seguimiento Proyecto URBAN,20215.0,12000.0,32215.0,19250.0
-     4911  22706,Estudios y Trabajos técnicos,75000.0,148420.0,223420.0,42693.0
-     4911  16200,Formación y perfeccionamiento del personal,1000.0,,1000.0,
-     4911  22002,"Material Informático no inventariable, Urban 07-15",5000.0,,5000.0,
-     4911  60815,Parque Garañaña,,125406.62,125406.62,
-     4911  22733,Plan formativo empresarial C. empresarial Urban,10000.0,,10000.0,470.0
-     4911  62286,Proyecto Despliegue Fibra Optica Urban,,,,
-     4911  22628,Proyecto Las Galletas Capital del Buceo ,,76000.0,76000.0,
-     4911  62401,Proyecto Préstamo de Bicicletas y Carril 30,185351.0,78000.0,263351.0,
-     4911  22745,Proyecto Préstamo de Bicicletas y Carril 30,,20400.0,20400.0,9630.0
-     4911  22602,Publicidad y propaganda,,82683.62,82683.62,
-     4911  14301,Retribuciones personal afecto a programas,120000.0,-10000.0,110000.0,67272.28
-     4911  62616,Seguridad Integral Edificios mples. Zona Urban,170000.0,153842.48,323842.48,169092.24
-     4911  16000,Seguridad Social,40000.0,,40000.0,40664.53
-     4911  21901,"Señalética Parque Garañaña, Urban 07-15",30000.0,,30000.0,
-     4911  22732,Servicio Desarrollo Tecnnológico c. Empresarial,60000.0,,60000.0,20150.11
-     4911  22712,Servicio Mantenimiento Alumbrado Público- URBAN,,,,17981.02
-     4911  22744,Zona Comercial Abierta Las Galletas,,25000.0,25000.0,10593.0
-     151  62209,Adecuación  Instalaciones CPD Edificios Mples.,,6349.15,6349.15,
-     151  62205,Adecuación N.V. Instalaciones BT Edificios público,,988000.0,988000.0,
-     151  60000,Adquisición de Terrenos,,8569848.26,8569848.26,
-     151  60139,Alumbrado Público en Valle San Lorenzo,,77540.0,77540.0,
-     151  60911,Centro Civico y Plaza la Camella,,24128.78,24128.78,
-     151  60201,Centro de Transformación Arona Casco,,673615.09,673615.09,
-     151  65011,Conexión peatonal Montaña Fría- Arona Casco,20000.0,,20000.0,
-     151  60104,Gutinado del Solar Municipal C/Duque de la Torre,,1103.97,1103.97,
-     151  22118,Mobiliario Urbano No Inventariable,15000.0,,15000.0,
-     151  60806,Parques Infantiles,,200000.0,200000.0,
-     151  60135,Plan de Barrios,,350948.56,350948.56,
-     151  61104,"Rehab. Barrio Nuevo, C/Noruega y Explanada Los Cri",,,,
-     151  60905,Rehabilitación e Ilum. Ext. Sala Multiusos Los Cri,,1636.14,1636.14,
-     151  60124,Remodelación Plaza de Las Galletas,53105.0,,53105.0,53104.02
-     151  65008,Urbanización en superficie Barranquera Espadal VSL,,210000.0,210000.0,
-     155  21000,"Reparaciones, mant. y conserv. instraestruc. y B.N",1000.0,,1000.0,
-     155  22613,Señalizaciones Municipales,25000.0,,25000.0,14988.11
-,,,,,
-#,TOTALES,88478924.0,21125531.7,109604455.7,80143095.74
+#,Àlies,Org.,Pro.,Eco.,Descripció,Crèdits inicials,Modificacions de crèdit,Crèdits totals consignats,Obligacions reconegudes
+,,1001,91201,1000000,Retribucions  Bàsiques Càrrecs Electes,862874.18,0,862874.18,730128.4
+,,1001,91201,1600000,Seguretat Social,238962.36,0,238962.36,187060.22
+,,1001,91201,1600900,MUFACE,1484.4,0,1484.4,0
+,,1100,15120,2260217,Gestió i publicitat Llei de Barrris,43000,99746.22,142746.22,94349.31
+,,1100,23113,2279909,Contractes desenvolupament serveis,16000,0,16000,0
+,,1100,49100,2260300,Anuncis oficials,1200,0,1200,0
+,,1100,49100,2269900,Altres despeses,6000,0,6000,8209.1
+,,1100,49100,2270600,Estudis i treballs tècnics,39000,18000,57000,53343.69
+,,1100,92001,1300000,RETRIBUCIONS BÀSIQUES.,0,0,0,1979.43
+,,1100,92001,1300200,Altres remuneracions personal laboral fix,0,0,0,598.15
+,,1100,92001,1100000,Retribucions Bàsiques Eventual Gabinets,13308.6,0,13308.6,23327
+,,1100,92001,1100100,Retribucions Complementàries Eventual Ga,56691.4,0,56691.4,84970.81
+,,1100,92001,1600000,Seguretat Social,13803.84,0,13803.84,24441.91
+,,1110,91202,1100000,Retribucions Bàsiques Eventual Gabinets,17524.24,0,17524.24,17296.53
+,,1110,91202,1100100,Retribucions Complementàries Eventual Ga,46691.4,0,46691.4,47148.34
+,,1110,91202,1300000,Retribucions bàsiques personal laboral,25592.12,0,25592.12,25592.12
+,,1110,91202,1300200,Altres retribucions personal laboral,13409.88,0,13409.88,13409.88
+,,1110,91202,1600000,Seguretat Social,26262.6,0,26262.6,26268.72
+,,1110,91204,4890500,Transferències als grups municipals,77700,0,77700,73972.81
+,,1120,49101,4670200,Transferències a Localret,15000,0,15000,14006.89
+,,1120,92003,1610400,Indemnització al personal lab. per jubilacions anticipades.,0,0,0,2139.22
+,,1120,92003,1620900,Altres despeses socials,0,0,0,329.11
+,,1120,92003,1200000,Retribució sou base funcionari A1,18322.55,0,18322.55,18322.55
+,,1120,92003,1200400,Retribució sou base funcionari C2,10224.7,0,10224.7,10224.7
+,,1120,92003,1200600,Triennis,2437.25,0,2437.25,2437.25
+,,1120,92003,1210000,Complement Destí  funcionaris,9677.76,0,9677.76,9677.76
+,,1120,92003,1210100,Complement específic funcionaris,21314.28,0,21314.28,21314.28
+,,1120,92003,1300000,Retribucions bàsiques personal laboral,246027.43,0,246027.43,232771.98
+,,1120,92003,1300200,Altres retribucions personal laboral,63970.44,0,63970.44,62712.96
+,,1120,92003,1310000,Retribucions personal Laboral temporal,60983.11,0,60983.11,60983.11
+,,1120,92003,1600000,Seguretat Social,134501.26,0,134501.26,129799.2
+,,1120,92003,2130100,Manteniment instal.lacions,1700,0,1700,1692.24
+,,1120,92003,2200000,Material d'oficina,20000,0,20000,17172.34
+,,1120,92003,2200100,"Premsa, revistes, llibres i altres publicacions",1000,0,1000,12475.18
+,,1120,92003,2200200,Material informàtic,30000,0,30000,0
+,,1120,92003,2260200,Publicitat i propaganda,63000,5000,68000,97032.88
+,,1120,92003,2260300,Anuncis oficials,1000,0,1000,0
+,,1120,92003,2269900,Altres despeses,5400,18000,23400,32158.95
+,,1120,92003,2270600,Estudis i treballs tècnics,28500,0,28500,6725.99
+,,1200,91203,1310000,Retribucions personal laboral eventual,0,0,0,3383.6
+,,1200,91203,1200300,Retribució sou base funcionari C1,77992.05,0,77992.05,70872.52
+,,1200,91203,1200600,Triennis,10174.86,0,10174.86,9491.22
+,,1200,91203,1210000,Complement Destí  funcionaris,25496.04,0,25496.04,22175.05
+,,1200,91203,1210100,Complement específic funcionaris,74507.64,0,74507.64,68041.51
+,,1200,91203,1210300,Altres complements funcionaris,5634,0,5634,3722.32
+,,1200,91203,1300000,Retribucions bàsiques personal laboral,54912.24,0,54912.24,70260.67
+,,1200,91203,1300200,Altres retribucions personal laboral,10084.56,0,10084.56,16549.33
+,,1200,91203,1600000,Seguretat Social,68561.98,0,68561.98,72448.53
+,,1200,91203,2230000,Transports,400,0,400,3.22
+,,1200,91203,2260100,Atencions protocolàries,7200,0,7200,7871.37
+,,1200,91203,2260900,Actes i exposicions,5000,0,5000,14832.51
+,,1200,91203,2269900,Altres despeses,19800,800,20600,9717.2
+,,1200,92200,4660100,Transferències a la  Federació municipis,23000,0,23000,23513.49
+,,1200,92400,4890300,Transferències entitats,13000,-200,12800,11850.8
+,,1210,91203,1620900,Altres despeses socials,0,0,0,1206.74
+,,1210,91203,1100000,Retribucions Bàsiques Eventual Gabinets,17280.48,0,17280.48,17316.69
+,,1210,91203,1100100,Retribucions Complementàries Eventual Ga,31198.6,0,31198.6,29074.75
+,,1210,91203,1200300,Retribució sou base funcionari C1,36368.08,0,36368.08,36368.08
+,,1210,91203,1200400,Retribució sou base funcionari C2,12007.56,0,12007.56,12007.56
+,,1210,91203,1200600,Triennis,5704.17,0,5704.17,5704.17
+,,1210,91203,1210000,Complement Destí  funcionaris,14101.2,0,14101.2,14101.2
+,,1210,91203,1210100,Complement específic funcionaris,32673.96,0,32673.96,32673.96
+,,1210,91203,1210300,Altres complements funcionaris,9939.36,0,9939.36,9939.36
+,,1210,91203,1300000,Retribucions bàsiques personal laboral,135806.2,0,135806.2,137432.39
+,,1210,91203,1300200,Altres retribucions personal laboral,17064.24,0,17064.24,15319.72
+,,1210,91203,1600000,Seguretat Social,97505.4,0,97505.4,91998.47
+,,1300,24100,4490100,Transferències a GrameImpuls,0,8362758.81,8362758.81,3847839.29
+,,1300,43200,2269900,Altres despeses,15000,-600,14400,14365.14
+,,1500,92400,4890100,Altres transferències,0,0,0,0
+,,2000,15000,4490300,"Transferències a Gramepark, SA",1600000,0,1600000,1600000
+,,2000,15000,7490000,Transferències de capital,1633176.57,0,1633176.57,1633176.57
+,,2000,23116,4490200,Fons Pla d'ocupació,800000,-800000,0,0
+,,2000,23119,4890600,Transferències a les famílies,250000,-200000,50000,840
+,,2000,23120,4890600,Transferències a les famílies,50000,-10650,39350,4130
+,,2000,24100,4490100,"Transferències a Grameimpuls, SA (Llei Barris/ cofinançament",1300000,600000,1900000,1900000
+,,2000,32606,4110200,Transferència Patronat Municipal de la Música,355000,65845.86,420845.86,243345.86
+,,2000,32609,2279913,"Convenis (UNED, Torribera)",288000,-1400,286600,196938.34
+,,2000,34000,4110100,Transferència a l'IME,1850000,82222,1932222,1721138.47
+,,2000,92901,5000000,Fons contingència LOEPSF 2/2012,0,0,0,0
+,,2000,92901,4900000,Fons contingència LOEPSF 2/2012,500000,-500000,0,0
+,,2000,93100,4890100,Altres transferències,0,25386.75,25386.75,25386.75
+,,2000,93100,4900000,TRANSFERÈNCIES FONS CONTINGÈNCIA LOEPSF 2/2012,0,0,0,0
+,,2000,93100,2200100,"Premsa, revistes i llibres",2000,0,2000,330.72
+,,2000,93100,2269900,Altres despeses,23727.72,-19786.75,3940.97,2204.51
+,,2000,93100,2270600,Estudis i treballs tècnics,2388.5,0,2388.5,0
+,,2000,93101,1100000,Retribucions Bàsiques Eventual Gabinets,15438.48,0,15438.48,15788.49
+,,2000,93101,1100100,Retribucions Complementàries Eventual Ga,50691.4,0,50691.4,51043.65
+,,2000,93101,1600000,Seguretat Social,13803.84,0,13803.84,13803.84
+,,2000,94301,4640100,Transferències a AMB PAMMU,1287758.08,0,1287758.08,1287758.08
+,,2000,94301,4640200,Transferències a AMB  PMTE,2947000,93698.82,3040698.82,3040698.82
+,,2010,93101,1200000,Retribució sou base funcionari A1,17284.12,0,17284.12,17284.12
+,,2010,93101,1200300,Retribució sou base funcionari C1,24619.6,0,24619.6,29017.72
+,,2010,93101,1200600,Triennis,5405.07,0,5405.07,4797.03
+,,2010,93101,1210000,Complement Destí  funcionaris,15593.04,0,15593.04,14158.64
+,,2010,93101,1210100,Complement específic funcionaris,24281.88,0,24281.88,21926.21
+,,2010,93101,1600000,Seguretat Social,22428.48,0,22428.48,19934.82
+,,2300,93202,1510000,Gratificacions treballs extraordinaris,0,0,0,1736.82
+,,2300,93202,1620900,Altres despeses socials,0,0,0,658.22
+,,2300,93202,1200000,Retribució sou base funcionari A1,45542.4,0,45542.4,21551.08
+,,2300,93202,1200100,Retribució sou base funcionari A2,16086.58,0,16086.58,15416.31
+,,2300,93202,1200300,Retribució sou base funcionari C1,122620.93,0,122620.93,121076.85
+,,2300,93202,1200400,Retribució sou base funcionari C2,32942.28,0,32942.28,33039.08
+,,2300,93202,1200600,Triennis,22614.43,0,22614.43,22554.76
+,,2300,93202,1210000,Complement Destí  funcionaris,67122.84,0,67122.84,66766.25
+,,2300,93202,1210100,Complement específic funcionaris,146860.56,0,146860.56,146054.61
+,,2300,93202,1210300,Altres complements funcionaris,16159.92,0,16159.92,7829.49
+,,2300,93202,1300000,Retribucions bàsiques personal laboral,2384.64,0,2384.64,27217.91
+,,2300,93202,1300200,Altres retribucions personal laboral,10220.76,0,10220.76,10220.76
+,,2300,93202,1600000,Seguretat Social,130863.36,0,130863.36,129762.14
+,,2300,93202,2269900,Altres despeses (Registre de la Propietat),4000,0,4000,2896.35
+,,2400,23108,1200100,Retribució sou base funcionari A2,366423.25,0,366423.25,355151.48
+,,2400,23108,1200600,Triennis,18884.61,0,18884.61,14238.73
+,,2400,23108,1210000,Complement destí funcionaris,113699.52,0,113699.52,98564.53
+,,2400,23108,1210100,Complement específic funcionaris,211264.32,0,211264.32,184501.2
+,,2400,23108,1600000,Seguretat Social,222932.61,10000,232932.61,202175.42
+,,2400,92013,1000100,Altres remuneracions càrrecs electes,0,16000,16000,14882.56
+,,2400,92013,1100200,Altres remuneracions personal eventual,0,14000,14000,11680.19
+,,2400,92013,1200900,Altres retribucions personal funcionari,0,225000,225000,221926.6
+,,2400,92013,1430000,Despeses per substitucions,0,0,0,829.94
+,,2400,92013,2302001,DEL PERSONAL NO DIRECTIU.,0,5000,5000,11361.28
+,,2400,92013,6230000,"MAQUINÀRIA, INSTAL·LACIONS TÈCNIQUES I UTILLATGE",0,1923.9,1923.9,1923.9
+,,2400,92013,1100000,Retribucions Bàsiques Eventual Gabinets,13308.6,0,13308.6,11320.6
+,,2400,92013,1100100,Retribucions Complementàries Eventual Ga,50691.4,0,50691.4,28288.89
+,,2400,92013,1500000,Complement productivitat,400000,67321.05,467321.05,1167607.78
+,,2400,92013,1510000,Treballs extraordinaris,180551,-130000,50551,0
+,,2400,92013,1600000,Seguretat Social treb Extraord,69304.38,69600,138904.38,177892.09
+,,2400,92013,1620000,Formació,50000,0,50000,48345.14
+,,2400,92013,1620400,Ajuts socials,16400,0,16400,0
+,,2400,92013,1620900,Premis antiguitat,14000,0,14000,0
+,,2400,92013,2260300,Anuncis oficials,1700,3000,4700,3430
+,,2400,92013,2269900,Altres despeses,2542,0,2542,1936.46
+,,2400,92013,2270600,Estudis i treballs tècnics,5000,-1923.9,3076.1,0
+,,2400,92013,2301000,Dietes serveis generals,12000,0,12000,11156.94
+,,2400,92013,2302000,Xecs menjador,30000,16400,46400,45875.24
+,,2400,92013,2311000,Locomoció serveis generals,9000,0,9000,9159.17
+,,2400,92013,2330000,Altres indemnitzacions,3000,0,3000,1399.4
+,,2400,92013,4890100,Altres transferències,3500,0,3500,2855.43
+,,2400,92013,8310000,Préstecs al personal llarg termini,180000,0,180000,107475.24
+,,2401,13200,1200400,Retribucions sou base funcionaris C2,12216.96,0,12216.96,0
+,,2401,13200,1210000,Complement destí funcionaris,3929.28,0,3929.28,0
+,,2401,13200,1210100,Complement específic funcionaris,19101,-15340,3761,0
+,,2401,13200,1600000,Seguretat Social,9937.92,0,9937.92,0
+,,2401,15001,1200300,Retribucions sou base funcionari C1,11583.16,0,11583.16,0
+,,2401,15001,1210000,Complement desti funcionaris,3660.12,0,3660.12,0
+,,2401,15001,1210100,Complement específic funcionaris,6529.8,0,6529.8,0
+,,2401,15001,1600000,Seguretat Social,6795.36,0,6795.36,0
+,,2401,17000,1200000,Retribució sou base funcionari A1,17255.82,0,17255.82,0
+,,2401,17000,1200600,Trienis,1023.6,0,1023.6,0
+,,2401,17000,1210000,Complement Destí  funcionaris,6118.08,0,6118.08,0
+,,2401,17000,1210100,Complement específic funcionaris,8721.48,0,8721.48,0
+,,2401,17000,1300000,Retribucions bàsiques personal laboral,67265.24,0,67265.24,0
+,,2401,17000,1300200,Altres retribucions personal laboral,31416.72,0,31416.72,0
+,,2401,17000,1600000,Seguretat Social,35230.44,0,35230.44,0
+,,2401,23105,1300000,Retribucions bàsiques personal laboral,107913.46,-107832.71,80.75,0
+,,2401,23105,1300200,Altres retribucions personal laboral,9198.6,0,9198.6,0
+,,2401,23105,1600000,Seguretat Social,41080.92,-17558.96,23521.96,0
+,,2401,23117,1300000,Retribucions bàsiques personal laboral,31657.22,-31657.22,0,0
+,,2401,23117,1300200,Altres retribucions Personal laboral,7247.52,0,7247.52,0
+,,2401,23117,1600000,Seguretat Social,13371.12,-13371.12,0,0
+,,2401,31102,1300000,Retribucions bàsiques personal laboral,28615.72,-15340,13275.72,0
+,,2401,31102,1300200,Altres retribucions personal laboral,1567.68,0,1567.68,0
+,,2401,31102,1600000,Seguretat social,9955.44,0,9955.44,0
+,,2401,32000,1300000,Retribucions bàsiques personal laboral,27211.9,0,27211.9,0
+,,2401,32000,1300200,Altres retribucions personal laboral,1567.68,0,1567.68,0
+,,2401,32000,1600000,Seguretat Social,9955.44,0,9955.44,0
+,,2401,33210,1200300,Retribucions bàsiques funcionari C1,11784.2,0,11784.2,0
+,,2401,33210,1200600,Trienis,315.72,0,315.72,0
+,,2401,33210,1210000,Complement destí funcionaris,3660.12,0,3660.12,0
+,,2401,33210,1210100,Complement específic funcionaris,7463.28,0,7463.28,0
+,,2401,33210,1300000,Retribucions bàsiques personal laboral,20045.74,0,20045.74,0
+,,2401,33210,1300200,ALtres retribucions personal laboral,1018.8,0,1018.8,0
+,,2401,33210,1600000,Seguretat Social,14114.16,0,14114.16,0
+,,2401,33301,1300000,Retribucions bàsiques personal laboral,37544.38,-24000,13544.38,0
+,,2401,33301,1300200,Altres retribucions personal laboral,15708.36,0,15708.36,0
+,,2401,33301,1600000,Seguretat Social,13337.64,0,13337.64,0
+,,2401,91203,1300000,Retribucions bàsiques Personal laboral,20308.54,-15340,4968.54,0
+,,2401,91203,1600000,Seguretat Social,6594.24,0,6594.24,0
+,,2401,92003,1300000,Retribucions bàsiques personal laboral,21072.38,0,21072.38,0
+,,2401,92003,1300200,Altres retribucions personal laboral,919.8,0,919.8,0
+,,2401,92003,1600000,Seguretat Social,6795.6,0,6795.6,0
+,,2401,92004,1200000,Retribució sou base funcionari A1,23098.42,0,23098.42,0
+,,2401,92004,1210000,Complement Destí  funcionaris,7433.64,0,7433.64,0
+,,2401,92004,1210100,Complement específic funcionaris,17210.04,0,17210.04,0
+,,2401,92004,1600000,Seguretat Social,13284.6,0,13284.6,0
+,,2401,92013,1200000,Retribució sou base funcionari A1,56383.4,0,56383.4,0
+,,2401,92013,1200100,Retribució sou base funcionari A2,31260.68,0,31260.68,0
+,,2401,92013,1200300,Retribució sou base funcionari C1,36242.74,0,36242.74,0
+,,2401,92013,1210000,Complement Destí  funcionaris,43360.32,0,43360.32,0
+,,2401,92013,1210100,Complement específic funcionaris,102963.48,-70000,32963.48,0
+,,2401,92013,1300000,Retribucions bàsiques personal laboral,21007.24,0,21007.24,0
+,,2401,92013,1300200,Altres retribucions personal laboral,528.96,0,528.96,0
+,,2401,92013,1600000,Seguretat Social,85936.07,0,85936.07,0
+,,2401,92023,1200100,Retribucions sou base funcionaris A2,15898.4,0,15898.4,0
+,,2401,92023,1200600,Trienis,1023.6,0,1023.6,0
+,,2401,92023,1210000,Complement destí funcionaris,6118.08,0,6118.08,0
+,,2401,92023,1210100,Complement específic funcionaris,11201.76,0,11201.76,0
+,,2401,92023,1300000,Retribucions bàsiques personal laboral,74680,-32000,42680,0
+,,2401,92023,1300200,Altres retribucions personal laboral,10908.36,0,10908.36,0
+,,2401,92023,1600000,Seguretat Social,38561.28,0,38561.28,0
+,,2401,92024,1310000,Retribucions personal Laboral temporal,25320.54,0,25320.54,0
+,,2401,92024,1600000,Seguretat Social,7988.64,0,7988.64,0
+,,2401,93101,1200000,Retribucions sou base funcionaris A1,19548.64,-18000,1548.64,0
+,,2401,93101,1210000,Complement destí funcionaris,7433.64,0,7433.64,0
+,,2401,93101,1210100,Complement específic funcionaris,21794.28,0,21794.28,0
+,,2401,93101,1600000,Seguretat Social,13284.6,0,13284.6,0
+,,2410,92013,1300100,Hores extraordinàries,0,0,0,941.11
+,,2410,92013,1510000,Gratificacions treballs extraordinaris,0,0,0,112.07
+,,2410,92013,1200000,Retribució sou base funcionari A1,19972.51,0,19972.51,20715.62
+,,2410,92013,1200300,Retribució sou base funcionari C1,11628.62,0,11628.62,11628.62
+,,2410,92013,1200600,Triennis,3983.22,0,3983.22,3860.86
+,,2410,92013,1210000,Complement Destí  funcionaris,11093.76,0,11093.76,11409.66
+,,2410,92013,1210100,Complement específic funcionaris,28324.08,0,28324.08,27560.72
+,,2410,92013,1300000,Retribucions bàsiques personal laboral,60997.98,0,60997.98,60997.98
+,,2410,92013,1300200,Altres retribucions personal laboral,3455.04,0,3455.04,3455.04
+,,2410,92013,1430000,Despeses per substitució,33118.98,0,33118.98,29965.74
+,,2410,92013,1600000,Seguretat Social,48838.08,0,48838.08,49523.18
+,,2420,92014,1620900,ALTRES DESPESES SOCIALS.,0,0,0,329.11
+,,2420,92014,1200100,Retribució sou base funcionari A2,18132.48,0,18132.48,18132.48
+,,2420,92014,1200300,Retribució sou base funcionari C1,72459.87,0,72459.87,69530.05
+,,2420,92014,1200600,Triennis,9412.35,0,9412.35,9175.59
+,,2420,92014,1210000,Complement Destí  funcionaris,31010.64,0,31010.64,30095.64
+,,2420,92014,1210100,Complement específic funcionaris,71012.4,0,71012.4,69379.92
+,,2420,92014,1600000,Seguretat Social,52065.97,0,52065.97,50715.27
+,,2430,92013,1620000,Formació prevenció riscos psicosocials,10000,0,10000,2250
+,,2430,92017,1200300,Retribució sou base funcionari C1,14329.12,0,14329.12,15524.53
+,,2430,92017,1200600,Triennis,3297,0,3297,3150.47
+,,2430,92017,1210000,Complement Destí  funcionaris,6118.08,0,6118.08,5846.17
+,,2430,92017,1210100,Complement específic funcionaris,17481.72,0,17481.72,16704.75
+,,2430,92017,1300000,Retribucions bàsiques personal laboral,70970.26,0,70970.26,70970.26
+,,2430,92017,1300200,Altres retribucions personal laboral,24436.92,0,24436.92,24436.92
+,,2430,92017,1600000,Seguretat Social,37394.44,0,37394.44,37575.71
+,,2430,92017,2269900,Altres despeses,4000,0,4000,942.62
+,,2430,92017,2279909,Contractes desenvolupament serveis,79463,0,79463,81938.1
+,,2440,92015,1200000,Retribució sou base funcionari A1,17600.98,0,17600.98,17600.98
+,,2440,92015,1200300,Retribució sou base funcionari C1,23500,0,23500,20381
+,,2440,92015,1200600,Triennis,5720.13,0,5720.13,5439.15
+,,2440,92015,1210000,Complement Destí  funcionaris,13438.32,0,13438.32,12398.77
+,,2440,92015,1210100,Complement específic funcionaris,21781.08,0,21781.08,19926.49
+,,2440,92015,1300000,Retribucions bàsiques personal laboral,62978.26,0,62978.26,62978.25
+,,2440,92015,1300200,Altres retribucions personal laboral,15708.36,0,15708.36,15708.36
+,,2440,92015,1600000,Seguretat Social,41918.67,0,41918.67,40665.29
+,,2500,92002,1200000,Retribució sou base funcionari A1,17941.08,0,17941.08,17941.08
+,,2500,92002,1200600,Triennis,1535.4,0,1535.4,1535.4
+,,2500,92002,1210000,Complement Destí  funcionaris,7433.64,0,7433.64,7433.64
+,,2500,92002,1210100,Complement específic funcionaris,11201.76,0,11201.76,11201.76
+,,2500,92002,1310000,Retribucions personal Laboral temporal,41760.28,0,41760.28,41760.29
+,,2500,92002,1600000,Seguretat Social,24275.76,0,24275.76,24275.77
+,,2600,43120,6230100,"Maquinària, instal.lacions tècniques i utillatge",0,0,0,0
+,,2600,43120,6260100,Equips processos d'informació,0,800,800,724.79
+,,2600,92008,1300100,Hores extraordinàries,0,0,0,2876.46
+,,2600,92008,1510000,Gratificacions treballs extraordinaris,0,0,0,1825.14
+,,2600,92008,1620900,ALTRES DESPESES SOCIALS.,0,0,0,2962.01
+,,2600,92008,6410000,Despeses aplicacions informàtiques,0,47351.67,47351.67,0
+,,2600,92008,1200300,Retribució sou base funcionari C1,50270.89,0,50270.89,61016.34
+,,2600,92008,1200600,Triennis,9931.44,0,9931.44,10186.07
+,,2600,92008,1210000,Complement Destí  funcionaris,17334.96,0,17334.96,20889.61
+,,2600,92008,1210100,Complement específic funcionaris,33251.28,0,33251.28,42536.65
+,,2600,92008,1210300,Altres complements funcionaris,4932.72,0,4932.72,3699.6
+,,2600,92008,1300000,Retribucions bàsiques personal laboral,285826.47,0,285826.47,287050.72
+,,2600,92008,1300200,Altres retribucions personal laboral,39757.44,0,39757.44,38520.84
+,,2600,92008,1430000,Despeses per substitució,95295.88,0,95295.88,94994.36
+,,2600,92008,1600000,Seguretat Social,158901.76,15377.31,174279.07,159435.19
+,,2600,92008,2160100,Manteniment d'equips d'informàtica,257000,0,257000,263158.96
+,,2600,92008,2200200,Manteniment llicències software,78000,0,78000,76905.58
+,,2600,92008,2270600,Estudis i treballs tècnics,64000,26000,90000,70712.74
+,,2600,92008,2279916,Contractes manteniment de programes informàtics,41500,0,41500,68036.64
+,,2600,92008,6260100,Equips procès d'informació,10000,96963.28,106963.28,106559.54
+,,2600,92010,2130200,Manteniment maquinària,22000,0,22000,3794.52
+,,2600,92010,2220000,Telèfons,360000,10000,370000,379897.07
+,,2600,92310,2279916,Contractes manteniment de programes informàtics-Gestió padró,3500,0,3500,3389.54
+,,2600,93300,2279916,Contractes manteniment de programes informàtics-GPA,20000,0,20000,0
+,,2700,92004,1620900,ALTRES DESPESES SOCIALS.,0,0,0,767.93
+,,2700,92004,1200300,Retribució sou base funcionari C1,49704.47,0,49704.47,57419.44
+,,2700,92004,1200400,Retribució sou base funcionari C2,10189.24,0,10189.24,10189.24
+,,2700,92004,1200600,Triennis,8956.11,0,8956.11,8935.06
+,,2700,92004,1210000,Complement Destí  funcionaris,21296.64,0,21296.64,23594.38
+,,2700,92004,1210100,Complement específic funcionaris,42237.24,0,42237.24,46336.5
+,,2700,92004,1300000,Retribucions bàsiques personal laboral,33489.74,0,33489.74,33489.74
+,,2700,92004,1300200,Altres retribucions personal laboral,17190.12,0,17190.12,17190.12
+,,2700,92004,1600000,Seguretat Social,48512.28,0,48512.28,54958.23
+,,2700,92004,2269900,Altres despeses,3000,0,3000,1767.28
+,,2700,92004,2270600,Estudis i treballs tècnics,10000,-8850.06,1149.94,0
+,,2700,92401,1510100,Gratificacions pels serveis a les eleccions.,0,38032.76,38032.76,46430.07
+,,2700,92401,2269980,Processos electorals,70000,83710.78,153710.78,145683.46
+,,2710,92007,1300100,Hores extraordinàries,0,0,0,463.14
+,,2710,92007,1310000,Retribucions personal laboral eventual,0,0,0,20841.6
+,,2710,92007,1200400,Retribució sou base funcionari C2,20827.04,0,20827.04,24731.56
+,,2710,92007,1200600,Triennis,2670.34,0,2670.34,2236.31
+,,2710,92007,1210000,Complement Destí  funcionaris,6241.68,0,6241.68,5288.1
+,,2710,92007,1210100,Complement específic funcionaris,15505.68,0,15505.68,13136.77
+,,2710,92007,1300000,Retribucions bàsiques personal laboral,211728.9,0,211728.9,193469.74
+,,2710,92007,1300200,Altres retribucions personal laboral,3505.44,0,3505.44,2763.65
+,,2710,92007,1430000,Despeses per substitució,21565.06,0,21565.06,51733.6
+,,2710,92007,1600000,Seguretat Social,94462.23,0,94462.23,86793.02
+,,2710,92007,2220100,Comunicacions postals,180000,-28000,152000,102280.47
+,,2710,92007,2269900,Altres despeses,5000,0,5000,4605.28
+,,2710,92007,2270600,Estudis i treballs tècnics,13000,0,13000,27069.08
+,,2720,92501,1620900,ALTRES DESPESES SOCIALS.,0,0,0,329.11
+,,2720,92501,1200300,Retribució sou base funcionari C1,161113.53,0,161113.53,171923.06
+,,2720,92501,1200400,Retribució sou base funcionari C2,10297.24,0,10297.24,10406.59
+,,2720,92501,1200600,Triennis,20271.33,0,20271.33,17569.01
+,,2720,92501,1210000,Complement Destí  funcionaris,51241.44,0,51241.44,45921.96
+,,2720,92501,1210100,Complement específic funcionaris,137090.88,0,137090.88,122897.72
+,,2720,92501,1300000,Retribucions bàsiques personal laboral,106265.62,0,106265.62,92817.81
+,,2720,92501,1300200,Altres retribucions personal laboral,14828.16,0,14828.16,12665.53
+,,2720,92501,1430000,Despeses per substitució,26687.84,0,26687.84,26687.84
+,,2720,92501,1600000,Seguretat Social,146514.72,12605.34,159120.06,132105.05
+,,2720,92501,2269900,Altres despeses,5000,0,5000,4836.8
+,,2800,92009,1620900,ALTRES DESPESES SOCIALS.,0,0,0,329.11
+,,2800,92009,1200000,Retribució sou base funcionari A1,38516.36,0,38516.36,38516.36
+,,2800,92009,1200300,Retribució sou base funcionari C1,48254.76,0,48254.76,48392.28
+,,2800,92009,1200600,Triennis,16933.41,0,16933.41,16919.79
+,,2800,92009,1210000,Complement Destí funcionaris,30585.12,0,30585.12,30544.46
+,,2800,92009,1210100,Complement específic funcionaris,63711.84,0,63711.84,63628.61
+,,2800,92009,1300000,Retribucions bàsiques personal laboral,9399.4,0,9399.4,9399.25
+,,2800,92009,1300200,Altres retribucions personal laboral,2718.6,0,2718.6,2718.6
+,,2800,92009,1430000,Despeses per substitució,34505.94,0,34505.94,34905.54
+,,2800,92009,1600000,Seguretat Social,65313.14,0,65313.14,65939.96
+,,2800,92009,2260300,Anuncis oficials,10000,0,10000,8111.3
+,,2900,15100,6000100,Adquisició de sól,0,176055,176055,0
+,,2900,17100,6220100,"Edificis i construccions, inversió nova",0,272250,272250,0
+,,2900,23105,2020100,Lloguers,80200,2400,82600,78821.06
+,,2900,33701,2020100,Lloguers,29000,1400,30400,26997.28
+,,2900,92000,6320000,EDIFICIS I ALTRES CONSTRUCCIONS,0,91925.86,91925.86,80244.86
+,,2900,92000,2120200,Manteniment edificis,60000,-2745.33,57254.67,58177.88
+,,2900,92000,2120400,Conservació i reparacions d'edificis,50000,-45000,5000,6381.25
+,,2900,92000,2240000,Assegurances,247000,-13000,234000,234694.5
+,,2900,92005,2060000,Lloguer equips informàtics,10000,-5500,4500,4145.76
+,,2900,92005,2130100,Manteniment instal.lacions,72000,0,72000,72806.8
+,,2900,92005,2200000,Material d'oficina,79000,-11000,68000,56905.05
+,,2900,92005,2210300,Combustibles,67000,0,67000,59978.33
+,,2900,92005,2210400,Vestuari,135000,-15180.53,119819.47,109321.27
+,,2900,92005,2211000,Material neteja,34000,-4500,29500,25349.84
+,,2900,92006,2269900,Altres despeses,2600,0,2600,1452
+,,2900,92018,6260100,Equips procès d'informació,20000,1238.47,21238.47,17289.69
+,,2900,92019,6210000,Adquisició finca solar de les Aigües,314602.51,0,314602.51,314602.51
+,,2900,92020,1620900,ALTRES DESPESES SOCIALS.,0,0,0,548.52
+,,2900,92020,1200000,Retribució sou base funcionari A1,37411.58,0,37411.58,37411.58
+,,2900,92020,1200100,Retribució sou base funcionari A2,16546.56,0,16546.56,16546.56
+,,2900,92020,1200300,Retribució sou base funcionari C1,25590.1,0,25590.1,25590.1
+,,2900,92020,1200600,Triennis,13003.43,0,13003.43,13003.43
+,,2900,92020,1210000,Complement Destí  funcionaris,28067.4,0,28067.4,28067.4
+,,2900,92020,1210100,Complement específic funcionaris,61040.52,0,61040.52,61040.52
+,,2900,92020,1210300,Altres complements funcionaris,6075.84,0,6075.84,6075.84
+,,2900,92020,1300000,Retribucions bàsiques personal laboral,24967.98,0,24967.98,24967.98
+,,2900,92020,1300200,Altres retribucions personal laboral,2327.76,0,2327.76,2327.76
+,,2900,92020,1600000,Seguretat Social,57092.6,0,57092.6,57292.61
+,,2900,92020,2269900,Altres despeses diverses,1000,0,1000,659.86
+,,2900,92020,2270600,Estudis i treballs tècnics,10000,0,10000,8507.86
+,,2900,92021,6250100,Mobiliari,10000,10000,20000,19982.65
+,,2900,92400,2020100,Lloguers,53500,0,53500,66566.26
+,,2910,92006,1200000,Retribució sou base funcionari A1,17229.51,0,17229.51,17229.51
+,,2910,92006,1200300,Retribució sou base funcionari C1,23431.81,0,23431.81,24132.2
+,,2910,92006,1200600,Triennis,2385.57,0,2385.57,2364.53
+,,2910,92006,1210000,Complement Destí  funcionaris,13438.32,0,13438.32,13194.32
+,,2910,92006,1210100,Complement específic funcionaris,21781.08,0,21781.08,21345.76
+,,2910,92006,1600000,Seguretat Social,22967.1,0,22967.1,23040.5
+,,3000,13200,1200300,Retribució sou base funcionari C1,13130.61,0,13130.61,13457.93
+,,3000,13200,1200600,Triennis,2262.66,0,2262.66,2225.83
+,,3000,13200,1210000,Complement Destí  funcionaris,3660.12,0,3660.12,3599.12
+,,3000,13200,1210100,Complement específic funcionaris,13768.8,0,13768.8,13539.32
+,,3000,13200,1600000,Seguretat Social,8588.64,0,8588.64,8609.52
+,,3100,13200,1510000,Gratificacions treballs extraordinaris,0,0,0,53649.62
+,,3100,13200,1620900,ALTRES DESPESES SOCIALS.,0,0,0,2523.19
+,,3100,13200,1200000,Retribució sou base funcionari A1,22193.32,0,22193.32,22193.32
+,,3100,13200,1200300,Retribució sou base funcionari C1,75930.6,0,75930.6,74421.53
+,,3100,13200,1200400,Retribució sou base funcionari C2,139260.94,0,139260.94,142497.75
+,,3100,13200,1200600,Triennis,33645.48,0,33645.48,33125.92
+,,3100,13200,1210000,Complement Destí  funcionaris,83440.56,0,83440.56,82284.46
+,,3100,13200,1210100,Complement específic funcionaris,313181.76,0,313181.76,309665.25
+,,3100,13200,1300000,Retribucions bàsiques personal laboral,31260.38,0,31260.38,31260.38
+,,3100,13200,1300200,Altres retribucions personal laboral,918.84,0,918.84,918.84
+,,3100,13200,1600000,Seguretat Social,206088.5,0,206088.5,212223.56
+,,3100,13200,2130300,Manteniment i reparació d'equips,25000,6000,31000,18737.08
+,,3100,13200,2140100,Manteniment i neteja de vehicles,31467.77,12000,43467.77,45690.66
+,,3100,13200,2219900,Altres subministraments,4250,0,4250,6027.45
+,,3100,13200,2220300,Comunicacions informàtiques,3485,0,3485,0
+,,3100,13200,2230000,Transports,425,0,425,0
+,,3100,13200,2269900,Altres despeses,12525,9975,22500,37752.95
+,,3100,13200,4900000,Transferència Fòrum Europeu,3600,25,3625,3625
+,,3100,13301,2279903,Arrossegament de vehicles,900000,0,900000,549799.17
+,,3100,13500,2269911,Pla d'emergència,5210.5,0,5210.5,0
+,,3200,13200,1510000,Gratificacions treballs extraordinaris,0,195000,195000,450346.98
+,,3200,13200,1610400,Indemnització al personal lab. per jubilacions anticipades.,0,0,0,25560.99
+,,3200,13200,1620900,ALTRES DESPESES SOCIALS.,0,0,0,9215.08
+,,3200,13200,1200000,Retribució sou base funcionari A1,20260.86,0,20260.86,20260.86
+,,3200,13200,1200300,Retribució sou base funcionari C1,58548.86,0,58548.86,60438.84
+,,3200,13200,1200400,Retribució sou base funcionari C2,1156451.38,100000,1256451.38,1353187.93
+,,3200,13200,1200600,Triennis,148132.99,0,148132.99,132314.3
+,,3200,13200,1210000,Complement Destí  funcionaris,406377,0,406377,372242.63
+,,3200,13200,1210100,Complement específic funcionaris,1744860.92,0,1744860.92,1584971.62
+,,3200,13200,1210300,Altres complements funcionaris,3913.08,0,3913.08,3913.08
+,,3200,13200,1600000,Seguretat Social,1117687.04,103322.98,1221010.02,1144289.49
+,,4000,23121,2279909,Altres treballs realitzats per empreses i profesionals,0,215000,215000,200860.84
+,,4000,32700,1100000,Retribucions Bàsiques Eventual Gabinets,17520.06,0,17520.06,9343.58
+,,4000,32700,1100100,Retribucions Complementàries Eventual Ga,46691.4,0,46691.4,26317.97
+,,4000,32700,1200300,Retribució sou base funcionari C1,11719.54,0,11719.54,11719.54
+,,4000,32700,1200600,Triennis,947.16,0,947.16,947.16
+,,4000,32700,1210000,Complement Destí  funcionaris,3660.12,0,3660.12,3660.12
+,,4000,32700,1210100,Complement específic funcionaris,6529.8,0,6529.8,6529.8
+,,4000,32700,1300000,Retribucions bàsiques personal laboral,89914.35,0,89914.35,89914.35
+,,4000,32700,1300200,Altres retribucions personal laboral,27720.48,0,27720.48,27720.48
+,,4000,32700,1600000,Seguretat Social,53514.96,0,53514.96,47481.93
+,,4000,32700,2279909,Contractes desenvolupament serveis,380402.7,0,380402.7,375965.73
+,,5000,23100,1100000,Retribucions Bàsiques Eventual Gabinets,17001.42,0,17001.42,16646.52
+,,5000,23100,1100100,Retribucions Complementàries Eventual Ga,50691.4,0,50691.4,51097.01
+,,5000,23100,1300000,Retribucions bàsiques personal laboral,25497.22,0,25497.22,8061.3
+,,5000,23100,1300200,Altres retribucions personal laboral,998.52,0,998.52,291.2
+,,5000,23100,1600000,Seguretat Social,22176,0,22176,16307.18
+,,5000,23100,2260300,Anuncis oficials,500,0,500,330
+,,5000,23100,2269900,Altres despeses,5000,0,5000,3462.34
+,,5000,32406,4670100,Transferències a l'Heura,150954.15,18548.43,169502.58,165686.15
+,,5020,23104,1620900,ALTRES DESPESES SOCIALS.,0,0,0,658.22
+,,5020,23104,1300000,Retribucions bàsiques personal laboral,178738.23,0,178738.23,178999.5
+,,5020,23104,1300200,Altres retribucions personal laboral,16947.24,0,16947.24,16685.96
+,,5020,23104,1600000,Seguretat Social,63390.64,0,63390.64,62322.54
+,,5021,23110,4640000,EMT. Targeta rosa de transport,48775.92,0,48775.92,31401.26
+,,5021,92023,1300000,Retribucions bàsiques personal laboral,31390.45,0,31390.45,31334.63
+,,5021,92023,1300200,Altres retribucions personal laboral,3719.4,0,3719.4,3719.4
+,,5021,92023,1600000,Seguretat Social,10860.3,0,10860.3,10973.2
+,,5022,23111,2269900,Altres despeses,3000,0,3000,1875.08
+,,5022,23111,2279909,Contractes desenvolupament serveis,500000,22000,522000,430045.63
+,,5022,23111,4800200,Transferències Serveis Socials a Institucions,30000,70000,100000,29956
+,,5022,92023,1200300,Retribució sou base funcionari C1,11674.08,0,11674.08,10454.32
+,,5022,92023,1200600,Triennis,684.06,0,684.06,617.35
+,,5022,92023,1210000,Complement Destí  funcionaris,3660.12,0,3660.12,3273.27
+,,5022,92023,1210100,Complement específic funcionaris,6529.8,0,6529.8,5839.65
+,,5022,92023,1600000,Seguretat Social,6924.7,0,6924.7,6324.37
+,,5023,23112,6230100,"Maquinària, instal.lacions tècniques i utillatge",0,1548,1548,0
+,,5023,23112,2269900,Altres despeses,8345,0,8345,78732.75
+,,5023,23112,2279909,Contractes desenvolupament serveis,500000,125000,625000,507809.99
+,,5024,23101,2269900,Altres despeses,3610,0,3610,654.48
+,,5024,23101,4790200,Subvenció dèficit explotació concessionari SAD,2228236.6,256073.13,2484309.73,2546468.32
+,,5024,23102,2279909,Contractes desenvolupament serveis,150000,0,150000,262134.8
+,,5024,92023,1200300,Retribució sou base funcionari C1,11916.84,0,11916.84,11916.84
+,,5024,92023,1200400,Retribució sou base funcionari C2,10761.69,0,10761.69,10761.69
+,,5024,92023,1200600,Triennis,4766.96,0,4766.96,4766.96
+,,5024,92023,1210000,Complement Destí  funcionaris,6780.96,0,6780.96,6780.96
+,,5024,92023,1210100,Complement específic funcionaris,15048.12,0,15048.12,15048.12
+,,5024,92023,1430000,Despeses per substitució,21773.08,0,21773.08,21527.84
+,,5024,92023,1600000,Seguretat Social,21021.12,0,21021.12,21540.89
+,,5030,31100,1200300,Retribucions sou base funcionari C1,0,0,0,876.82
+,,5030,31100,1210000,Complement de destinació,0,0,0,244.01
+,,5030,31100,1210100,Complement específic,0,0,0,435.32
+,,5030,31100,1620900,ALTRES DESPESES SOCIALS.,0,0,0,329.11
+,,5030,31100,6230100,"Maquinària, instal.lacions tècniques i utillatge",0,3550,3550,3520.5
+,,5030,31100,1300000,Retribucions bàsiques personal laboral,88968.2,0,88968.2,94249.73
+,,5030,31100,1300200,Altres retribucions personal laboral,19260.24,0,19260.24,2035.93
+,,5030,31100,1430000,Despeses per substitució,51710.66,0,51710.66,51459.36
+,,5030,31100,1600000,Seguretat Social,46724.88,18942.51,65667.39,38085.37
+,,5030,31100,2219909,Material tècnic,1912.84,0,1912.84,0
+,,5030,31100,2269900,Altres despeses,6237.16,-3612,2625.16,730.98
+,,5030,31100,2270600,Estudis i treballs tècnics,6889.7,1000,7889.7,10280.26
+,,5030,31102,1300000,Retribucions bàsiques personal laboral,7892.72,0,7892.72,7892.72
+,,5030,31102,1300200,Altres retribucions personal laboral,391.92,0,391.92,391.92
+,,5030,31102,1600000,Seguretat Social,2613.72,0,2613.72,2829.24
+,,5030,92023,1200300,Retribució sou base funcionari C1,11824.34,0,11824.34,25105.82
+,,5030,92023,1200600,Triennis,1498.2,0,1498.2,1498.2
+,,5030,92023,1210000,Complement Destí  funcionaris,3660.12,0,3660.12,6710.22
+,,5030,92023,1210100,Complement específic funcionaris,6529.8,0,6529.8,11971.3
+,,5030,92023,1300000,Retribucions bàsiques personal laboral,6460.88,0,6460.88,6475.08
+,,5030,92023,1600000,Seguretat Social,7980.19,0,7980.19,13765.54
+,,5031,31101,2210600,Productes farmacèutics i sanitaris,2575,0,2575,759.44
+,,5031,31101,2269900,Altres despeses,4849.7,-4800,49.7,0
+,,5031,31101,2270600,Estudis i treballs tècnics,18000,13713.64,31713.64,31321.55
+,,5032,49301,1620900,ALTRES DESPESES SOCIALS.,0,0,0,548.52
+,,5032,49301,2269900,Altres despeses diverses,0,0,0,1524.6
+,,5032,49301,1200300,Retribució sou base funcionari C1,11910.95,0,11910.95,11910.95
+,,5032,49301,1200600,Triennis,1948.71,0,1948.71,1948.71
+,,5032,49301,1210000,Complement Destí  funcionaris,3660.12,0,3660.12,3660.12
+,,5032,49301,1210100,Complement específic funcionaris,6529.8,0,6529.8,6529.8
+,,5032,49301,1600000,Seguretat Social,6146.76,0,6146.76,6394.11
+,,5032,49301,2270600,Estudis i treballs tècnics,21601.4,11363.63,32965.03,21107.37
+,,5032,49302,2270600,Estudis i treballs tècnics,3460,0,3460,2178
+,,5033,31102,1300100,Hores extraordinàries,0,0,0,1613.78
+,,5033,31102,1430000,Despeses per substitucions,0,0,0,28779.58
+,,5033,31102,1510000,Gratificacions treballs extraordinaris,0,0,0,1613.78
+,,5033,31102,1200300,Retribució sou base funcionari C1,12423.62,0,12423.62,13432.82
+,,5033,31102,1200600,Triennis,2117.76,0,2117.76,1990.61
+,,5033,31102,1210000,Complement Destí  funcionaris,3660.12,0,3660.12,3416.12
+,,5033,31102,1210100,Complement específic funcionaris,9570.48,0,9570.48,8932.45
+,,5033,31102,1300000,Retribucions bàsiques personal laboral,24937.58,0,24937.58,25330.54
+,,5033,31102,1300200,Altres retribucions personal laboral,2439.12,0,2439.12,2046.14
+,,5033,31102,1600000,Seguretat Social,16018.56,0,16018.56,24534.64
+,,5033,31102,2269900,Altres despeses,8500,-5900,2600,2541
+,,5033,31102,2279909,Contractes desenvolupament serveis,30959.75,11322.73,42282.48,31045.02
+,,5100,92023,1430000,Despeses per substitucions,0,0,0,41479.33
+,,5100,92023,1620900,ALTRES DESPESES SOCIALS.,0,0,0,658.22
+,,5100,92023,1200000,Retribució sou base funcionari A1,39353.6,0,39353.6,36386.18
+,,5100,92023,1200300,Retribució sou base funcionari C1,62153.37,20000,82153.37,79841.88
+,,5100,92023,1200600,Triennis,18025.35,0,18025.35,12181.09
+,,5100,92023,1210000,Complement Destí  funcionaris,34245.24,0,34245.24,36156.61
+,,5100,92023,1210100,Complement específic funcionaris,74825.88,0,74825.88,72352.5
+,,5100,92023,1210300,Altres complements funcionaris,12665.28,0,12665.28,11803.82
+,,5100,92023,1300000,Retribucions bàsiques personal laboral,94395.16,0,94395.16,94395.16
+,,5100,92023,1300200,Altres retribucions personal laboral,17489.16,0,17489.16,17489.16
+,,5100,92023,1600000,Seguretat Social,95504.64,0,95504.64,112525.06
+,,5112,23113,1200100,Sous del grup A2,0,0,0,15224.8
+,,5112,23113,1100000,Retribucions Bàsiques Eventual Gabinets,13308.6,0,13308.6,10129.34
+,,5112,23113,1100100,Retribucions Complementàries Eventual Ga,31691.4,0,31691.4,17718.52
+,,5112,23113,1200000,Retribució sou base funcionari A1,17712.32,0,17712.32,29915.34
+,,5112,23113,1200400,Retribució sou base funcionari C2,10460.28,0,10460.28,10494.93
+,,5112,23113,1200600,Triennis,3882.14,0,3882.14,3294.41
+,,5112,23113,1210000,Complement Destí  funcionaris,9677.76,0,9677.76,13930.08
+,,5112,23113,1210100,Complement específic funcionaris,17937.48,0,17937.48,26077.33
+,,5112,23113,1600000,Seguretat Social,31139.04,0,31139.04,34514.99
+,,5112,23113,2279909,Contractes desenvolupament serveis,15481.06,1194.86,16675.92,27021.5
+,,5112,23117,1200100,Sous del grup A2,0,0,0,15318.78
+,,5112,23117,1200600,Triennis,0,0,0,759.15
+,,5112,23117,1210000,Complement de destinació,0,0,0,4559.81
+,,5112,23117,1210100,Complement específic,0,0,0,7026.59
+,,5112,23117,1600000,Seguretat Social,0,0,0,8457.11
+,,5112,23117,2279909,Contractes desenvolupament serveis,60000,10000,70000,57140.64
+,,5120,23109,1620900,ALTRES DESPESES SOCIALS.,0,0,0,329.11
+,,5120,23109,1300000,Retribucions bàsiques personal laboral,62844.7,0,62844.7,62844.7
+,,5120,23109,1300200,Altres retribucions personal laboral,7657.08,0,7657.08,7657.08
+,,5120,23109,1600000,Seguretat Social,22749.84,0,22749.84,22926.88
+,,5120,23109,2200100,"Premsa, revistes, llibres i altres publicacions",2580.4,0,2580.4,1780.27
+,,5120,23109,2260900,Actes i exposicions,29918.6,15500,45418.6,7176.11
+,,5120,23109,2269900,Programa joves i cooperació i altres despeses,37291.67,-2500,34791.67,7889.42
+,,5120,23109,2270600,Estudis i treballs tècnics,14397.2,0,14397.2,80241.91
+,,5120,23109,4890100,"Altres transferències, ajuts i emergències",146123.12,2500,148623.12,148623.12
+,,5200,33000,1100000,Retribucions Bàsiques Eventual Gabinets,13308.6,0,13308.6,25508.13
+,,5200,33000,1100100,Retribucions Complementàries Eventual Ga,31691.4,0,31691.4,59781
+,,5200,33000,1430000,Despeses per substitució,22486.18,0,22486.18,22486.18
+,,5200,33000,1600000,Seguretat Social,20229.27,0,20229.27,32201.41
+,,5200,33000,2269900,Altres despeses,2000,0,2000,923.6
+,,5200,33000,2279909,Comunicació,10000,0,10000,10366.95
+,,5200,92023,1200300,Retribució sou base funcionari C1,13035.96,0,13035.96,12635.41
+,,5200,92023,1200600,Triennis,2008.2,0,2008.2,2008.2
+,,5200,92023,1210000,Complement Destí  funcionaris,3660.12,0,3660.12,3660.12
+,,5200,92023,1210100,Complement específic funcionaris,6529.8,0,6529.8,6529.8
+,,5200,92023,1210300,Altres complements funcionaris,6927.48,0,6927.48,4522.11
+,,5200,92023,1600000,Seguretat Social,8104.68,0,8104.68,7528.1
+,,5209,23102,2269900,Altres despeses diverses,0,8809,8809,0
+,,5209,23102,2279909,Altres treballs realitzats per empreses i profesionals,0,28000,28000,16875
+,,5209,23107,2269900,Altres despeses,1500,0,1500,0
+,,5209,23107,2279909,Contractes desenvolupament serveis,76800,0,76800,86074.16
+,,5210,33802,1620900,ALTRES DESPESES SOCIALS.,0,0,0,329.11
+,,5210,33802,2279909,Altres treballs realitzats per empreses i profesionals,189221.75,223380.74,412602.49,305524.96
+,,5210,33802,4890100,Altres transferències,0,24000,24000,24000
+,,5210,33802,1300000,Retribucions bàsiques personal laboral,38481.79,0,38481.79,29505.55
+,,5210,33802,1300200,Altres retribucions personal laboral,2892.48,0,2892.48,1747.08
+,,5210,33802,1310000,Retribucions personal Laboral temporal,30935.2,0,30935.2,26179.36
+,,5210,33802,1600000,Seguretat Social,23090.18,0,23090.18,18666.46
+,,5210,33802,2269900,Altres despeses,2025,0,2025,22521.1
+,,5210,33802,2279910,Contractes activitats artístiques i culturals,216000,0,216000,263449.93
+,,5411,33402,6230100,"Maquinària, instal.lacions tècniques i utillatge",0,2164.67,2164.67,2164.67
+,,5411,33402,1300000,Retribucions bàsiques personal laboral,83405.28,0,83405.28,84045.56
+,,5411,33402,1300200,Altres retribucions personal laboral,24387.48,0,24387.48,23323.19
+,,5411,33402,1600000,Seguretat Social,30702.6,0,30702.6,28613.82
+,,5411,33402,2269900,Altres despeses,12000,-2164.67,9835.33,0
+,,5411,33402,2279909,Contractes desenvolupament serveis,3000,6000,9000,19440.83
+,,5411,33402,2279910,Contractes activitats artístiques i culturals,85000,9500,94500,92374.71
+,,5412,33401,1300000,Retribucions bàsiques personal laboral,21818.86,0,21818.86,21818.86
+,,5412,33401,1430000,Despeses per substitució,31185.46,0,31185.46,31185.46
+,,5412,33401,1600000,Seguretat Social,16823.52,0,16823.52,16897.13
+,,5412,33401,2269900,Altres despeses,2000,0,2000,444.68
+,,5412,33401,2279909,Contractes desenvolupament serveis,3000,0,3000,17904.39
+,,5412,33401,2279910,Contractes activitats artístiques i culturals,35250,0,35250,32478.73
+,,5413,33302,1620900,ALTRES DESPESES SOCIALS.,0,0,0,0
+,,5413,33302,1300000,Retribucions bàsiques personal laboral,30064.42,0,30064.42,29747.03
+,,5413,33302,1300200,Altres retribucions personal laboral,3399.84,0,3399.84,3399.84
+,,5413,33302,1430000,Despeses per substitució,32554.56,0,32554.56,32067.74
+,,5413,33302,1600000,Seguretat Social,20392.32,0,20392.32,20762.77
+,,5413,33302,2269900,Altres despeses,5500,0,5500,1268.48
+,,5413,33302,2279910,Contractes activitats artístiques i culturals,15109.69,0,15109.69,12336.55
+,,5414,33301,1610400,Indemnització al personal lab. per jubilacions anticipades.,0,0,0,2139.22
+,,5414,33301,4890100,Altres transferències,0,2500,2500,2500
+,,5414,33301,6250100,Mobiliari,0,6351.29,6351.29,6351.29
+,,5414,33301,1200400,Retribució sou base funcionari C2,10465.34,0,10465.34,10465.34
+,,5414,33301,1200600,Triennis,429.6,0,429.6,429.6
+,,5414,33301,1210000,Complement Destí  funcionaris,3120.84,0,3120.84,3120.84
+,,5414,33301,1210100,Complement específic funcionaris,8974.2,0,8974.2,8974.2
+,,5414,33301,1300000,Retribucions bàsiques personal laboral,75806.32,0,75806.32,73902.86
+,,5414,33301,1300200,Altres retribucions personal laboral,6614.04,0,6614.04,6526.68
+,,5414,33301,1430000,Despeses per substitució,30467.26,0,30467.26,71089.42
+,,5414,33301,1600000,Seguretat Social,43008.24,15019.59,58027.83,54201.76
+,,5414,33301,2269900,Altres despeses,10434.16,-6351.29,4082.87,11164.48
+,,5414,33301,2279910,Contractes activitats artístiques i culturals,24000,12433.85,36433.85,27795.23
+,,5415,33210,1300100,Hores extraordinàries,0,0,0,156.75
+,,5415,33210,1310000,Retribucions personal laboral eventual,0,0,0,3046.58
+,,5415,33210,1620900,ALTRES DESPESES SOCIALS.,0,0,0,329.11
+,,5415,33210,6230100,"Maquinària, instal.lacions tècniques i utillatge",0,651.43,651.43,199.95
+,,5415,33210,1300000,Retribucions bàsiques personal laboral,32148.9,0,32148.9,32148.9
+,,5415,33210,1300200,Altres retribucions personal laboral,8728.56,0,8728.56,8728.56
+,,5415,33210,1600000,Seguretat Social,12896.64,0,12896.64,14210.16
+,,5415,33210,2200100,"Premsa, revistes, llibres i altres publicacions-despeses com",600,0,600,0
+,,5415,33210,2269900,Altres despeses comunes biblioteques,3598.44,2955.36,6553.8,972.27
+,,5415,33210,2279910,Contractes activitats artístiques i culturals-Comuns Bibliot,3798.44,0,3798.44,3993.09
+,,5415,33211,1300100,Hores extraordinàries,0,0,0,407.55
+,,5415,33211,1510000,Gratificacions treballs extraordinaris,0,0,0,2696.1
+,,5415,33211,1620900,ALTRES DESPESES SOCIALS.,0,0,0,329.11
+,,5415,33211,1200300,Retribució sou base funcionari C1,59467.44,0,59467.44,75189.57
+,,5415,33211,1200600,Triennis,5064.09,0,5064.09,4750.81
+,,5415,33211,1210000,Complement Destí  funcionaris,18300.6,0,18300.6,19162.29
+,,5415,33211,1210100,Complement específic funcionaris,37316.4,0,37316.4,39073.44
+,,5415,33211,1430000,Despeses per substitució,17417.5,0,17417.5,17668.65
+,,5415,33211,1600000,Seguretat Social,39379.44,0,39379.44,41161.97
+,,5415,33211,2200100,"Premsa, revistes, llibres i altres publicacions-Biblioteca C",600,0,600,4789.41
+,,5415,33211,2269900,Altres despeses -Biblioteca Central,3598.44,0,3598.44,1421.81
+,,5415,33211,2279910,Contractes activitats artístiques i culturals-Biblioteca Cen,3798.44,0,3798.44,7028.29
+,,5415,33212,1510000,Gratificacions treballs extraordinaris,0,0,0,3354.45
+,,5415,33212,1200300,Retribució sou base funcionari C1,59343.57,0,59343.57,59343.57
+,,5415,33212,1200400,Retribució sou base funcionari C2,10332.7,0,10332.7,11310.44
+,,5415,33212,1200600,Triennis,5081.51,0,5081.51,5009.91
+,,5415,33212,1210000,Complement Destí  funcionaris,21421.44,0,21421.44,21161.37
+,,5415,33212,1210100,Complement específic funcionaris,45069.24,0,45069.24,44423.17
+,,5415,33212,1600000,Seguretat Social,37203.84,0,37203.84,37712.25
+,,5415,33212,2200100,"Premsa, revistes, llibres i altres publicacions-Biblioteca C",600,0,600,5082.19
+,,5415,33212,2269900,Altres despeses -Biblioteca Can Peixauet,3598.44,0,3598.44,485.06
+,,5415,33212,2279910,Contractes activitats artístiques i culturals-Biblioteca Can,3798.44,0,3798.44,550
+,,5415,33213,1510000,Gratificacions treballs extraordinaris,0,0,0,3072.3
+,,5415,33213,1200300,Retribució sou base funcionari C1,59167.22,0,59167.22,58430.36
+,,5415,33213,1200400,Retribució sou base funcionari C2,10261.78,0,10261.78,10261.78
+,,5415,33213,1200600,Triennis,3797.4,0,3797.4,2267.35
+,,5415,33213,1210000,Complement Destí  funcionaris,21421.44,0,21421.44,19897.47
+,,5415,33213,1210100,Complement específic funcionaris,45069.24,0,45069.24,41961.75
+,,5415,33213,1300000,Retribucions bàsiques personal laboral,6218.8,0,6218.8,0
+,,5415,33213,1300200,Altres retribucions personal laboral,233.4,0,233.4,0
+,,5415,33213,1600000,Seguretat Social,42400.8,0,42400.8,39882.58
+,,5415,33213,2200100,"Premsa, revistes, llibres i altres publicacions-Biblioteca S",600,0,600,4098.17
+,,5415,33213,2269900,Altres despeses -Biblioteca Singuerlin,3598.44,0,3598.44,1314.48
+,,5415,33213,2279910,Contractes activitats artístiques i culturals-Biblioteca Sin,3798.44,0,3798.44,1653.22
+,,5415,33214,1510000,Gratificacions treballs extraordinaris,0,0,0,1486.93
+,,5415,33214,1200300,Retribució sou base funcionari C1,35261.68,0,35261.68,35668.62
+,,5415,33214,1200600,Triennis,315.72,0,315.72,310.46
+,,5415,33214,1210000,Complement Destí  funcionaris,10980.36,0,10980.36,10848.19
+,,5415,33214,1210100,Complement específic funcionaris,22389.84,0,22389.84,22120.33
+,,5415,33214,1600000,Seguretat Social,21166.68,0,21166.68,21835.12
+,,5415,33214,2200100,"Premsa, revistes, llibres i altres publicacions-Biblioteca F",600,0,600,3693.84
+,,5415,33214,2269900,Altres despeses -Biblioteca Fondo,3598.44,0,3598.44,1714.49
+,,5415,33214,2279910,Contractes activitats artístiques i culturals-Biblioteca Fon,3798.44,0,3798.44,3484.09
+,,5416,33403,2279910,Contractes activitats artístiques i culturals,11300,0,11300,11300
+,,5417,33404,2269900,Altres despeses -Centre Rellotge XXI,6000,0,6000,0
+,,5417,33404,2279909,Contractes desenvolupament serveis- Centre Rellotge XXI,45750,0,45750,115473.2
+,,5417,33405,2269900,Altres despeses -Mas Fonollar,6000,8500,14500,280
+,,5417,33405,2279909,Contractes desenvolupament serveis - Mas Fonollar,45750,0,45750,76244.48
+,,5417,33406,2279909,Contractes desenvolupament serveis -Servei Pidces,45750,0,45750,13292.4
+,,5417,33407,1310000,Retribucions personal Laboral temporal,29531.38,0,29531.38,29358.42
+,,5417,33407,1600000,Seguretat Social,9125.16,0,9125.16,9142.56
+,,5417,33407,2279909,Contractes desenvolupament serveis- Programa Joventut,45750,10313.32,56063.32,2181.63
+,,5418,32601,2269900,Altres despeses,5400,19750,25150,0
+,,5419,17200,4890100,Altres transferències (medi ambient i higiene ambiental),1200,0,1200,1200
+,,5419,23104,4890300,Transferències entitats (atenció a la dependència i a la gen,11975,0,11975,11975
+,,5419,23106,4800200,Transferències Serveis Socials a Institucions (Benestar Soci,15000,0,15000,13286.57
+,,5419,23113,4890100,Altres transferències (dona),4035,-1194.86,2840.14,2840.14
+,,5419,31100,4890300,Transferències entitats (zoonosi i protecció d'animals),350,0,350,350
+,,5419,31101,4890300,Transferències entitats (salut pública i consum),15825,0,15825,13029.19
+,,5419,32600,4890100,Altres transferències (educació i infància),5500,0,5500,4373.5
+,,5419,33400,4890300,"Transferències entitats (cultura, gent gran, infància i jove",48649.52,-7813.32,40836.2,40836.2
+,,5419,92023,1300000,Retribucions bàsiques personal laboral,31814.05,0,31814.05,31814.05
+,,5419,92023,1300200,Altres retribucions personal laboral,8372.88,0,8372.88,8372.88
+,,5419,92023,1600000,Seguretat Social,12955.56,0,12955.56,13022.33
+,,5419,92400,4890100,Altres transferències (cultura de proximitat),15543.13,0,15543.13,14503.3
+,,5419,92400,4890300,Transferències entitats (promoció de participació i ciutadan,1375,0,1375,0
+,,5500,23103,2120100,Arrenjament habitatges,39000,0,39000,19576.17
+,,5500,23104,2279909,Contractes desenvolupament serveis,40000,32000,72000,14036
+,,5500,23105,1430000,Despeses per substitucions,0,0,0,91097.59
+,,5500,23105,1620900,ALTRES DESPESES SOCIALS.,0,0,0,1855.25
+,,5500,23105,1200000,Retribució sou base funcionari A1,17251.98,0,17251.98,14691.3
+,,5500,23105,1200100,Retribució sou base funcionari A2,92054.91,20000,112054.91,104740.01
+,,5500,23105,1200400,Retribució sou base funcionari C2,21055.26,0,21055.26,21260
+,,5500,23105,1200600,Triennis,10919.32,0,10919.32,10358.77
+,,5500,23105,1210000,Complement Destí  funcionaris,40784.64,0,40784.64,42049.54
+,,5500,23105,1210100,Complement específic funcionaris,78966.12,0,78966.12,81711.65
+,,5500,23105,1300000,Retribucions bàsiques personal laboral,670385.08,0,670385.08,661516.86
+,,5500,23105,1300200,Altres retribucions personal laboral,64902.24,0,64902.24,61821.22
+,,5500,23105,1600000,Seguretat Social,308818.22,0,308818.22,328271.44
+,,5500,23105,2230000,Transports,1000,0,1000,0
+,,5500,23105,2269900,Altres despeses,3000,0,3000,1227.02
+,,5500,23105,2279909,Contractes desenvolupament serveis,40000,-10000,30000,129715.19
+,,5500,23105,4800100,Transferències Serveis Socials,273922.85,160150,434072.85,726982.62
+,,5500,23115,4890800,Fons d' ajuts socials,2900000,-83548.46,2816451.54,2482111.23
+,,5500,24100,2269910,Despesa Grameimpuls,36000,0,36000,0
+,,5500,92023,1620900,ALTRES DESPESES SOCIALS.,0,0,0,548.52
+,,5500,92023,1200100,Retribució sou base funcionari A2,15326.2,0,15326.2,13483.28
+,,5500,92023,1200300,Retribució sou base funcionari C1,11835.92,0,11835.92,11835.92
+,,5500,92023,1200600,Triennis,2805.12,0,2805.12,2599.85
+,,5500,92023,1210000,Complement Destí  funcionaris,8397.6,0,8397.6,7541.55
+,,5500,92023,1210100,Complement específic funcionaris,15397.8,0,15397.8,13795.4
+,,5500,92023,1300000,Retribucions bàsiques personal laboral,55830.76,0,55830.76,55830.76
+,,5500,92023,1300200,Altres retribucions personal laboral,1567.68,0,1567.68,1567.68
+,,5500,92023,1600000,Seguretat Social,32106.72,0,32106.72,31439.63
+,,5514,23100,1200000,Retribució sou base funcionari A1,17255.82,0,17255.82,17255.82
+,,5514,23100,1200100,Retribució sou base funcionari A2,15317.79,0,15317.79,15317.79
+,,5514,23100,1200600,Triennis,3768.75,0,3768.75,3768.75
+,,5514,23100,1210000,Complement Destí  funcionaris,10855.56,0,10855.56,10855.56
+,,5514,23100,1210100,Complement específic funcionaris,16021.8,0,16021.8,16021.8
+,,5514,23100,1300000,Retribucions bàsiques personal laboral,34465,0,34465,34350.46
+,,5514,23100,1300200,Altres retribucions personal laboral,17190.12,0,17190.12,17190.12
+,,5514,23100,1600000,Seguretat Social,33171.72,5550.94,38722.66,33253.17
+,,5514,23118,2269900,Altres despeses,3090,3500,6590,796.95
+,,5514,23118,2270600,Estudis i treballs tècnics,5000,0,5000,0
+,,5514,23118,2279909,Contractes desenvolupament serveis,114000,10000,124000,133617.28
+,,5514,23118,4890100,Altres transferències-Conveni Banc del Temps,15000,0,15000,12550
+,,6000,92022,1100000,Retribucions Bàsiques Eventual Gabinets,15180.36,0,15180.36,15220.95
+,,6000,92022,1100100,Retribucions Complementàries Eventual Ga,46691.4,0,46691.4,46944.9
+,,6000,92022,1600000,Seguretat Social,13284.6,0,13284.6,13284.61
+,,6000,92023,1200300,Retribució sou base funcionari C1,11674.08,0,11674.08,11674.08
+,,6000,92023,1200600,Triennis,631.44,0,631.44,631.44
+,,6000,92023,1210000,Complement Destí  funcionaris,3660.12,0,3660.12,3660.12
+,,6000,92023,1210100,Complement específic funcionaris,6529.8,0,6529.8,6529.8
+,,6000,92023,1600000,Seguretat Social,6992.4,0,6992.4,7003.11
+,,6000,92400,2269900,Altres despeses,500,0,500,324.35
+,,6100,32000,1620900,ALTRES DESPESES SOCIALS.,0,0,0,548.52
+,,6100,32000,1300000,Retribucions bàsiques personal laboral,63555.39,0,63555.39,63555.39
+,,6100,32000,1300200,Altres retribucions personal laboral,15609.6,0,15609.6,15609.6
+,,6100,32000,1600000,Seguretat Social,24288.18,0,24288.18,24487.52
+,,6100,32000,2260300,Anuncis oficials,1000,0,1000,570
+,,6100,32000,2269900,Altres despeses,500,-120,380,150
+,,6100,32602,4890100,Transferències Consell Comarcal. Transport escolar,37000,0,37000,37000
+,,6100,32603,4890100,Convenis (educació i infància),8500,2970,11470,6500
+,,6100,92023,1300000,Retribucions bàsiques personal laboral,24580.02,0,24580.02,24580.02
+,,6100,92023,1600000,Seguretat Social,7743.72,0,7743.72,7796.96
+,,6110,32001,2269900,Altres despeses,13000,18030,31030,7583.03
+,,6110,32604,1200100,Sous del grup A2,0,0,0,6280.39
+,,6110,32604,1200600,Triennis,0,0,0,0
+,,6110,32604,1210000,Complement de destinació,0,0,0,1960.79
+,,6110,32604,1210100,Complement específic,0,0,0,3670.37
+,,6110,32604,1430000,Despeses per substitucions,0,0,0,4013.87
+,,6110,32604,1300000,Retribucions bàsiques personal laboral,31019.82,0,31019.82,33154
+,,6110,32604,1300200,Altres retribucions personal laboral,2371.32,0,2371.32,237.13
+,,6110,32604,1600000,Seguretat Social,10943.28,0,10943.28,5251.42
+,,6110,32604,4890600,Transferència a les famílies per l'adquisició de llibres,765780,0,765780,765780
+,,6110,32605,4890601,Transferència a les famílies per l'adquisició d'ordinadors,147000,30120,177120,177120
+,,6120,32403,2269900,Altres despeses diverses,0,1483.5,1483.5,297.22
+,,6120,32607,1200100,Retribució sou base funcionari A2,15548.85,0,15548.85,15548.85
+,,6120,32607,1200600,Triennis,2562.33,0,2562.33,2562.33
+,,6120,32607,1210000,Complement Destí  funcionaris,4737.48,0,4737.48,4737.48
+,,6120,32607,1210100,Complement específic funcionaris,8868,0,8868,8868
+,,6120,32607,1300000,Retribucions bàsiques personal laboral,21417.58,0,21417.58,21417.58
+,,6120,32607,1300200,Altres retribucions personal laboral,648,0,648,648
+,,6120,32607,1600000,Seguretat Social,17294.04,0,17294.04,17386.47
+,,6120,32607,2269900,Altres despeses,47958,5400,53358,4146.37
+,,6120,32608,1310000,Retribucions personal laboral eventual,0,0,0,30502.98
+,,6120,32608,1300000,Retribucions bàsiques personal laboral,64885.38,0,64885.38,64715.58
+,,6120,32608,1300200,Altres retribucions personal laboral,1554.12,0,1554.12,1554.12
+,,6120,32608,1600000,Seguretat Social,21288.36,0,21288.36,31105.64
+,,6120,32608,2279909,Contractes desenvolupament serveis (pla educatiu entorn),12600,0,12600,56467.81
+,,6130,32301,4890100,Altres transferències,0,124275.54,124275.54,1070.04
+,,6130,32301,1300000,Retribucions bàsiques personal laboral,39104.05,0,39104.05,39178.08
+,,6130,32301,1300200,Altres retribucions personal laboral,1959.96,0,1959.96,1885.93
+,,6130,32301,1430000,Despeses per substitució,28779.58,0,28779.58,44593.45
+,,6130,32301,1600000,Seguretat Social,22072.92,0,22072.92,29574.19
+,,6130,32301,2279909,Contractes desenvolupament serveis,2000000,-53870.52,1946129.48,1756235.92
+,,6140,32301,1430000,Despeses per substitucions,0,25000,25000,0
+,,6140,32302,1210300,Altres Complements,0,0,0,0
+,,6140,32302,1300100,Hores extraordinàries,0,0,0,1035.64
+,,6140,32302,1510000,Gratificacions treballs extraordinaris,0,0,0,34.14
+,,6140,32302,1620900,ALTRES DESPESES SOCIALS.,0,0,0,877.63
+,,6140,32302,1200300,Retribució sou base funcionari C1,12375.76,25000,37375.76,13344.34
+,,6140,32302,1200400,Retribució sou base funcionari C2,61730.25,0,61730.25,70794.78
+,,6140,32302,1200600,Triennis,6058.46,0,6058.46,5954.54
+,,6140,32302,1210000,Complement Destí  funcionaris,22385.16,0,22385.16,24405.27
+,,6140,32302,1210100,Complement específic funcionaris,55307.16,0,55307.16,61100.77
+,,6140,32302,1300000,Retribucions bàsiques personal laboral,573239.12,0,573239.12,547036.55
+,,6140,32302,1300200,Altres retribucions personal laboral,16601.04,0,16601.04,13624.48
+,,6140,32302,1430000,Despeses per substitució,37180.09,0,37180.09,93283.84
+,,6140,32302,1600000,Seguretat Social,246796.88,15000,261796.88,253766.22
+,,6140,32302,2120100,Manteniment d'edificis,40000,-32472.71,7527.29,907.5
+,,6140,32302,4890100,Altres transferències,9000,32472.71,41472.71,41471.31
+,,6140,33701,2120100,Manteniment d'edificis,34000,-16752.33,17247.67,17180.38
+,,6210,92400,1300000,Retribucions bàsiques personal laboral,30378.16,0,30378.16,30378.16
+,,6210,92400,1300200,Altres retribucions personal laboral,3719.4,0,3719.4,3719.4
+,,6210,92400,1600000,Seguretat Social,10757.64,0,10757.64,10904.77
+,,6210,92400,4890100,Altres transferències (cultura de proximitat),13000,0,13000,13000
+,,6210,92402,1100000,Retribucions Bàsiques Eventual Gabinets,16838.6,0,16838.6,9005.87
+,,6210,92402,1100100,Retribucions Complementàries Eventual Ga,31691.4,0,31691.4,17942.06
+,,6210,92402,1600000,Seguretat Social,13284.6,0,13284.6,7177.74
+,,6210,92402,2260900,Actes i exposicions,2550,0,2550,2285.41
+,,6210,92402,2270600,Estudis i treballs tècnics,4000,0,4000,20407
+,,6210,92403,1300000,Retribucions bàsiques personal laboral,31066.01,0,31066.01,31066.01
+,,6210,92403,1300200,Altres retribucions personal laboral,3719.4,0,3719.4,3719.4
+,,6210,92403,1600000,Seguretat Social,10976.48,0,10976.48,11175.05
+,,6210,92403,2269914,Dinamització processos,26000,0,26000,4200.17
+,,6211,33801,2030000,"Arrendaments maquinària, instal·lacions i utillatge",30000,0,30000,24172.87
+,,6211,33801,2260900,Actes i exposicions,10000,0,10000,301.29
+,,6211,33801,2279909,Contractes desenvolupament serveis,10000,0,10000,12522.19
+,,6212,33701,1300100,Hores extraordinàries,0,0,0,376.2
+,,6212,33701,1430000,Despeses per substitucions,0,0,0,67776.51
+,,6212,33701,1620900,ALTRES DESPESES SOCIALS.,0,0,0,319.4
+,,6212,33701,6220100,"Edificis i construccions, inversió nova",0,5396.08,5396.08,5396.08
+,,6212,33701,6230100,"Maquinària, instal.lacions tècniques i utillatge",0,677.6,677.6,677.6
+,,6212,33701,6250100,Mobiliari,0,10678.65,10678.65,10200.7
+,,6212,33701,1200300,Retribució sou base funcionari C1,14128.44,0,14128.44,14128.44
+,,6212,33701,1200400,Retribució sou base funcionari C2,41243.53,0,41243.53,45925.55
+,,6212,33701,1200600,Triennis,4782.68,0,4782.68,4731.37
+,,6212,33701,1210000,Complement Destí  funcionaris,18601.44,0,18601.44,19641.72
+,,6212,33701,1210100,Complement específic funcionaris,48493.08,0,48493.08,51077.37
+,,6212,33701,1300000,Retribucions bàsiques personal laboral,198906.48,0,198906.48,167954.39
+,,6212,33701,1300200,Altres retribucions personal laboral,6119.28,0,6119.28,5060.76
+,,6212,33701,1310000,Retribucions personal Laboral temporal,58495.04,0,58495.04,58495.05
+,,6212,33701,1600000,Seguretat Social,121023.52,15000,136023.52,131604.76
+,,6212,33701,2269900,Altres despeses,24100,0,24100,3522.89
+,,6212,33701,2279909,Contractes desenvolupament serveis,35000,0,35000,59813.24
+,,6212,33701,4890100,Altres transferències,26000,-20000,6000,2693.44
+,,7000,15100,2270600,Estudis i treballs tècnics,0,6000,6000,11374
+,,7000,15100,2279914,Altres treballs realitzats altres empreses i professionals,0,1428.64,1428.64,0
+,,7000,15100,1100000,Retribucions Bàsiques Eventual Gabinets,13308.6,0,13308.6,25508.13
+,,7000,15100,1100100,Retribucions Complementàries Eventual Ga,50691.4,0,50691.4,85469.69
+,,7000,15100,1200300,Retribució sou base funcionari C1,12189.64,0,12189.64,12189.64
+,,7000,15100,1200600,Triennis,2867.4,0,2867.4,2867.4
+,,7000,15100,1210000,Complement Destí  funcionaris,3660.12,0,3660.12,3660.12
+,,7000,15100,1210100,Complement específic funcionaris,7528.32,0,7528.32,7528.32
+,,7000,15100,1600000,Seguretat Social,20044.44,0,20044.44,32506.64
+,,7000,15100,2200100,"Premsa, revistes, llibres i altres publicacions",2700,0,2700,2724.56
+,,7000,15100,2219909,Material tècnic,1500,0,1500,0
+,,7000,15100,2240000,Assegurances,23000,0,23000,14408.59
+,,7000,15100,2260300,Anuncis oficials,3000,0,3000,1840.91
+,,7000,15100,2269900,Altres despeses,2500,0,2500,5316.1
+,,7000,15220,7800000,Subvencions a famílies i institucions sense ànim lucre,0,22140.19,22140.19,0
+,,7000,15220,7800001,A famílies i institucions sense ànim de lucre,0,34154.44,34154.44,34154.44
+,,7000,15310,4650000,Consell Comarcal-Rondes,25000,0,25000,24909.24
+,,7010,15001,1430000,Despeses per substitucions,0,0,0,11965.23
+,,7010,15001,1510000,Gratificacions treballs extraordinaris,0,0,0,760.74
+,,7010,15001,1620900,ALTRES DESPESES SOCIALS.,0,0,0,1097.04
+,,7010,15001,1200000,Retribució sou base funcionari A1,56257.1,0,56257.1,56257.1
+,,7010,15001,1200100,Retribució sou base funcionari A2,31487.25,0,31487.25,34913.16
+,,7010,15001,1200300,Retribució sou base funcionari C1,95918.95,0,95918.95,111572.71
+,,7010,15001,1200600,Triennis,19319.71,0,19319.71,17971.43
+,,7010,15001,1210000,Complement Destí  funcionaris,64960.44,0,64960.44,62215.4
+,,7010,15001,1210100,Complement específic funcionaris,127650.24,0,127650.24,125906.32
+,,7010,15001,1300000,Retribucions bàsiques personal laboral,81248.74,0,81248.74,81276.66
+,,7010,15001,1300200,Altres retribucions personal laboral,10632.36,0,10632.36,10632.36
+,,7010,15001,1600000,Seguretat Social,131768.78,0,131768.78,136616.83
+,,7100,17000,1610400,Indemnització al personal lab. per jubilacions anticipades.,0,0,0,2139.22
+,,7100,17000,1200000,Retribució sou base funcionari A1,36851,0,36851,43412.48
+,,7100,17000,1200100,Retribució sou base funcionari A2,16920.94,0,16920.94,17058.91
+,,7100,17000,1200400,Retribució sou base funcionari C2,10500.8,0,10500.8,10500.8
+,,7100,17000,1200600,Triennis,10567.95,0,10567.95,9687.86
+,,7100,17000,1210000,Complement Destí  funcionaris,21475.08,0,21475.08,20132.5
+,,7100,17000,1210100,Complement específic funcionaris,43388.28,0,43388.28,40870.55
+,,7100,17000,1210300,Altres complements funcionaris,9159.12,0,9159.12,7200.08
+,,7100,17000,1300000,Retribucions bàsiques personal laboral,43661.18,0,43661.18,40584.96
+,,7100,17000,1300200,Altres retribucions personal laboral,15919.68,0,15919.68,15801.69
+,,7100,17000,1600000,Seguretat Social,52347.2,0,52347.2,48475.69
+,,7100,17000,2269900,Altres despeses,425,0,425,422.55
+,,7110,31103,2269900,Altres despeses,13000,18047.39,31047.39,23765.43
+,,7110,31103,2270600,Estudis i treballs tècnics,50000,0,50000,37593.76
+,,7110,31103,4650000,Consell Comarcal. Centre d'acolliment d'animals,77200,0,77200,77190
+,,7120,17200,2250000,Tributs estatals,0,0,0,1947.19
+,,7120,17200,2270600,Estudis i treballs tècnics,32719.05,-6000,26719.05,22895.85
+,,7120,17200,4890100,Altres transferències,1500,0,1500,1424.86
+,,7130,17220,2270600,Estudis i treballs tècnics,7650,0,7650,5843.15
+,,7140,17230,2219900,Altres Subministraments,0,0,0,3701.82
+,,7140,17230,4660000,A ALTRES ENTITATS QUE AGRUPIN MUNICIPIS.,0,600,600,0
+,,7140,17230,6350000,Inversió de reposició mobiliari,0,648.56,648.56,648.56
+,,7140,17230,2270600,Estudis i treballs tècnics,66600,251.44,66851.44,55111.73
+,,7150,16221,2270100,Seguretat,0,0,0,0
+,,7150,16221,2270000,Neteja,75000,0,75000,2433.78
+,,7150,16221,2270600,Estudis i treballs tècnics,37471,0,37471,32125.1
+,,7200,43000,1200100,Retribució sou base funcionaris A2,0,10758.96,10758.96,15224.8
+,,7200,43000,1200000,Retribució sou base funcionari A1,18625.94,0,18625.94,18625.94
+,,7200,43000,1200300,Retribució sou base funcionari C1,12507.5,0,12507.5,14472.8
+,,7200,43000,1200400,Retribució sou base funcionari C2,13974.6,0,13974.6,13811.68
+,,7200,43000,1200600,Triennis,8908.68,0,8908.68,8962.49
+,,7200,43000,1210000,Complement Destí  funcionaris,16335.12,0,16335.12,20574.28
+,,7200,43000,1210100,Complement específic funcionaris,39280.68,0,39280.68,46849.78
+,,7200,43000,1300000,Retribucions bàsiques personal laboral,32840.04,0,32840.04,32840.04
+,,7200,43000,1300200,Altres retribucions personal laboral,13515.96,0,13515.96,13515.96
+,,7200,43000,1600000,Seguretat Social,46255.08,0,46255.08,55389.45
+,,7200,43200,2269900,Altres despeses,134049.5,16345.38,150394.88,111537.09
+,,7200,43300,2269900,Altres despeses diverses,0,50000,50000,8353.12
+,,7200,43300,2269901,ALTRES DESPESES DIVERSES,0,5000,5000,5000
+,,7200,43300,4890100,Altres tranferències,15000,43700,58700,55136.86
+,,7300,15000,1200000,Retribució sou base funcionari A1,35593.06,0,35593.06,36524.91
+,,7300,15000,1200600,Triennis,3139.48,0,3139.48,3874.29
+,,7300,15000,1210000,Complement Destí  funcionaris,12236.16,0,12236.16,12015.23
+,,7300,15000,1210100,Complement específic funcionaris,22840.44,0,22840.44,22330.59
+,,7300,15000,1300000,Retribucions bàsiques personal laboral,89119.72,0,89119.72,89039.75
+,,7300,15000,1300200,Altres retribucions personal laboral,21749.4,0,21749.4,21618.5
+,,7300,15000,1430000,Despeses per substitució,22134.26,0,22134.26,19431.63
+,,7300,15000,1600000,Seguretat Social,59181.12,0,59181.12,58807.57
+,,7300,15000,2269900,Altres despeses,5000,0,5000,2345.54
+,,7300,15120,6220100,"Edificis i construccions, inversió nova",0,4857.93,4857.93,4291.6
+,,7300,15120,6000100,Expropiacions,1287758.08,480457.94,1768216.02,1259897.6
+,,7300,15210,4490300,TRANSFERÈNCIES A GRAMEPARK SA,0,106248,106248,106248
+,,7400,13300,6090001,Altres inv. noves en infraestruc i bens destinats ús gral,0,115000,115000,94079.43
+,,7400,13300,6090002,Altres inv. noves en infraestruc i bens destinats ús gral,0,68950.58,68950.58,77669.69
+,,7400,13300,6090010,Altres inv. noves en infraestruc i bens destinats ús gral,0,95000,95000,0
+,,7400,15002,1620900,ALTRES DESPESES SOCIALS.,0,0,0,658.22
+,,7400,15002,1200000,Retribució sou base funcionari A1,18155.4,0,18155.4,33311.05
+,,7400,15002,1200100,Retribució sou base funcionari A2,33124.04,0,33124.04,33124.04
+,,7400,15002,1200300,Retribució sou base funcionari C1,12510.18,0,12510.18,13851.49
+,,7400,15002,1200600,Triennis,11476.92,0,11476.92,11869.22
+,,7400,15002,1210000,Complement Destí  funcionaris,22992.24,0,22992.24,26916.54
+,,7400,15002,1210100,Complement específic funcionaris,48900.96,0,48900.96,58748.5
+,,7400,15002,1300000,Retribucions bàsiques personal laboral,37201.68,0,37201.68,37201.68
+,,7400,15002,1300200,Altres retribucions personal laboral,16803.6,0,16803.6,16803.6
+,,7400,15002,1600000,Seguretat Social,54650.04,0,54650.04,65592.96
+,,7400,15100,2270600,Estudis i treballs tècnics,40000,42090,82090,80473.48
+,,7400,15100,4670300,Transferència Consorci Besós,50000,0,50000,50000
+,,7400,15120,6220100,"Edificis i construccions, inversió nova",0,17802.51,17802.51,0
+,,7400,15120,6320100,"Edificis i altres construccions, inversió de reposició",0,56125.04,56125.04,22387.04
+,,7400,15220,2120200,"REPARACIONS, MANTENIMENT I CONSERVACIÓ D'EDIFICIS I ALTRES",0,2026844.02,2026844.02,0
+,,7400,15300,6190001,Altres inv de reposicio en infrastr i bens dest us gral,0,0,0,0
+,,7500,13200,6320100,"Edificis i altres construccions, inversió de reposició",0,157109.69,157109.69,108665.09
+,,7500,15003,1610400,Indemnització al personal lab. per jubilacions anticipades.,0,0,0,2139.22
+,,7500,15003,1620900,ALTRES DESPESES SOCIALS.,0,0,0,329.11
+,,7500,15003,1200000,Retribució sou base funcionari A1,58591.23,0,58591.23,53523.97
+,,7500,15003,1200100,Retribució sou base funcionari A2,16238.68,0,16238.68,15594.04
+,,7500,15003,1200300,Retribució sou base funcionari C1,23477.27,0,23477.27,19383.76
+,,7500,15003,1200600,Triennis,13628.19,0,13628.19,10652.17
+,,7500,15003,1210000,Complement Destí  funcionaris,34423.68,0,34423.68,28960.88
+,,7500,15003,1210100,Complement específic funcionaris,85919.88,0,85919.88,71289.5
+,,7500,15003,1300000,Retribucions bàsiques personal laboral,38719.49,0,38719.49,33826.1
+,,7500,15003,1300200,Altres retribucions personal laboral,2946.6,0,2946.6,1425.12
+,,7500,15003,1430000,Despeses per substitució,54661.24,0,54661.24,54328.83
+,,7500,15003,1600000,Seguretat Social,86046.45,0,86046.45,79536.07
+,,7500,15100,1620900,ALTRES DESPESES SOCIALS.,0,0,0,0
+,,7500,15100,3520000,Interessos de demora,0,7228.16,7228.16,0
+,,7500,15100,6190001,Altres inv de reposicio en infrastr i bens dest us gral,0,1556020.64,1556020.64,696174.68
+,,7500,15100,6220100,"Edificis i construccions, inversió nova",0,30596.23,30596.23,30596.23
+,,7500,15120,3520000,Interessos de demora,0,0,0,0
+,,7500,15120,6190001,Altres inv de reposicio en infrastr i bens dest us gral,0,34811.59,34811.59,7000.95
+,,7500,15120,6190002,Altres inv de reposicio en infrastr i bens dest us gral,0,668873.2,668873.2,169957.7
+,,7500,15120,6220100,"Edificis i construccions, inversió nova",0,1154011.8,1154011.8,542786.25
+,,7500,15300,6190001,Altres inv de reposicio en infrastr i bens dest us gral,0,61058.98,61058.98,61058.98
+,,7500,16000,6190002,Altres inv de reposicio en infrastr i bens dest us gral,0,16302.9,16302.9,0
+,,7500,17100,6090001,Altres inv. noves en infraestruc i bens destinats ús gral,0,960856.21,960856.21,150513.59
+,,7500,17100,6190002,Altres inv de reposicio en infrastr i bens dest us gral,0,1151866.82,1151866.82,824816.28
+,,7500,33211,6320100,"Edificis i altres construccions, inversió de reposició",0,37667.76,37667.76,27808.69
+,,7500,33301,6220100,"Edificis i construccions, inversió nova",0,289000,289000,0
+,,7500,34200,6220100,"Edificis i construccions, inversió nova",0,182423.93,182423.93,181720.34
+,,7500,34201,6190001,Altres inv de reposicio en infrastr i bens dest us gral,0,0,0,115846.35
+,,7500,34201,6230000,MAQUINARIA,0,0,0,21779.99
+,,7500,34201,6320100,"Edificis i altres construccions, inversió de reposició",0,831344.3,831344.3,455857.2
+,,7500,34202,6320100,"Edificis i altres construccions, inversió de reposició",0,40096.78,40096.78,24483.97
+,,7500,34203,6220100,"Edificis i construccions, inversió nova",0,160321.33,160321.33,155844.52
+,,7500,45900,6190001,Altres inv de reposicio en infrastr i bens dest us gral,0,153514.13,153514.13,153314.92
+,,7600,92024,1200400,Retribucions sou base funcionaris C2,0,0,0,10823.02
+,,7600,92024,1510000,Gratificacions treballs extraordinaris,0,0,0,379.74
+,,7600,92024,1610400,Indemnització al personal lab. per jubilacions anticipades.,0,0,0,2139.22
+,,7600,92024,1620900,ALTRES DESPESES SOCIALS.,0,0,0,329.11
+,,7600,92024,1200100,Retribució sou base funcionari A2,18345.14,0,18345.14,50920.98
+,,7600,92024,1200300,Retribució sou base funcionari C1,12658.19,0,12658.19,22985.4
+,,7600,92024,1200600,Trienis,9008.94,0,9008.94,4596.2
+,,7600,92024,1210000,Complement Destí funcionaris,11093.76,0,11093.76,10320.57
+,,7600,92024,1210100,Complement específic funcionaris,31364.76,0,31364.76,29334.86
+,,7600,92024,1300000,Retribucions bàsiques personal laboral,163045.66,0,163045.66,162367.68
+,,7600,92024,1300200,Altres retribucions personal laboral,40066.44,0,40066.44,39871.7
+,,7600,92024,1430000,Despeses per substitució,19261.3,0,19261.3,35036.01
+,,7600,92024,1600000,Seguretat Social,91170.93,0,91170.93,111567.1
+,,7610,16211,2270000,Neteja,360000,-43630,316370,313694.72
+,,7610,16212,2270000,Neteja,685000,-50800,634200,633088.79
+,,7610,16300,2130000,"MAQUINÀRIA, INSTAL·LACIONS TÈCNIQUES I UTILLATGE.",0,0,0,2843.5
+,,7610,16300,6240100,Elements de transport,0,43181.01,43181.01,43181.01
+,,7610,16300,2269900,Altres despeses,20000,0,20000,34643.81
+,,7610,16300,2270000,Neteja i recollida escombraries,7256000,-89398,7166602,7132181.85
+,,7610,16301,2270000,Neteja,45000,0,45000,35531.52
+,,7610,16302,2279911,Neteja i accessos mecànics,26220.5,0,26220.5,32465.48
+,,7630,32300,2270000,Neteja,667917.93,396032.16,1063950.09,1846415.86
+,,7630,33000,2270000,Neteja,667917.93,-28700,639217.93,357840.37
+,,7630,34000,2270000,Neteja,667917.93,0,667917.93,166348.75
+,,7630,43120,2270000,Neteja,504941.83,-399250,105691.83,76461.14
+,,7630,92000,2270000,Neteja,504941.83,-140362.16,364579.67,364192.31
+,,7660,43120,1300100,Hores extraordinàries,0,0,0,1859.01
+,,7660,43120,1430000,Despeses per substitucions,0,0,0,18707.38
+,,7660,43120,1510000,Gratificacions treballs extraordinaris,0,10000,10000,177.12
+,,7660,43120,6230100,"Maquinària, instal.lacions tècniques i utillatge",0,7368.99,7368.99,7099.69
+,,7660,43120,1200300,Retribució sou base funcionari C1,13613.49,0,13613.49,13613.49
+,,7660,43120,1200400,Retribució sou base funcionari C2,10500.8,60000,70500.8,41391.54
+,,7660,43120,1200600,Triennis,3933.15,0,3933.15,3610.95
+,,7660,43120,1210000,Complement Destí  funcionaris,9238.92,0,9238.92,14266.95
+,,7660,43120,1210100,Complement específic funcionaris,22364.04,0,22364.04,36822.46
+,,7660,43120,1300000,Retribucions bàsiques personal laboral,129255.93,27360,156615.93,119087.22
+,,7660,43120,1300200,Altres retribucions personal laboral,8045.28,0,8045.28,6799.08
+,,7660,43120,1600000,Seguretat Social,70074.96,5631.91,75706.87,83326.33
+,,7660,43120,2120100,Manteniment d'edificis,78435.21,8450,86885.21,61319.65
+,,7660,43120,2269900,Altres despeses,5900,27475.21,33375.21,28508.49
+,,7700,15110,1620900,ALTRES DESPESES SOCIALS.,0,0,0,329.11
+,,7700,15110,2269900,Altres despeses diverses,0,0,0,1421.27
+,,7700,15110,1200000,Retribució sou base funcionari A1,74810.25,0,74810.25,75919.09
+,,7700,15110,1200100,Retribució sou base funcionari A2,64914.6,0,64914.6,64925.84
+,,7700,15110,1200300,Retribució sou base funcionari C1,84611.62,0,84611.62,96903.69
+,,7700,15110,1200400,Retribució sou base funcionari C2,10224.7,0,10224.7,10224.7
+,,7700,15110,1200600,Triennis,29866.39,0,29866.39,28037.82
+,,7700,15110,1210000,Complement Destí  funcionaris,80214.84,0,80214.84,77239.41
+,,7700,15110,1210100,Complement específic funcionaris,175641.36,0,175641.36,169620.45
+,,7700,15110,1300000,Retribucions bàsiques personal laboral,49478.78,0,49478.78,49732.17
+,,7700,15110,1300200,Altres retribucions personal laboral,6081.36,0,6081.36,5827.97
+,,7700,15110,1430000,Despeses per substitució,22634.78,0,22634.78,22634.78
+,,7700,15110,1600000,Seguretat Social,168547.77,0,168547.77,164537.56
+,,7700,15110,2100300,Execució d'obres subsidiàries (disciplina urbanística),39200,30000,69200,54630.92
+,,7700,15110,2270600,Estudis i treballs tècnics,2858.62,0,2858.62,0
+,,7800,15300,2270600,Estudis i treballs tècnics,0,0,0,10537.58
+,,7800,15300,1200100,Retribució sou base funcionari A2,18213.88,0,18213.88,18483.96
+,,7800,15300,1200600,Triennis,2016.66,0,2016.66,1999.28
+,,7800,15300,1210000,Complement Destí  funcionaris,7433.64,0,7433.64,7371.69
+,,7800,15300,1210100,Complement específic funcionaris,22889.52,0,22889.52,22698.77
+,,7800,15300,1600000,Seguretat Social,10904.64,0,10904.64,10904.64
+,,7800,15300,2100100,Manteniment via pública,25913.97,0,25913.97,19911.57
+,,7800,15300,2100200,Conexió clavegueram,8539.32,0,8539.32,8465.57
+,,7800,15300,2101100,Desperfectes,11345.22,-6700,4645.22,3571.72
+,,7800,15300,2140100,Manteniment i neteja de vehicles,40087.33,0,40087.33,18646.96
+,,7800,15300,2219900,Altres subministraments,4338.07,0,4338.07,3945.85
+,,7810,15300,1300100,Hores extraordinàries,0,0,0,1511.04
+,,7810,15300,1430000,Despeses per substitucions,0,0,0,21406.79
+,,7810,15300,6190001,Altres inv de reposicio en infrastr i bens dest us gral,0,400000,400000,305964.01
+,,7810,15300,6240100,Elements de transport,0,80000,80000,0
+,,7810,15300,1200100,Retribució sou base funcionari A2,16187.98,0,16187.98,16187.98
+,,7810,15300,1200300,Retribució sou base funcionari C1,27272.7,0,27272.7,27272.7
+,,7810,15300,1200600,Triennis,7224.72,0,7224.72,7224.72
+,,7810,15300,1210000,Complement Destí  funcionaris,15896.28,0,15896.28,15896.28
+,,7810,15300,1210100,Complement específic funcionaris,42544.32,0,42544.32,42544.32
+,,7810,15300,1300000,Retribucions bàsiques personal laboral,53178.12,0,53178.12,36340.69
+,,7810,15300,1300200,Altres retribucions personal laboral,6039.24,0,6039.24,3693.66
+,,7810,15300,1600000,Seguretat Social,53227.56,0,53227.56,54158.16
+,,7810,15300,2100100,Manteniment via pública,242755.58,53800.42,296556,268092.6
+,,7810,15300,2100300,Execució d'obres subsidiàries (guals),12000,0,12000,5445
+,,7810,15300,2101600,Plans d'ocupació,105000,73000,178000,169402.62
+,,7810,15320,6190001,Altres inv de reposicio en infrastr i bens dest us gral,0,2894.21,2894.21,0
+,,7810,15320,2100700,Manteniment pavimentació,500000,21750,521750,467844.03
+,,7810,15330,2101700,Manteniment escales mecàniques,425492.52,-4300,421192.52,367178
+,,7810,17100,6190001,Altres inv de reposicio en infrastr i bens dest us gral,0,80313.22,80313.22,79911.04
+,,7810,24100,2101600,PLANS D'OCUPACIÓ,0,127000,127000,113114.64
+,,7820,13300,1310000,Retribucions personal Laboral temporal,36102.82,0,36102.82,26435.65
+,,7820,13300,1600000,Seguretat Social,11496.6,0,11496.6,10077.15
+,,7820,13300,2100500,Manteniment via pública i edificis,30865.24,-5100,25765.24,19582.51
+,,7820,13300,2100600,Manteniment semàfors,70000,0,70000,69852.67
+,,7830,16500,6190001,Altres inv de reposicio en infrastr i bens dest us gral,0,336989.89,336989.89,317159.21
+,,7830,16500,1200100,Retribució sou base funcionari A2,17848.13,0,17848.13,17848.13
+,,7830,16500,1200600,Triennis,5632.74,0,5632.74,5632.74
+,,7830,16500,1210000,Complement Destí  funcionaris,6556.92,0,6556.92,6556.92
+,,7830,16500,1210100,Complement específic funcionaris,18986.04,0,18986.04,18986.04
+,,7830,16500,1600000,Seguretat Social,13901.76,0,13901.76,13901.76
+,,7830,16500,2100800,Manteniment enllumenat,443000,-9400,433600,396074.67
+,,7830,16500,2130400,Escomeses i legalitat,24566.84,21779.27,46346.11,17747.46
+,,7830,16500,2219909,Material tècnic,17179.41,0,17179.41,29052.12
+,,7830,16501,6190002,Altres inv de reposicio en infrastr i bens dest us gral,0,140000,140000,12116.94
+,,7840,92000,1300100,Hores extraordinàries,0,0,0,3309.95
+,,7840,92000,1610400,Indemnització al personal lab. per jubilacions anticipades.,0,0,0,2139.22
+,,7840,92000,1620900,ALTRES DESPESES SOCIALS.,0,0,0,329.11
+,,7840,92000,1200400,Retribució sou base funcionari C2,10258.73,0,10258.73,10258.73
+,,7840,92000,1200600,Triennis,483.3,0,483.3,483.3
+,,7840,92000,1210000,Complement Destí  funcionaris,3120.84,0,3120.84,3120.84
+,,7840,92000,1210100,Complement específic funcionaris,7628.16,0,7628.16,7628.16
+,,7840,92000,1300000,Retribucions bàsiques personal laboral,124327.34,0,124327.34,98391.21
+,,7840,92000,1300200,Altres retribucions personal laboral,20355.24,0,20355.24,19618.09
+,,7840,92000,1310000,Retribucions personal Laboral temporal,89745.4,0,89745.4,89741
+,,7840,92000,1430000,Despeses per substitució,42705.54,0,42705.54,62962.26
+,,7840,92000,1600000,Seguretat Social,103664.88,0,103664.88,93900.76
+,,7850,17100,6090001,Altres inv. noves en infraestruc i bens destinats ús gral,0,0,0,0
+,,7850,17100,6190001,Altres inv de reposicio en infrastr i bens dest us gral,0,92000,92000,0
+,,7850,17100,6350000,Inversió de reposició mobiliari,0,17420.13,17420.13,17420.13
+,,7850,17100,1200100,Retribució sou base funcionari A2,32885.11,0,32885.11,28318.42
+,,7850,17100,1200600,Triennis,3372.69,0,3372.69,3149.37
+,,7850,17100,1210000,Complement Destí  funcionaris,12675,0,12675,11075.85
+,,7850,17100,1210100,Complement específic funcionaris,27171.72,0,27171.72,23783.5
+,,7850,17100,1600000,Seguretat Social,21652.2,0,21652.2,20223.47
+,,7850,17100,2100900,Manteniment jardins i mobiliari urbà,21474.26,31079.87,52554.13,47397.81
+,,7850,17100,2270000,Neteja,1500000,32500,1532500,1532477.43
+,,7851,16000,2100000,REPARACIÓ INFRAESTRUCTURES I BENS NATURALS,0,181723.86,181723.86,181723.86
+,,7851,16000,2270000,Neteja,117000,26000,143000,142495.75
+,,7900,32300,2120100,Manteniment d'edificis,377566.11,25000,402566.11,340113.07
+,,7900,32302,6320100,"Edificis i altres construccions, inversió de reposició",0,78000,78000,48481.78
+,,7900,92000,6320100,"Edificis i altres construccions, inversió de reposició",0,35207.83,35207.83,30860.71
+,,7900,92000,1200000,Retribució sou base funcionari A1,18208.02,0,18208.02,18208.02
+,,7900,92000,1200100,Retribució sou base funcionari A2,48462.54,0,48462.54,45815.92
+,,7900,92000,1200600,Triennis,3204.36,0,3204.36,3061.8
+,,7900,92000,1210000,Complement Destí  funcionaris,24472.32,0,24472.32,21872.14
+,,7900,92000,1210100,Complement específic funcionaris,53005.8,0,53005.8,47496.83
+,,7900,92000,1300000,Retribucions bàsiques personal laboral,57416.62,0,57416.62,57356.08
+,,7900,92000,1300200,Altres retribucions personal laboral,20570.16,0,20570.16,20551.38
+,,7900,92000,1430000,Despeses per substitució,35634.88,0,35634.88,35166.94
+,,7900,92000,1600000,Seguretat Social,75267.24,0,75267.24,71436.82
+,,7900,92000,2120100,Manteniment d'edificis,200000,105000,305000,207668.93
+,,7900,92000,2130100,Manteniment instal.lacions,542433.89,-19650.98,522782.91,455516.94
+,,7900,92000,2270600,Estudis i treballs tècnics,22463.81,0,22463.81,43939.13
+,,7910,16500,2210000,Energia elèctrica,255000,199916.58,454916.58,636931.25
+,,7910,16501,2210000,Energia elèctrica,170000,0,170000,49760.66
+,,7910,16502,2210000,Energia elèctrica,170000,5165.94,175165.94,85560.25
+,,7910,17100,2210101,Aigua fonts públiques,150000,0,150000,177722.66
+,,7910,32300,2210000,Energia elèctrica,135000,315290.14,450290.14,477824.48
+,,7910,32300,2210100,Aigua,46000,0,46000,118933.74
+,,7910,32300,2210200,Gas,90000,204629.37,294629.37,342799.33
+,,7910,33000,2210000,Energia elèctrica,130000,43043,173043,342824.26
+,,7910,33000,2210100,Aigua,46000,0,46000,51996.27
+,,7910,33000,2210200,Gas,90000,0,90000,26170.65
+,,7910,34000,2210000,Energia elèctrica,130000,16607.79,146607.79,21882.85
+,,7910,34000,2210100,Aigua,46000,0,46000,920.38
+,,7910,34000,2210200,Gas,90000,0,90000,3557.41
+,,7910,34200,2210000,Consum d'energia d'instal·lacions esportives,0,100581.18,100581.18,134842.84
+,,7910,34200,2210200,Consum de gas instal.·lacions esportives,0,38687.84,38687.84,0
+,,7910,43120,2210000,Energia elèctrica,325000,-183529.4,141470.6,151341.98
+,,7910,43120,2210100,Aigua,68500,-33500,35000,53463.84
+,,7910,43120,2210200,Gas,34000,0,34000,5610.75
+,,7910,92000,2210000,Energia elèctrica,325000,88364.59,413364.59,420710.82
+,,7910,92000,2210100,Aigua,68500,0,68500,57209.79
+,,7910,92000,2210200,Gas,34000,0,34000,37479.78
+,,8100,92011,1210300,Altres Complements,0,0,0,0
+,,8100,92011,1610400,Indemnització al personal lab. per jubilacions anticipades.,0,0,0,17004.09
+,,8100,92011,1200000,Retribució sou base funcionari A1,24586.24,0,24586.24,26283.43
+,,8100,92011,1200300,Retribució sou base funcionari C1,51925.25,0,51925.25,44605.36
+,,8100,92011,1200600,Triennis,15535.7,0,15535.7,13095.46
+,,8100,92011,1210000,Complement Destí  funcionaris,29800.8,0,29800.8,27439.3
+,,8100,92011,1210100,Complement específic funcionaris,91041.12,0,91041.12,84641.3
+,,8100,92011,1300000,Retribucions bàsiques personal laboral,6242.08,0,6242.08,1791.78
+,,8100,92011,1300200,Altres retribucions personal laboral,582,0,582,145.5
+,,8100,92011,1600000,Seguretat Social,48745.68,0,48745.68,42722.52
+,,8100,92011,2200100,"Premsa, revistes, llibres i altres publicacions",5500,0,5500,4500.88
+,,8100,92011,2260400,Despeses jurídiques,8000,0,8000,210
+,,8110,92012,1210300,Altres Complements,0,0,0,3955.72
+,,8110,92012,1620900,ALTRES DESPESES SOCIALS.,0,0,0,548.52
+,,8110,92012,1200000,Retribució sou base funcionari A1,126724,0,126724,145027.5
+,,8110,92012,1200300,Retribució sou base funcionari C1,12451.18,0,12451.18,12933.61
+,,8110,92012,1200600,Triennis,13971.02,0,13971.02,14930.08
+,,8110,92012,1210000,Complement Destí funcionaris,53188.68,0,53188.68,58784.43
+,,8110,92012,1210100,Complement específic funcionaris,96255.84,0,96255.84,104059.18
+,,8110,92012,1300000,Retribució bàsiques personal laboral,25043.33,0,25043.33,25043.33
+,,8110,92012,1300200,Altre retribucions personal laboral,2327.76,0,2327.76,2327.76
+,,8110,92012,1600000,Seguretat Social,85230,0,85230,96409.5
+,,8110,92012,2100300,Execució d'obres subsidiàries,18000,-10000,8000,0
+,,8110,92012,2200100,"Premsa, revistes, llibres i altres publicacions",3400,0,3400,6196.04
+,,8110,92012,2260400,Despeses jurídiques,45000,0,45000,50803.58
+,,8110,92012,2269900,Altres despeses,12000,0,12000,4267
+,,8200,93102,1200000,Retribució sou base funcionari A1,24586.24,0,24586.24,24586.24
+,,8200,93102,1200300,Retribució sou base funcionari C1,12168.42,0,12168.42,12168.42
+,,8200,93102,1200400,Retribució sou base funcionari C2,10644.43,0,10644.43,10460.19
+,,8200,93102,1200600,Triennis,7782.74,0,7782.74,7782.74
+,,8200,93102,1210000,Complement Destí  funcionaris,19483.32,0,19483.32,19483.32
+,,8200,93102,1210100,Complement específic funcionaris,59240.64,0,59240.64,59240.64
+,,8200,93102,1210300,Altres complements funcionaris,2412,0,2412,2412
+,,8200,93102,1600000,Seguretat Social,23531.49,0,23531.49,23618.2
+,,8200,93102,2269900,Altres despeses,1000,0,1000,980.71
+,,8200,93102,2270600,Estudis i treballs tècnics,74000,0,74000,61757.31
+,,8210,93103,1210300,Altres Complements,0,0,0,1427.68
+,,8210,93103,1200000,Retribució sou base funcionari A1,17176.89,0,17176.89,17176.89
+,,8210,93103,1200100,Retribució sou base funcionari A2,18248.64,0,18248.64,18555.92
+,,8210,93103,1200300,Retrubució sou base funcionari C1,24217.73,0,24217.73,21523.12
+,,8210,93103,1200600,Triennis,5538.57,0,5538.57,5347.98
+,,8210,93103,1210000,Complement Destí funcionaris,23026.68,0,23026.68,21802.34
+,,8210,93103,1210100,Complement específic funcionaris,46076.16,0,46076.16,44596.9
+,,8210,93103,1600000,Seguretat Social,33652.46,0,33652.46,32354.02
+,,8220,93102,1200000,Retribució sou base funcionari A1,17203.2,0,17203.2,17203.2
+,,8220,93102,1200600,Triennis,511.8,0,511.8,511.8
+,,8220,93102,1210000,Complement Destí funcionaris,6118.08,0,6118.08,6118.08
+,,8220,93102,1210100,Complement específic funcionaris,8721.48,0,8721.48,8721.48
+,,8220,93102,1300000,Retribucions bàsiques personal laboral,63115.96,0,63115.96,63381.93
+,,8220,93102,1300200,Altre retribucions personal laboral,18036.12,0,18036.12,19522.38
+,,8220,93102,1600000,Seguretat Social,30201.48,0,30201.48,30274.3
+,,8300,92502,1200300,Retribució sou base funcionari C1,12202.04,0,12202.04,12240.53
+,,8300,92502,1200600,Triennis,2836.77,0,2836.77,2829.4
+,,8300,92502,1210000,Complement Destí  funcionaris,3660.12,0,3660.12,3649.95
+,,8300,92502,1210100,Complement específic funcionaris,6529.8,0,6529.8,6511.66
+,,8300,92502,1210300,Altres complements funcionaris,1012.92,0,1012.92,1010.11
+,,8300,92502,1300000,Retribucions bàsiques personal laboral,34590.76,0,34590.76,34590.76
+,,8300,92502,1300200,Altres retribucions personal laboral,1320,0,1320,1320
+,,8300,92502,1600000,Seguretat Social,18052.32,0,18052.32,18199.71
+,,8300,92502,2269900,Altres despeses,1785,0,1785,1263
+,,8300,92502,4890100,Altres transferències,850,0,850,0
+,,8400,01101,3100100,Interessos préstec llarg termini,1632554.58,-613053.55,1019501.03,1003348.15
+,,8400,01101,3100200,Interessos préstec curt termini,200000,-179500,20500,25048.16
+,,8400,01101,3530000,Altres despeses financeres (swap BBVA),686802.66,0,686802.66,688766.62
+,,8400,01101,9110100,Amortització préstecs llarg termini. Sector públic,227508.38,0,227508.38,215455.56
+,,8400,01101,9130100,Amortització préstecs llarg termini. Sector privat,6740457.18,45000,6785457.18,6776195.26
+,,8400,15000,4490101,"Transferències a Gramepark, SA per operacions financeres",100000,4520.55,104520.55,104520.55
+,,8400,24100,4490101,"Transferències a Grameimpuls,SA per operacions financeres",100000,0,100000,4471.28
+,,8400,93400,1210300,Altres Complements,0,0,0,2573.66
+,,8400,93400,1620900,ALTRES DESPESES SOCIALS.,0,0,0,548.52
+,,8400,93400,1200000,Retribució sou base funcionari A1,19804.58,0,19804.58,21824.98
+,,8400,93400,1200100,Retribució sou base funcionari A2,15331.07,0,15331.07,15742.7
+,,8400,93400,1200300,Retribució sou base funcionari C1,24049.8,0,24049.8,26371.95
+,,8400,93400,1200600,Triennis,6629.49,0,6629.49,6408.44
+,,8400,93400,1210000,Complement Destí  funcionaris,20568.72,0,20568.72,24558.46
+,,8400,93400,1210100,Complement específic funcionaris,44972.28,0,44972.28,52599.6
+,,8400,93400,1300000,Retribucions bàsiques personal laboral,24207.47,0,24207.47,24207.47
+,,8400,93400,1600000,Seguretat Social,40505.58,0,40505.58,41251.45
+,,8400,93400,2269900,Altres despeses,6000,0,6000,1380.6
+,,8400,93400,2279909,Contractes desenvolupament serveis,7000,0,7000,5100
+,,8400,93400,3110100,Despeses de formalització operacions de crèdit,50000,-50000,0,0
+,,8400,93400,3190000,Altres despeses financeres,2000,0,2000,10009.21
+,,8400,93400,3520000,Interessos de demora,19000,0,19000,9020.06
+,,8410,93201,1620900,ALTRES DESPESES SOCIALS.,0,0,0,329.11
+,,8410,93201,1200300,Retribució sou base funcionari C1,74984.69,0,74984.69,75441.8
+,,8410,93201,1200600,Triennis,12991.26,0,12991.26,12914.6
+,,8410,93201,1210000,Complement Destí  funcionaris,26035.08,0,26035.08,25868.8
+,,8410,93201,1210100,Complement específic funcionaris,55693.68,0,55693.68,55415.43
+,,8410,93201,1210300,Altres complements funcionaris,203.52,0,203.52,202.39
+,,8410,93201,1300000,Retribucions bàsiques personal laboral,8893.18,0,8893.18,7694.93
+,,8410,93201,1300200,Altres retribucions personal laboral,4297.56,0,4297.56,3509.67
+,,8410,93201,1600000,Seguretat Social,46876.08,0,46876.08,46243.15
+,,8410,93201,2269900,Altres despeses,3000,0,3000,6915.69
+,,8410,93201,2270800,Despeses per la gestió de l'ORGT (executiva),650000,0,650000,500602.6
+,,8410,93201,2279909,Contractes desenvolupament serveis,5000,0,5000,0
+,,8410,93201,2279917,Despeses per la gestió de l'ORGT (multes),150000,0,150000,144095.93
+,,8410,93201,2279918,Despeses per la gestió de l'ORGT (voluntària IVTM),75000,0,75000,0
+#TOT.,,,,,,90147957.18,22923997.66,113071954.84,98137935.57
