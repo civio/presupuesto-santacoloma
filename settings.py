@@ -12,7 +12,7 @@ MAIN_ENTITY_NAME = 'Santa Coloma de Gramenet'
 BUDGET_LOADER = 'SantacolomaBudgetLoader'
 
 # Theme Payments Loader class name. Default: 'PaymentsLoader'
-PAYMENTS_LOADER = 'SantacolomaPaymentsLoader'
+# PAYMENTS_LOADER = 'SantacolomaPaymentsLoader'
 
 
 # Show / hide Settings
