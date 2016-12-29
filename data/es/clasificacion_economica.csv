@@ -524,10 +524,12 @@ G,9,4,1,Devolución de fianzas
 #
 # Conceptos específicos de Santa Coloma de Gramenet
 #
+I,4,1,0,"410"
 I,4,7,0,"De empresas privadas"
 I,4,8,0,"De famílies e institucions sense fins de lucre"
 I,5,1,0,"510"
 I,5,2,0,"Intereses por depósitos en bancos y cajas"
+I,5,9,0,"590"
 I,6,1,0,"610"
 G,4,1,1,"A organismos autónomos de la entidad local"
 G,4,8,0,"A familias e instituciones sin fines de lucro"
