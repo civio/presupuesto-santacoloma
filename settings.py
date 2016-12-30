@@ -65,8 +65,8 @@ BUDGET_LOADER = 'SantacolomaBudgetLoader'
 # grouping by uid?. Default: True. (i.e. group by uid, show all elements)
 # BREAKDOWN_BY_UID = False
 
-# Include financial income/expenditures in overview and global policy breakdowns. Default: True.
-# INCLUDE_FINANCIAL_CHAPTERS_IN_BREAKDOWNS = False
+# Include financial income/expenditures in overview and global policy breakdowns. Default: False.
+INCLUDE_FINANCIAL_CHAPTERS_IN_BREAKDOWNS = True
 
 # Does the data includes a fifth functional classification level, subprogrammes?. Default: False
 # USE_SUBPROGRAMMES = True
