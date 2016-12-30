@@ -9,12 +9,22 @@ import re
 class SantacolomaBudgetLoader(SimpleBudgetLoader):
 
     def parse_item(self, filename, line):
+        programme_mapping = {
+            # old programme: new programme
+            '1550': '1530',     # Mantenimiento
+        }
+
         is_expense = (filename.find('gastos.csv')!=-1)
         is_actual = (filename.find('/ejecucion_')!=-1)
         if is_expense:
-            # We got 3- or 4- digit functional codes as input, so add a trailing zero
-            fc_code = line[3].ljust(4, '0')
+            # Work at the 'group of programmes' level, at least for now
+            fc_code = line[3][0:3].ljust(4, '0')
             ec_code = line[4][:5]   # Ignore additional digits after the fifth
+
+            # For years before 2015 we check whether we need to amend the programme code
+            year = re.search('municipio/(\d+)/', filename).group(1)
+            if int(year) < 2015:
+                fc_code = programme_mapping.get(fc_code, fc_code)
 
             return {
                 'is_expense': True,
