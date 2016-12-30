@@ -147,7 +147,7 @@ OVERVIEW_INCOME_NODES = [
                               'label.es': 'Impuesto sobre vehículos de tracción mecánica',
                               'link_id': '11'
                             },
-                            '13', '42', '45', '30', '33'
+                            '13', '42', '45', '33'
                         ]
 
 
