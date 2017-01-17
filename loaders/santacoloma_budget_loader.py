@@ -33,7 +33,7 @@ class SantacolomaBudgetLoader(SimpleBudgetLoader):
                 'ec_code': ec_code[:-2],        # First three digits (everything but last two)
                 'ic_code': '000',
                 'item_number': ec_code[-2:],    # Last two digits
-                'description': line[5],
+                'description': self._spanish_titlecase(line[5]),
                 'amount': self._parse_amount(line[9 if is_actual else 6])
             }
 
@@ -46,6 +46,6 @@ class SantacolomaBudgetLoader(SimpleBudgetLoader):
                 'ec_code': ec_code[:3],         # First three digits
                 'ic_code': '000',               # All income goes to the root node
                 'item_number': ec_code[-2:],    # Last two digits
-                'description': line[4],
+                'description': self._spanish_titlecase(line[4]),
                 'amount': self._parse_amount(line[8 if is_actual else 5])
             }
