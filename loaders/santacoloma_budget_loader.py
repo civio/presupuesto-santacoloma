@@ -347,9 +347,6 @@ class SantacolomaBudgetLoader(SimpleBudgetLoader):
                 ap_code = ic_code + fc_code + ec_code              
                 fc_code = programme_mapping.get(ap_code, fc_code)
 
-            # Work at the 'group of programmes' level, at least for now
-            fc_code = fc_code[:3].ljust(4, '0')
-
             # Ignore additional digits after the fifth
             ec_code = ec_code[:5]
 
