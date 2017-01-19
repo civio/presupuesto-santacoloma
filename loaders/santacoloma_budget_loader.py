@@ -248,6 +248,9 @@ class SantacolomaBudgetLoader(SimpleBudgetLoader):
             # Ignore additional digits after the fifth
             ec_code = ec_code[:5]
 
+            # Fake subprogrammes
+            fc_code = fc_code[:3] + '0' + fc_code[-2:]
+
             return {
                 'is_expense': True,
                 'is_actual': is_actual,
