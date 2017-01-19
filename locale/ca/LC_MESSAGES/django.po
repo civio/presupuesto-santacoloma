@@ -58,3 +58,91 @@ msgstr "D’on vénen els ingressos? En què i per a què és la despesa de l’
 #: templates/welcome/index.html:42
 msgid "Para que tengas una idea general de los ingresos y gastos del Gobierno de Aragón"
 msgstr "Perquè et facis una idea general dels ingressos i les despeses de l'Ajuntament de Santa Coloma de Gramenet"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Piso de hasta"
+msgstr "Pis de fins a"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Vivienda unifamiliar"
+msgstr "Habitatge unifamiliar"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Bonificación"
+msgstr "Bonificació"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Vivienda de protección oficial (3 primeros años)"
+msgstr "Habitatge protegit (3 primers anys)"
+        
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Vivienda en las que se han instalado sistemas de aprovechamiento térmico o eléctrico de energía (3 primeros años)"
+msgstr "Habitatge en les quals s'han instal·lat sistemes d'aprofitament tèrmic o elèctric d'energia (3 primers anys)"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Subvención"
+msgstr "Subvenció"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Ninguna"
+msgstr "Cap"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Familia monoparental"
+msgstr "Família monoparental"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Personas mayores que viven solas"
+msgstr "Persones més grans que viuen soles"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Parados"
+msgstr "Aturats"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Coche muy pequeño (menos de 8 caballos fiscales)"
+msgstr "Cotxe molt petit (menys de 8 cavalls fiscals)"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Coche pequeño (entre 8 y 12 caballos fiscales)"
+msgstr "Cotxe petit (entre 8 i 12 cavalls fiscals)"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Coche mediano (entre 12 y 16 caballos fiscales)"
+msgstr "Cotxe mitjà (entre 12 i 16 cavalls fiscals)"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Coche grande (entre 16 y 20 caballos fiscales)"
+msgstr "Cotxe gran (entre 16 i 20 cavalls fiscals)"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Coche muy grande (más de 20 caballos fiscales)"
+msgstr "Cotxe molt gran (més de 20 cavalls fiscals)"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Bonificación vehículo"
+msgstr "Bonificació vehicle"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Vehículo histórico o con una antigüedad mínima de 25 años contados a partir de la fecha de su fabricación"
+msgstr "Vehicle històric o amb una antiguitat mínima de 25 anys comptats a partir de la data de la seva fabricació"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Vehículo clasificado en el Registro de Vehículos de la Dirección General de Tránsito como de \"cero emisiones\" o \"eco\""
+msgstr "Vehicle classificat en el Registre de Vehicles de la Direcció general de Trànsit com de \"zero emissions\" o \"eco\""
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "¿Dónde está situado?"
+msgstr "On està situat?"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Calle de primera categoría"
+msgstr "Carrer de primera categoría"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Calle de segunda categoría"
+msgstr "Carrer de segona categoría"
+
+#: templates/tax_receipt/tax_receipt_form.html
+msgid "Calle de tercera categoría"
+msgstr "Carrer de tercera categoría"
