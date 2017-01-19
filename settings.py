@@ -125,7 +125,7 @@ MAIN_ENTITY_LEGAL_URL   = 'http://www.gramenet.cat/popups/avis-legal/'
 # ----------------------
 
 # Programmes to feature as example in home page.
-FEATURED_PROGRAMMES = ['16300', '17100', '33701', '24100', '23105']
+FEATURED_PROGRAMMES = ['1630', '1710', '3370', '2410', '2310']
 
 # Number of programmes to feature in home page. Default: 3
 # NUMBER_OF_FEATURED_PROGRAMMES = 3
