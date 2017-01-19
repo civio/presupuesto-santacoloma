@@ -2,416 +2,416 @@
 #
 # Áreas de gasto y Políticas, definidas en la Orden HAP/419/2014 y comunes a todas las EELL.
 # Ver http://www.boe.es/diario_boe/txt.php?id=BOE-A-2014-2922
-0,,,,Deuda pública
-0,1,,,Deuda pública
-1,,,,Servicios públicos básicos
-1,3,,,Seguridad y movilidad ciudadana
-1,5,,,Vivienda y urbanismo
-1,6,,,Bienestar comunitario
-1,7,,,Medio ambiente
-2,,,,Actuaciones de protección y promoción social
-2,1,,,Pensiones
-2,2,,,Otras prestaciones económicas a favor de empleados
-2,3,,,Servicios sociales y promoción social
-2,4,,,Fomento del empleo
-3,,,,Produccion de bienes públicos de caracter preferente
-3,1,,,Sanidad
-3,2,,,Educación
-3,3,,,Cultura
-3,4,,,Deporte
-4,,,,Actuaciones de caracter económico
-4,1,,,Agricultura ganadería y pesca
-4,2,,,Industria y energía
-4,3,,,"Comercio, turismo y pequeñas y medianas empresas"
-4,4,,,Transporte público
-4,5,,,Infraestructuras
-4,6,,,"Investigación, desarrollo e innovación"
-4,9,,,Otras actuaciones de caracter económico
-9,,,,Actuaciones de caracter general
-9,1,,,Órganos de gobierno
-9,2,,,Servicios de carácter general
-9,3,,,Administración financiera y tributaria
-9,4,,,Transferencias a otras administraciónes públicas
+0,,,,,Deuda pública
+0,1,,,,Deuda pública
+1,,,,,Servicios públicos básicos
+1,3,,,,Seguridad y movilidad ciudadana
+1,5,,,,Vivienda y urbanismo
+1,6,,,,Bienestar comunitario
+1,7,,,,Medio ambiente
+2,,,,,Actuaciones de protección y promoción social
+2,1,,,,Pensiones
+2,2,,,,Otras prestaciones económicas a favor de empleados
+2,3,,,,Servicios sociales y promoción social
+2,4,,,,Fomento del empleo
+3,,,,,Produccion de bienes públicos de caracter preferente
+3,1,,,,Sanidad
+3,2,,,,Educación
+3,3,,,,Cultura
+3,4,,,,Deporte
+4,,,,,Actuaciones de caracter económico
+4,1,,,,Agricultura ganadería y pesca
+4,2,,,,Industria y energía
+4,3,,,,"Comercio, turismo y pequeñas y medianas empresas"
+4,4,,,,Transporte público
+4,5,,,,Infraestructuras
+4,6,,,,"Investigación, desarrollo e innovación"
+4,9,,,,Otras actuaciones de caracter económico
+9,,,,,Actuaciones de caracter general
+9,1,,,,Órganos de gobierno
+9,2,,,,Servicios de carácter general
+9,3,,,,Administración financiera y tributaria
+9,4,,,,Transferencias a otras administraciónes públicas
 #
 # Programas específicos de Santa Coloma de Gramenet
 #
-0,1,1,,Deuda pública
-0,1,1,0,Deuda pública
-0,1,1,01,Deuda pública
-1,3,0,,Administración general de la seguridad y protección civil
-1,3,0,0,Administración general de la seguridad y protección civil
-1,3,0,00,Administración general de la seguridad y protección civil
-1,3,2,,Seguridad y orden público
-1,3,2,00,Seguridad y orden público
-1,3,3,,Ordenación del tráfico y del estacionamiento
-1,3,3,0,Ordenación del tráfico y del estacionamiento
-1,3,3,00,Ordenación de tráfico y del estacionamiento
-1,3,3,01,Arrastre de vehículos
-1,3,4,,Movilidad urbana
-1,3,4,0,Movilidad urbana
-1,3,4,00,Movilidad urbana
-1,3,5,,Protección civil
-1,3,5,0,Protección civil
-1,3,5,00,Protección civil
-1,3,6,,Servicio de prevención y extinción de incendios
-1,3,6,0,Servicio de prevención y extinción de incendios
-1,3,6,00,Servicio de prevención y extinción de incendios
-1,5,0,,Administración general de vivienda y urbanismo
-1,5,0,0,Administración general de vivienda y urbanismo
-1,5,0,00,Administración general de vivienda y urbanismo
-1,5,0,01,Personal recursos y prestaciones area de urbanismo
-1,5,0,02,Acción territorial
-1,5,0,03,Obras publicas
-1,5,1,,Urbanismo
-1,5,1,0,"Urbanismo. Planeamiento, gestión, ejecución y disciplina urbanística"
-1,5,1,00,Urbanismo
-1,5,1,02,-
-1,5,1,1,Urbanismo: Disciplina urbanística
-1,5,1,10,Urbanismo: Disciplina urbanística
-1,5,1,2,Urbanismo: Gestión urbanística
-1,5,1,20,Urbanismo: Gestión urbanística
-1,5,2,,Vivienda
-1,5,2,1,Promoción y gestión de vivienda de protección pública
-1,5,2,10,Promoción y gestión de vivienda de protección pública
-1,5,2,2,Conservación y rehabilitación de la edificación
-1,5,2,20,Rehabilitación viviendas
-1,5,3,,Vías públicas
-1,5,3,0,Mantenimiento vía publica
-1,5,3,00,Mantenimiento vía publica
-1,5,3,1,Acceso a los núcleos de población
-1,5,3,10,Acceso a los núcleos de población
-1,5,3,2,Pavimentación de vías públicas
-1,5,3,20,Pavimentación de vías públicas
-1,5,3,3,Mantenimiento escaleras mecánicas
-1,5,3,30,Mantenimiento escaleras mecánicas
-1,6,0,,Alcantarillado
-1,6,0,0,Alcantarillado
-1,6,0,00,Alcantarillado
-1,6,1,,Abastecimiento domiciliario de agua
-1,6,2,,"Recogida, gestión y tratamiento de residuos"
-1,6,2,1,Recogida de residuos
-1,6,2,11,Recogida de residuos voluminosos
-1,6,2,12,Recogida de residuos selectiva
-1,6,2,2,Gestión de residuos sólidos urbanos
-1,6,2,21,Puntos limpios y puntos verdes
-1,6,2,3,Tratamiento de residuos
-1,6,3,,Limpieza viaria
-1,6,3,0,Limpieza viaria
-1,6,3,00,Limpieza viaria
-1,6,3,01,Limpieza viaria vertical
-1,6,3,02,Limpieza de accesos mecánicos
-1,6,4,,Cementerio y servicios funerarios
-1,6,5,,Alumbrado público
-1,6,5,0,Alumbrado público
-1,6,5,00,Alumbrado público
-1,6,5,01,Alumbrado público. Semáforos
-1,6,5,02,Alumbrado público. Escaleras mecánicas
-1,7,0,,Administración general del medio ambiente
-1,7,0,00,Administración general del medio ambiente
-1,7,1,,Parques y jardines
-1,7,1,00,Parques y jardines
-1,7,2,,Protección y mejora del medio ambiente
-1,7,2,00,Protección y mejora del medio ambiente
-1,7,2,1,"Protección contra la contaminación acústica, lumínica y atmosférica"
-1,7,2,2,Educación y sensibilización ambiental
-1,7,2,20,Educación y sensibilización ambiental
-1,7,2,3,Medio natural
-1,7,2,30,Medio natural
-1,7,9,,Otras actuaciones relacionadas con el medio ambiente
-2,1,1,,Pensiones
-2,2,1,,Otras prestaciones económicas a favor de empleados
-2,3,0,00,Servicios sociales y promoción social
-2,3,1,,Asistencia social primaria
-2,3,1,0,Asistencia social primaria
-2,3,1,00,Servicios sociales y promoción social-Administración general
-2,3,1,01,Servicio social básico-SAD (ficha 1)
-2,3,1,02,Servicio social básico-Servicio de teleasistencia
-2,3,1,03,Arreglos de viviendas
-2,3,1,04,Atención social a disminuidos
-2,3,1,05,Atención social a las familias
-2,3,1,06,Promoción actividades servicios sociales
-2,3,1,07,Atención social drogodependencias
-2,3,1,08,Personal vinculado al contrato programa servicios sociales
-2,3,1,09,Solidaridad y cooperación
-2,3,1,1,Asistencia social primaria
-2,3,1,10,Transporte personas mayores 62 años
-2,3,1,11,Atención a las personas con discapacidad
-2,3,1,12,Comedor social
-2,3,1,13,Apoyo y promoción social mujeres
-2,3,1,14,*
-2,3,1,15,Fondo de ayudas sociales
-2,3,1,16,Atención a las personas vulnerables por razón de la edad
-2,3,1,17,CIRD
-2,3,1,18,Plan local contra la exclusión social
-2,3,1,19,Programa de ayudas para personas mayores de 65 años
-2,3,1,2,Asistencia social primaria
-2,3,1,20,Programa de ayudas a las familias monoparentales
-2,3,1,21,Mediación
-2,3,1,22,Programa de ayudas a parados
-2,3,1,23,Soporte necesidades alimenticias centros de verano
-2,4,1,,Fomento del empleo
-2,4,1,0,Fomento del empleo
-2,4,1,00,Fomento del empleo
-2,4,1,01,Fomento del empleo-Gestión subvenciones
-3,1,1,,Protección de la salubridad pública
-3,1,1,0,Protección de la salubridad pública
-3,1,1,00,Servicio salud y consumo-Administración general
-3,1,1,01,Promoción y prevención salud
-3,1,1,02,Vigilancia y salud publica establecimientos comerciales
-3,1,1,03,Servicio salud y consumo-Zoonosis
-3,1,2,,"Hospitales, servicios asistenciales y centros de salud"
-3,1,2,0,"Hospitales, servicios asistenciales y centros de salud"
-3,1,2,00,"Hospitales, servicios asistenciales y centros de salud"
-3,2,0,,Administración general de educación
-3,2,0,0,Administración general de educación
-3,2,0,00,Administración general de educación
-3,2,0,01,Planificación educativa
-3,2,1,,Creación de centros educación preescolar y primaria
-3,2,1,0,Creación de centros docentes de enseñanza infantil y primaria
-3,2,1,00,Creación de centros docentes de enseñanza infantil y primaria
-3,2,2,,Creación de centros enseñanza secundaria
-3,2,2,0,Creación de centros enseñanza secundaria
-3,2,2,00,Creación de centros enseñanza secundaria
-3,2,3,,Funcionamiento de centros de enseñanza preescolar y primaria
-3,2,3,0,Funcionamiento de centros de enseñanza preescolar y primaria
-3,2,3,00,Administración general centros docentes primaria
-3,2,3,01,Gestión guarderías municipales
-3,2,3,02,"Conservación, mantenimiento y vigilancia centros públicos educ."
-3,2,4,,Funcionamiento de centros docentes de enseñanza secundaria
-3,2,4,0,Funcionamiento de centros docentes de enseñanza secundaria
-3,2,4,03,Funcionamiento de centros docentes de enseñanza secundaria
-3,2,4,06,Programas y actuaciones de acogida lingüística
-3,2,5,,Vigilancia del cumplimiento de la escolaridad obligatoria
-3,2,6,,Servicios complementarios de educación
-3,2,6,0,Servicios complementarios de educación
-3,2,6,00,Otras actividades educativas complementarias
-3,2,6,01,Centros infantiles
-3,2,6,02,Transporte escolar
-3,2,6,03,Casal del maestro
-3,2,6,04,Programa reutilización libros de texto
-3,2,6,05,Programa de ayudas adquisición ordenadores eso
-3,2,6,06,Patronato municipal de la música
-3,2,6,07,Otras actividades educativas complementarias-Curriculum
-3,2,6,08,Plan educativo entorno
-3,2,6,09,Servicios complementarios educación. Universidades
-3,2,6,1,Servicios complementarios educación
-3,2,6,10,Escuelas oficiales de idiomas
-3,2,7,,Fomento de la convivencia ciudadana
-3,2,7,0,Fomento de la convivencia ciudadana
-3,2,7,00,Fomento de la convivencia ciudadana
-3,2,7,01,"32701"
-3,2,7,02,"32702"
-3,3,0,,Administración general de cultura
-3,3,0,0,Administración general de cultura
-3,3,0,00,Administración general de cultura
-3,3,2,,Bibliotecas y archivos
-3,3,2,1,Bibliotecas públicas
-3,3,2,10,Gastos comunes bibiliotecas
-3,3,2,11,Biblioteca Central
-3,3,2,12,Biblioteca Can Peixauet
-3,3,2,13,Biblioteca Singuerlin
-3,3,2,14,Biblioteca Hondo
-3,3,2,2,Archivos
-3,3,3,,Equipamientos culturales y museos
-3,3,3,0,Equipamientos culturales y museos
-3,3,3,01,Museo Torre Balldovina
-3,3,3,02,Centro de arte contemporáneo Can Sisteré
-3,3,4,,Promoción cultural
-3,3,4,0,Promoción cultural
-3,3,4,00,Juventud
-3,3,4,01,Auditorio Can Roig i Torres
-3,3,4,02,Teatro Sagarra
-3,3,4,03,Programa musical para jóvenes
-3,3,4,04,Centro de recursos para jóvenes Reloj XXI
-3,3,4,05,Centro de recursos para jóvenes Mas Fonollar
-3,3,4,06,Servicio PIDCES
-3,3,4,07,Programa de juventud
-3,3,6,,Protección y gestión del patrimonio histórico-artístico
-3,3,6,00,Protección y gestión del patrimonio histórico-artístico
-3,3,7,,Equipo de ocupación del tiempo libre
-3,3,7,0,Equipo de ocupación del tiempo libre
-3,3,7,01,Centros cívicos y centros
-3,3,7,02,Empleo tiempo libre infancia y juventud
-3,3,7,05,"33705"
-3,3,8,,Fiestas populares
-3,3,8,0,Fiestas populares
-3,3,8,01,Fiestas populares y celebraciones
-3,3,8,02,Ciclo festivo
-3,4,0,,Administración general de deportes
-3,4,0,0,Administración general de deportes
-3,4,0,00,Administración general de deportes
-3,4,1,,Promoción y fomento del deporte
-3,4,1,0,Promoción y fomento del deporte
-3,4,1,00,Promoción y fomento del deporte
-3,4,2,,Instalaciones deportivas
-3,4,2,0,Instalaciones deportivas
-3,4,2,00,Instalaciones deportivas
-3,4,2,01,Instalaciones deportivas
-3,4,2,02,Pista polideportiva Pompeu Fabra en Can Franquesa
-3,4,2,03,Pista polideportiva en la calle Milton barrio de la Guinardera
-3,8,8,02,"38802"
-4,1,0,,"Administración general de agricultura, ganadería y pesca"
-4,1,2,,Mejora de las estructuras agropecuarias y los sistesmes productivos
-4,1,4,,Desarrollo rural
-4,1,5,,Protección y desarrollo de los recursos pesqueros
-4,1,9,,"Otras actuaciones en agricultura, ganadería y pesca"
-4,2,0,,Administración general de Industria y energía
-4,2,2,,Industria
-4,2,3,,Minería
-4,2,5,,Energía
-4,3,0,,"Administración general de comercio, turismo y pymes"
-4,3,0,0,"Administración general de comercio, turismo y pymes"
-4,3,0,00,"Administración general de comercio, turismo y pymes"
-4,3,1,,Comercio
-4,3,1,0,Comercio
-4,3,1,00,Comercio
-4,3,1,1,Ferias
-4,3,1,10,Comercio
-4,3,1,2,"Mercados, abastecimientos y palcos"
-4,3,1,20,Mercados
-4,3,1,3,Comercio ambulante
-4,3,1,30,Comercio ambulante
-4,3,2,,Información y promoción turística
-4,3,2,0,Información y promoción turística
-4,3,2,00,Información y promoción turística
-4,3,3,,Desarrollo empresarial
-4,3,3,0,Desarrollo empresarial
-4,3,3,00,Desarrollo empresarial
-4,3,9,,Otras actuaciones sectoriales
-4,4,0,,Administración general del transporte
-4,4,1,,Transporte de viajeros
-4,4,1,1,Transporte colectivo urbano de viajeros
-4,4,1,2,Otro transporte de viajeros
-4,4,2,,Infraestructuras del transporte
-4,4,3,,Transporte de mercancías
-4,5,0,,Administración general de infraestructuras
-4,5,2,,Recursos hidráulicos
-4,5,3,,Carreteras
-4,5,4,,Caminos vecinales
-4,5,9,,Otros infraestructuras
-4,5,9,00,Proyectos y obras vía pública
-4,6,2,,Investigación y estudios relacionados con los servicios públicos
-4,6,3,,"Investigación científica, técnica y aplicada"
-4,9,1,,Sociedad de la información
-4,9,1,0,Sociedad de la información
-4,9,1,00,Sociedad de la información
-4,9,1,01,Localret
-4,9,2,,Gestión del conocimiento
-4,9,3,,Protección de consumidores y usuarios
-4,9,3,0,Protección de consumidores y usuarios
-4,9,3,01,OMIC
-4,9,3,02,Actividades formativas sobre consumismo
-9,1,2,,Órganos de gobierno
-9,1,2,0,Órganos de gobierno
-9,1,2,01,Órganos de gobierno
-9,1,2,02,Soporte administrativo y de asesoría a órganos de gobierno
-9,1,2,03,Protocolo y relaciones institucionales
-9,1,2,04,Transferencias a grupos políticos
-9,2,0,,Administración general
-9,2,0,0,Administración general
-9,2,0,00,Administración general. Edificios de administración general
-9,2,0,01,Gestión general área alcaldía
-9,2,0,02,Planificación y organización
-9,2,0,03,Prensa y comunicación
-9,2,0,04,Gestión general área asuntos generales
-9,2,0,05,Compras centralizadas
-9,2,0,06,Archivo
-9,2,0,07,Conserjería
-9,2,0,08,Comunicaciones internas-Informática
-9,2,0,09,Contratación
-9,2,0,1,Administración general
-9,2,0,10,Telefónica y comunicaciones
-9,2,0,11,Secretaría general
-9,2,0,12,Servicios jurídicos
-9,2,0,13,Recursos humanos
-9,2,0,14,Oficina de atención al empleado
-9,2,0,15,Selección y desarrollo-RRHH
-9,2,0,17,Prevención
-9,2,0,18,Equipos procesos información
-9,2,0,19,Adquisición de edificios de administración general
-9,2,0,2,Administración general
-9,2,0,20,Gestión general servicio de compras y gestión patrimonial
-9,2,0,21,Mobiliario
-9,2,0,22,Personal adscrito a diversas áreas
-9,2,0,23,Personal adscrito al servicio RRPP de SSPP
-9,2,0,24,Personal servicios urbanos
-9,2,0,25,"92025"
-9,2,2,,Coordinación y organización institucional entidades locales
-9,2,2,0,Coordinación y organización institucional entidades locales
-9,2,2,00,Coordinación y organización institucional entidades locales
-9,2,3,,Información básica y estadística
-9,2,3,0,Información básica y estadística
-9,2,3,00,Información básica y estadística
-9,2,3,1,Gestión del padrón municipal de habitantes
-9,2,3,10,Gestión del padrón municipal de habitantes
-9,2,4,,Participación ciudadana
-9,2,4,0,Participación ciudadana
-9,2,4,00,Participación ciudadana
-9,2,4,01,Procesos electorales
-9,2,4,02,Participación ciudadana-Exposiciones
-9,2,4,03,Participación ciudadana-Dinamización de procesos
-9,2,4,04,Participación ciudadana-Proceso participativo
-9,2,4,05,Participación ciudadana-Concejalía distritos
-9,2,5,,Atención a los ciudadanos
-9,2,5,0,Atención a los ciudadanos
-9,2,5,01,Oficina de atención al ciudadano
-9,2,5,02,Defensor del ciudadano
-9,2,6,,Comunicaciones internas
-9,2,9,,Imprevistos y funciones no clasificadas
-9,2,9,0,Imprevistos y funciones no clasificadas
-9,2,9,01,Fondo contingencia LOEPSF 2/2012
-9,3,1,,Política económica y fiscal
-9,3,1,0,Política económica y fiscal
-9,3,1,00,Política económica y fiscal
-9,3,1,01,Gestión general del área de RREE
-9,3,1,02,Intervención
-9,3,1,03,Contabilidad
-9,3,2,,Gestión del sistema tributario
-9,3,2,0,Gestión del sistema tributario
-9,3,2,01,Recaudación
-9,3,2,02,Gestión tributaria
-9,3,3,,Gestión del patrimonio
-9,3,3,0,Gestión del patrimonio
-9,3,3,00,Gestión del patrimonio
-9,3,3,01,"IFS, rehabilitación centro cívico Oliveres"
-9,3,3,02,"IFS, ampliación instalación térmica guardería Oliveres"
-9,3,4,,Gestión de la deuda y de la tesorería
-9,3,4,0,Gestión de la deuda y de la tesorería
-9,3,4,00,Gestión de la deuda y la tesorería
-9,4,1,,Transferencias a comunidades autónomas
-9,4,2,,Transferencias a entidades locales territoriales
-9,4,3,,Transferencias a otras entidades locales
-9,4,3,0,Transferencias a otras entidades locales
-9,4,3,01,Transferencias a otras entidades locales
-9,4,4,,Transferencias a la administración general del estado
+0,1,1,,,Deuda pública
+0,1,1,0,,Deuda pública
+0,1,1,0,01,Deuda pública
+1,3,0,,,Administración general de la seguridad y protección civil
+1,3,0,0,,Administración general de la seguridad y protección civil
+1,3,0,0,00,Administración general de la seguridad y protección civil
+1,3,2,,,Seguridad y orden público
+1,3,2,0,00,Seguridad y orden público
+1,3,3,,,Ordenación del tráfico y del estacionamiento
+1,3,3,0,,Ordenación del tráfico y del estacionamiento
+1,3,3,0,00,Ordenación de tráfico y del estacionamiento
+1,3,3,0,01,Arrastre de vehículos
+1,3,4,,,Movilidad urbana
+1,3,4,0,,Movilidad urbana
+1,3,4,0,00,Movilidad urbana
+1,3,5,,,Protección civil
+1,3,5,0,,Protección civil
+1,3,5,0,00,Protección civil
+1,3,6,,,Servicio de prevención y extinción de incendios
+1,3,6,0,,Servicio de prevención y extinción de incendios
+1,3,6,0,00,Servicio de prevención y extinción de incendios
+1,5,0,,,Administración general de vivienda y urbanismo
+1,5,0,0,,Administración general de vivienda y urbanismo
+1,5,0,0,00,Administración general de vivienda y urbanismo
+1,5,0,0,01,Personal recursos y prestaciones area de urbanismo
+1,5,0,0,02,Acción territorial
+1,5,0,0,03,Obras publicas
+1,5,1,,,Urbanismo
+1,5,1,0,,"Urbanismo. Planeamiento, gestión, ejecución y disciplina urbanística"
+1,5,1,0,00,Urbanismo
+1,5,1,0,02,-
+1,5,1,1,,Urbanismo: Disciplina urbanística
+1,5,1,0,10,Urbanismo: Disciplina urbanística
+1,5,1,2,,Urbanismo: Gestión urbanística
+1,5,1,0,20,Urbanismo: Gestión urbanística
+1,5,2,,,Vivienda
+1,5,2,1,,Promoción y gestión de vivienda de protección pública
+1,5,2,0,10,Promoción y gestión de vivienda de protección pública
+1,5,2,2,,Conservación y rehabilitación de la edificación
+1,5,2,0,20,Rehabilitación viviendas
+1,5,3,,,Vías públicas
+1,5,3,0,,Mantenimiento vía publica
+1,5,3,0,00,Mantenimiento vía publica
+1,5,3,1,,Acceso a los núcleos de población
+1,5,3,0,10,Acceso a los núcleos de población
+1,5,3,2,,Pavimentación de vías públicas
+1,5,3,0,20,Pavimentación de vías públicas
+1,5,3,3,,Mantenimiento escaleras mecánicas
+1,5,3,0,30,Mantenimiento escaleras mecánicas
+1,6,0,,,Alcantarillado
+1,6,0,0,,Alcantarillado
+1,6,0,0,00,Alcantarillado
+1,6,1,,,Abastecimiento domiciliario de agua
+1,6,2,,,"Recogida, gestión y tratamiento de residuos"
+1,6,2,1,,Recogida de residuos
+1,6,2,0,11,Recogida de residuos voluminosos
+1,6,2,0,12,Recogida de residuos selectiva
+1,6,2,2,,Gestión de residuos sólidos urbanos
+1,6,2,0,21,Puntos limpios y puntos verdes
+1,6,2,3,,Tratamiento de residuos
+1,6,3,,,Limpieza viaria
+1,6,3,0,,Limpieza viaria
+1,6,3,0,00,Limpieza viaria
+1,6,3,0,01,Limpieza viaria vertical
+1,6,3,0,02,Limpieza de accesos mecánicos
+1,6,4,,,Cementerio y servicios funerarios
+1,6,5,,,Alumbrado público
+1,6,5,0,,Alumbrado público
+1,6,5,0,00,Alumbrado público
+1,6,5,0,01,Alumbrado público. Semáforos
+1,6,5,0,02,Alumbrado público. Escaleras mecánicas
+1,7,0,,,Administración general del medio ambiente
+1,7,0,0,00,Administración general del medio ambiente
+1,7,1,,,Parques y jardines
+1,7,1,0,00,Parques y jardines
+1,7,2,,,Protección y mejora del medio ambiente
+1,7,2,0,00,Protección y mejora del medio ambiente
+1,7,2,1,,"Protección contra la contaminación acústica, lumínica y atmosférica"
+1,7,2,2,,Educación y sensibilización ambiental
+1,7,2,0,20,Educación y sensibilización ambiental
+1,7,2,3,,Medio natural
+1,7,2,0,30,Medio natural
+1,7,9,,,Otras actuaciones relacionadas con el medio ambiente
+2,1,1,,,Pensiones
+2,2,1,,,Otras prestaciones económicas a favor de empleados
+2,3,0,0,00,Servicios sociales y promoción social
+2,3,1,,,Asistencia social primaria
+2,3,1,0,,Asistencia social primaria
+2,3,1,0,00,Servicios sociales y promoción social-Administración general
+2,3,1,0,01,Servicio social básico-SAD (ficha 1)
+2,3,1,0,02,Servicio social básico-Servicio de teleasistencia
+2,3,1,0,03,Arreglos de viviendas
+2,3,1,0,04,Atención social a disminuidos
+2,3,1,0,05,Atención social a las familias
+2,3,1,0,06,Promoción actividades servicios sociales
+2,3,1,0,07,Atención social drogodependencias
+2,3,1,0,08,Personal vinculado al contrato programa servicios sociales
+2,3,1,0,09,Solidaridad y cooperación
+2,3,1,1,,Asistencia social primaria
+2,3,1,0,10,Transporte personas mayores 62 años
+2,3,1,0,11,Atención a las personas con discapacidad
+2,3,1,0,12,Comedor social
+2,3,1,0,13,Apoyo y promoción social mujeres
+2,3,1,0,14,*
+2,3,1,0,15,Fondo de ayudas sociales
+2,3,1,0,16,Atención a las personas vulnerables por razón de la edad
+2,3,1,0,17,CIRD
+2,3,1,0,18,Plan local contra la exclusión social
+2,3,1,0,19,Programa de ayudas para personas mayores de 65 años
+2,3,1,2,,Asistencia social primaria
+2,3,1,0,20,Programa de ayudas a las familias monoparentales
+2,3,1,0,21,Mediación
+2,3,1,0,22,Programa de ayudas a parados
+2,3,1,0,23,Soporte necesidades alimenticias centros de verano
+2,4,1,,,Fomento del empleo
+2,4,1,0,,Fomento del empleo
+2,4,1,0,00,Fomento del empleo
+2,4,1,0,01,Fomento del empleo-Gestión subvenciones
+3,1,1,,,Protección de la salubridad pública
+3,1,1,0,,Protección de la salubridad pública
+3,1,1,0,00,Servicio salud y consumo-Administración general
+3,1,1,0,01,Promoción y prevención salud
+3,1,1,0,02,Vigilancia y salud publica establecimientos comerciales
+3,1,1,0,03,Servicio salud y consumo-Zoonosis
+3,1,2,,,"Hospitales, servicios asistenciales y centros de salud"
+3,1,2,0,,"Hospitales, servicios asistenciales y centros de salud"
+3,1,2,0,00,"Hospitales, servicios asistenciales y centros de salud"
+3,2,0,,,Administración general de educación
+3,2,0,0,,Administración general de educación
+3,2,0,0,00,Administración general de educación
+3,2,0,0,01,Planificación educativa
+3,2,1,,,Creación de centros educación preescolar y primaria
+3,2,1,0,,Creación de centros docentes de enseñanza infantil y primaria
+3,2,1,0,00,Creación de centros docentes de enseñanza infantil y primaria
+3,2,2,,,Creación de centros enseñanza secundaria
+3,2,2,0,,Creación de centros enseñanza secundaria
+3,2,2,0,00,Creación de centros enseñanza secundaria
+3,2,3,,,Funcionamiento de centros de enseñanza preescolar y primaria
+3,2,3,0,,Funcionamiento de centros de enseñanza preescolar y primaria
+3,2,3,0,00,Administración general centros docentes primaria
+3,2,3,0,01,Gestión guarderías municipales
+3,2,3,0,02,"Conservación, mantenimiento y vigilancia centros públicos educ."
+3,2,4,,,Funcionamiento de centros docentes de enseñanza secundaria
+3,2,4,0,,Funcionamiento de centros docentes de enseñanza secundaria
+3,2,4,0,03,Funcionamiento de centros docentes de enseñanza secundaria
+3,2,4,0,06,Programas y actuaciones de acogida lingüística
+3,2,5,,,Vigilancia del cumplimiento de la escolaridad obligatoria
+3,2,6,,,Servicios complementarios de educación
+3,2,6,0,,Servicios complementarios de educación
+3,2,6,0,00,Otras actividades educativas complementarias
+3,2,6,0,01,Centros infantiles
+3,2,6,0,02,Transporte escolar
+3,2,6,0,03,Casal del maestro
+3,2,6,0,04,Programa reutilización libros de texto
+3,2,6,0,05,Programa de ayudas adquisición ordenadores eso
+3,2,6,0,06,Patronato municipal de la música
+3,2,6,0,07,Otras actividades educativas complementarias-Curriculum
+3,2,6,0,08,Plan educativo entorno
+3,2,6,0,09,Servicios complementarios educación. Universidades
+3,2,6,1,,Servicios complementarios educación
+3,2,6,0,10,Escuelas oficiales de idiomas
+3,2,7,,,Fomento de la convivencia ciudadana
+3,2,7,0,,Fomento de la convivencia ciudadana
+3,2,7,0,00,Fomento de la convivencia ciudadana
+3,2,7,0,01,"32701"
+3,2,7,0,02,"32702"
+3,3,0,,,Administración general de cultura
+3,3,0,0,,Administración general de cultura
+3,3,0,0,00,Administración general de cultura
+3,3,2,,,Bibliotecas y archivos
+3,3,2,1,,Bibliotecas públicas
+3,3,2,0,10,Gastos comunes bibiliotecas
+3,3,2,0,11,Biblioteca Central
+3,3,2,0,12,Biblioteca Can Peixauet
+3,3,2,0,13,Biblioteca Singuerlin
+3,3,2,0,14,Biblioteca Hondo
+3,3,2,2,,Archivos
+3,3,3,,,Equipamientos culturales y museos
+3,3,3,0,,Equipamientos culturales y museos
+3,3,3,0,01,Museo Torre Balldovina
+3,3,3,0,02,Centro de arte contemporáneo Can Sisteré
+3,3,4,,,Promoción cultural
+3,3,4,0,,Promoción cultural
+3,3,4,0,00,Juventud
+3,3,4,0,01,Auditorio Can Roig i Torres
+3,3,4,0,02,Teatro Sagarra
+3,3,4,0,03,Programa musical para jóvenes
+3,3,4,0,04,Centro de recursos para jóvenes Reloj XXI
+3,3,4,0,05,Centro de recursos para jóvenes Mas Fonollar
+3,3,4,0,06,Servicio PIDCES
+3,3,4,0,07,Programa de juventud
+3,3,6,,,Protección y gestión del patrimonio histórico-artístico
+3,3,6,0,00,Protección y gestión del patrimonio histórico-artístico
+3,3,7,,,Equipo de ocupación del tiempo libre
+3,3,7,0,,Equipo de ocupación del tiempo libre
+3,3,7,0,01,Centros cívicos y centros
+3,3,7,0,02,Empleo tiempo libre infancia y juventud
+3,3,7,0,05,"33705"
+3,3,8,,,Fiestas populares
+3,3,8,0,,Fiestas populares
+3,3,8,0,01,Fiestas populares y celebraciones
+3,3,8,0,02,Ciclo festivo
+3,4,0,,,Administración general de deportes
+3,4,0,0,,Administración general de deportes
+3,4,0,0,00,Administración general de deportes
+3,4,1,,,Promoción y fomento del deporte
+3,4,1,0,,Promoción y fomento del deporte
+3,4,1,0,00,Promoción y fomento del deporte
+3,4,2,,,Instalaciones deportivas
+3,4,2,0,,Instalaciones deportivas
+3,4,2,0,00,Instalaciones deportivas
+3,4,2,0,01,Instalaciones deportivas
+3,4,2,0,02,Pista polideportiva Pompeu Fabra en Can Franquesa
+3,4,2,0,03,Pista polideportiva en la calle Milton barrio de la Guinardera
+3,8,8,0,02,"38802"
+4,1,0,,,"Administración general de agricultura, ganadería y pesca"
+4,1,2,,,Mejora de las estructuras agropecuarias y los sistesmes productivos
+4,1,4,,,Desarrollo rural
+4,1,5,,,Protección y desarrollo de los recursos pesqueros
+4,1,9,,,"Otras actuaciones en agricultura, ganadería y pesca"
+4,2,0,,,Administración general de Industria y energía
+4,2,2,,,Industria
+4,2,3,,,Minería
+4,2,5,,,Energía
+4,3,0,,,"Administración general de comercio, turismo y pymes"
+4,3,0,0,,"Administración general de comercio, turismo y pymes"
+4,3,0,0,00,"Administración general de comercio, turismo y pymes"
+4,3,1,,,Comercio
+4,3,1,0,,Comercio
+4,3,1,0,00,Comercio
+4,3,1,1,,Ferias
+4,3,1,0,10,Comercio
+4,3,1,2,,"Mercados, abastecimientos y palcos"
+4,3,1,0,20,Mercados
+4,3,1,3,,Comercio ambulante
+4,3,1,0,30,Comercio ambulante
+4,3,2,,,Información y promoción turística
+4,3,2,0,,Información y promoción turística
+4,3,2,0,00,Información y promoción turística
+4,3,3,,,Desarrollo empresarial
+4,3,3,0,,Desarrollo empresarial
+4,3,3,0,00,Desarrollo empresarial
+4,3,9,,,Otras actuaciones sectoriales
+4,4,0,,,Administración general del transporte
+4,4,1,,,Transporte de viajeros
+4,4,1,1,,Transporte colectivo urbano de viajeros
+4,4,1,2,,Otro transporte de viajeros
+4,4,2,,,Infraestructuras del transporte
+4,4,3,,,Transporte de mercancías
+4,5,0,,,Administración general de infraestructuras
+4,5,2,,,Recursos hidráulicos
+4,5,3,,,Carreteras
+4,5,4,,,Caminos vecinales
+4,5,9,,,Otros infraestructuras
+4,5,9,0,00,Proyectos y obras vía pública
+4,6,2,,,Investigación y estudios relacionados con los servicios públicos
+4,6,3,,,"Investigación científica, técnica y aplicada"
+4,9,1,,,Sociedad de la información
+4,9,1,0,,Sociedad de la información
+4,9,1,0,00,Sociedad de la información
+4,9,1,0,01,Localret
+4,9,2,,,Gestión del conocimiento
+4,9,3,,,Protección de consumidores y usuarios
+4,9,3,0,,Protección de consumidores y usuarios
+4,9,3,0,01,OMIC
+4,9,3,0,02,Actividades formativas sobre consumismo
+9,1,2,,,Órganos de gobierno
+9,1,2,0,,Órganos de gobierno
+9,1,2,0,01,Órganos de gobierno
+9,1,2,0,02,Soporte administrativo y de asesoría a órganos de gobierno
+9,1,2,0,03,Protocolo y relaciones institucionales
+9,1,2,0,04,Transferencias a grupos políticos
+9,2,0,,,Administración general
+9,2,0,0,,Administración general
+9,2,0,0,00,Administración general. Edificios de administración general
+9,2,0,0,01,Gestión general área alcaldía
+9,2,0,0,02,Planificación y organización
+9,2,0,0,03,Prensa y comunicación
+9,2,0,0,04,Gestión general área asuntos generales
+9,2,0,0,05,Compras centralizadas
+9,2,0,0,06,Archivo
+9,2,0,0,07,Conserjería
+9,2,0,0,08,Comunicaciones internas-Informática
+9,2,0,0,09,Contratación
+9,2,0,1,,Administración general
+9,2,0,0,10,Telefónica y comunicaciones
+9,2,0,0,11,Secretaría general
+9,2,0,0,12,Servicios jurídicos
+9,2,0,0,13,Recursos humanos
+9,2,0,0,14,Oficina de atención al empleado
+9,2,0,0,15,Selección y desarrollo-RRHH
+9,2,0,0,17,Prevención
+9,2,0,0,18,Equipos procesos información
+9,2,0,0,19,Adquisición de edificios de administración general
+9,2,0,2,,Administración general
+9,2,0,0,20,Gestión general servicio de compras y gestión patrimonial
+9,2,0,0,21,Mobiliario
+9,2,0,0,22,Personal adscrito a diversas áreas
+9,2,0,0,23,Personal adscrito al servicio RRPP de SSPP
+9,2,0,0,24,Personal servicios urbanos
+9,2,0,0,25,"92025"
+9,2,2,,,Coordinación y organización institucional entidades locales
+9,2,2,0,,Coordinación y organización institucional entidades locales
+9,2,2,0,00,Coordinación y organización institucional entidades locales
+9,2,3,,,Información básica y estadística
+9,2,3,0,,Información básica y estadística
+9,2,3,0,00,Información básica y estadística
+9,2,3,1,,Gestión del padrón municipal de habitantes
+9,2,3,0,10,Gestión del padrón municipal de habitantes
+9,2,4,,,Participación ciudadana
+9,2,4,0,,Participación ciudadana
+9,2,4,0,00,Participación ciudadana
+9,2,4,0,01,Procesos electorales
+9,2,4,0,02,Participación ciudadana-Exposiciones
+9,2,4,0,03,Participación ciudadana-Dinamización de procesos
+9,2,4,0,04,Participación ciudadana-Proceso participativo
+9,2,4,0,05,Participación ciudadana-Concejalía distritos
+9,2,5,,,Atención a los ciudadanos
+9,2,5,0,,Atención a los ciudadanos
+9,2,5,0,01,Oficina de atención al ciudadano
+9,2,5,0,02,Defensor del ciudadano
+9,2,6,,,Comunicaciones internas
+9,2,9,,,Imprevistos y funciones no clasificadas
+9,2,9,0,,Imprevistos y funciones no clasificadas
+9,2,9,0,01,Fondo contingencia LOEPSF 2/2012
+9,3,1,,,Política económica y fiscal
+9,3,1,0,,Política económica y fiscal
+9,3,1,0,00,Política económica y fiscal
+9,3,1,0,01,Gestión general del área de RREE
+9,3,1,0,02,Intervención
+9,3,1,0,03,Contabilidad
+9,3,2,,,Gestión del sistema tributario
+9,3,2,0,,Gestión del sistema tributario
+9,3,2,0,01,Recaudación
+9,3,2,0,02,Gestión tributaria
+9,3,3,,,Gestión del patrimonio
+9,3,3,0,,Gestión del patrimonio
+9,3,3,0,00,Gestión del patrimonio
+9,3,3,0,01,"IFS, rehabilitación centro cívico Oliveres"
+9,3,3,0,02,"IFS, ampliación instalación térmica guardería Oliveres"
+9,3,4,,,Gestión de la deuda y de la tesorería
+9,3,4,0,,Gestión de la deuda y de la tesorería
+9,3,4,0,00,Gestión de la deuda y la tesorería
+9,4,1,,,Transferencias a comunidades autónomas
+9,4,2,,,Transferencias a entidades locales territoriales
+9,4,3,,,Transferencias a otras entidades locales
+9,4,3,0,,Transferencias a otras entidades locales
+9,4,3,0,01,Transferencias a otras entidades locales
+9,4,4,,,Transferencias a la administración general del estado
 # -- pre 2015 sin mapeo
-1,5,1,03,"15103"
-1,5,2,01,"15201"
-1,5,2,02,"15202"
-1,6,1,01,"16101"
-1,6,2,02,"16202"
-1,6,3,03,"16303"
-1,6,9,00,"16900"
-1,7,9,01,"17901"
-2,3,2,01,"23201"
-2,3,2,02,"23202"
-2,3,2,03,"23203"
-2,3,2,04,"23204"
-2,3,2,05,"23205"
-2,3,3,01,"23301"
-2,3,3,02,"23302"
-3,1,3,01,"31301"
-3,1,3,02,"31302"
-3,1,3,03,"31303"
-3,1,3,04,"31304"
-3,2,1,01,"32101"
-3,2,4,02,"32402"
-3,2,4,04,"32404"
-3,2,4,05,"32405"
-3,3,2,01,"33201"
-3,3,5,01,"33501"
-3,4,1,01,"34101"
-4,3,1,01,"43101"
-4,3,3,01,"43301"
-4,5,9,01,"45901"
-9,2,0,16,"92016"
+1,5,1,0,03,"15103"
+1,5,2,0,01,"15201"
+1,5,2,0,02,"15202"
+1,6,1,0,01,"16101"
+1,6,2,0,02,"16202"
+1,6,3,0,03,"16303"
+1,6,9,0,00,"16900"
+1,7,9,0,01,"17901"
+2,3,2,0,01,"23201"
+2,3,2,0,02,"23202"
+2,3,2,0,03,"23203"
+2,3,2,0,04,"23204"
+2,3,2,0,05,"23205"
+2,3,3,0,01,"23301"
+2,3,3,0,02,"23302"
+3,1,3,0,01,"31301"
+3,1,3,0,02,"31302"
+3,1,3,0,03,"31303"
+3,1,3,0,04,"31304"
+3,2,1,0,01,"32101"
+3,2,4,0,02,"32402"
+3,2,4,0,04,"32404"
+3,2,4,0,05,"32405"
+3,3,2,0,01,"33201"
+3,3,5,0,01,"33501"
+3,4,1,0,01,"34101"
+4,3,1,0,01,"43101"
+4,3,3,0,01,"43301"
+4,5,9,0,01,"45901"
+9,2,0,0,16,"92016"
