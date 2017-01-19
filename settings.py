@@ -69,7 +69,7 @@ SHOW_TAX_RECEIPT = True
 INCLUDE_FINANCIAL_CHAPTERS_IN_BREAKDOWNS = True
 
 # Does the data includes a fifth functional classification level, subprogrammes?. Default: False
-# USE_SUBPROGRAMMES = True
+USE_SUBPROGRAMMES = True
 
 
 # Theme Settings
