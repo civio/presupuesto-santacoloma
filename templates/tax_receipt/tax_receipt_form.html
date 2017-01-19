@@ -1,0 +1,111 @@
+<p class="intro-text"></p>
+
+
+<form class="form-user-incomings" action="#" method="get">
+
+  <h3>{{ _('Impuestos') }}</h3>
+
+  <div class="row">
+    <div class="form-group">
+      <label for="select-house">{{ _('Inmueble') }}</label>
+      <select id="select-house" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Piso de hasta') }} 50 m²</option>
+        <option value="1" type="text">{{ _('Piso de hasta') }} 80 m²</option>
+        <option value="2" type="text">{{ _('Piso de hasta') }} 110 m²</option>
+        <option value="3" type="text">{{ _('Vivienda unifamiliar') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('IBI') }}: <span id="select-house-tax"></span></div>
+    <div class="form-group" style="clear: both">
+      <label for="select-house-bonus">{{ _('Bonificación') }}</label>
+      <select id="select-house-bonus" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguna') }}</option>
+        <option value="1" type="text">{{ _('Familia numerosa') }}</option>
+        <option value="2" type="text">{{ _('Vivienda de protección oficial (3 primeros años)') }}</option>
+        <option value="3" type="text">{{ _('Vivienda en las que se han instalado sistemas de aprovechamiento térmico o eléctrico de energía (3 primeros años)') }}</option>
+      </select>
+    </div>
+    <div class="form-group" style="clear: both">
+      <label for="select-house-bonus-2">{{ _('Subvención') }}</label>
+      <select id="select-house-bonus-2" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguna') }}</option>
+        <option value="1" type="text">{{ _('Familia monoparental') }}</option>
+        <option value="2" type="text">{{ _('Personas mayores que viven solas') }}</option>
+        <option value="3" type="text">{{ _('Parados') }}</option>
+      </select>
+    </div>
+  </div>
+    
+  <div class="row">
+    <div class="form-group">
+      <label for="select-vehicle">{{ _('Vehículo') }}</label>
+      <select id="select-vehicle" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguno') }}</option>
+        <option value="1" type="text">{{ _('Coche muy pequeño (menos de 8 caballos fiscales)') }}</option>
+        <option value="2" type="text">{{ _('Coche pequeño (entre 8 y 12 caballos fiscales)') }}</option>
+        <option value="3" type="text">{{ _('Coche mediano (entre 12 y 16 caballos fiscales)') }}</option>
+        <option value="4" type="text">{{ _('Coche grande (entre 16 y 20 caballos fiscales)') }}</option>
+        <option value="5" type="text">{{ _('Coche muy grande (más de 20 caballos fiscales)') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Impuesto a vehículos motorizados') }}: <span id="select-vehicle-tax"></span></div>
+    <div class="form-group" style="clear: both">
+      <label for="select-vehicle-bonus">{{ _('Bonificación vehículo') }}</label>
+      <select id="select-vehicle-bonus" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguna') }}</option>
+        <option value="1" type="text">{{ _('Vehículo histórico o con una antigüedad mínima de 25 años contados a partir de la fecha de su fabricación') }}</option>
+        <option value="2" type="text">{{ _('Vehículo clasificado en el Registro de Vehículos de la Dirección General de Tránsito como de "cero emisiones" o "eco"') }}</option>
+      </select>
+    </div>
+  </div>
+    
+  <div class="row">
+    <div class="form-group">
+      <label for="select-extra-vehicle">{{ _('Vehículo adicional') }}</label>
+      <select id="select-extra-vehicle" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguno') }}</option>
+        <option value="1" type="text">{{ _('Coche muy pequeño (menos de 8 caballos fiscales)') }}</option>
+        <option value="2" type="text">{{ _('Coche pequeño (entre 8 y 12 caballos fiscales)') }}</option>
+        <option value="3" type="text">{{ _('Coche mediano (entre 12 y 16 caballos fiscales)') }}</option>
+        <option value="4" type="text">{{ _('Coche grande (entre 16 y 20 caballos fiscales)') }}</option>
+        <option value="5" type="text">{{ _('Coche muy grande (más de 20 caballos fiscales)') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Impuesto a vehículos motorizados') }}: <span id="select-extra-vehicle-tax"></span></div>
+    <div class="form-group" style="clear: both">
+      <label for="select-extra-vehicle-bonus">{{ _('Bonificación vehículo') }}</label>
+      <select id="select-extra-vehicle-bonus" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguna') }}</option>
+        <option value="1" type="text">{{ _('Vehículo histórico o con una antigüedad mínima de 25 años contados a partir de la fecha de su fabricación') }}</option>
+        <option value="2" type="text">{{ _('Vehículo clasificado en el Registro de Vehículos de la Dirección General de Tránsito como de "cero emisiones" o "eco"') }}</option>
+      </select>
+    </div>
+  </div>
+    
+  
+  <h3>{{ _('Tasas') }}</h3>
+
+  <div class="row">
+    <div class="form-group">
+      <label for="select-parking">{{ _('¿Tienes un vado?') }}</label>
+      <select id="select-parking" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('No') }}</option>
+        <option value="1" type="text">{{ _('Sí, de 3 mts') }}</option>
+        <option value="2" type="text">{{ _('Sí, de 4 mts') }}</option>
+        <option value="3" type="text">{{ _('Sí, de 5 mts') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Tasa') }}: <span id="select-parking-tax"></span></div>
+    <div class="form-group" style="clear: both">
+      <label for="select-parking-location">{{ _('¿Dónde está situado?') }}</label>
+      <select id="select-parking-location" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Calle de primera categoría') }}</option>
+        <option value="1" type="text">{{ _('Calle de segunda categoría') }}</option>
+        <option value="2" type="text">{{ _('Calle de tercera categoría') }}</option>
+      </select>
+    </div>
+  </div>
+
+</form>
+
+<p id="tax-amount">{{ _('Contribuyes con un total de <strong id="tax-amount-paid"></strong> a los presupuestos del Gobierno de Aragón')|safe }}.</p>
