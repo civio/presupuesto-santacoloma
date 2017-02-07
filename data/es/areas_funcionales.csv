@@ -428,42 +428,42 @@
 9,4,4,0,,Transferencias a la administración general del estado
 # -- pre 2015 sin mapeo
 1,5,1,0,03,"15103"
-1,5,2,0,01,"15201"
+1,5,2,0,01,Vivienda pública
 1,5,2,0,02,"15202"
 1,6,1,0,01,"16101"
-1,6,2,0,02,"16202"
-1,6,3,0,03,"16303"
-1,6,9,,,"169"
-1,6,9,0,,"1690"
+1,6,2,0,02,Recogida de voluminosos
+1,6,3,0,03,Recogida selectiva
+1,6,9,,,Otros servicios de bienestar comunitario
+1,6,9,0,,Otros servicios de bienestar comunitario
 1,6,9,0,00,"16900"
-1,7,9,0,01,"17901"
-2,3,2,,,"232"
-2,3,2,0,,"2320"
-2,3,2,0,01,"23201"
-2,3,2,0,02,"23202"
-2,3,2,0,03,"23203"
-2,3,2,0,04,"23204"
-2,3,2,0,05,"23205"
-2,3,3,,,"233"
-2,3,3,0,,"2330"
-2,3,3,0,01,"23301"
-2,3,3,0,02,"23302"
-3,1,3,,,"313"
-3,1,3,0,,"3130"
-3,1,3,0,01,"31301"
-3,1,3,0,02,"31302"
-3,1,3,0,03,"31303"
-3,1,3,0,04,"31304"
-3,2,1,0,01,"32101"
-3,2,4,0,02,"32402"
-3,2,4,0,04,"32404"
-3,2,4,0,05,"32405"
-3,3,2,0,01,"33201"
-3,3,5,,,"335"
-3,3,5,0,,"3350"
-3,3,5,0,01,"33501"
-3,4,1,0,01,"34101"
+1,7,9,0,01,Educación y sensibilización ambiental
+2,3,2,,,Promoción social
+2,3,2,0,,Promoción social
+2,3,2,0,01,Mujeres
+2,3,2,0,02,Plan contra exclusión social
+2,3,2,0,03,Juventud
+2,3,2,0,04,Infancia
+2,3,2,0,05,Solidaridad y cooperación
+2,3,3,,,Asistencia a personas dependientes
+2,3,3,0,,Asistencia a personas dependientes
+2,3,3,0,01,Asistencia a personas dependientes
+2,3,3,0,02,Atención a discapacitados
+3,1,3,,,Acciones públicas relativas a la salud
+3,1,3,0,,Acciones públicas relativas a la salud
+3,1,3,0,01,Promoción de la salud
+3,1,3,0,02,Salud pública
+3,1,3,0,03,Salud alimentaria
+3,1,3,0,04,Higiene ambiental
+3,2,1,0,01,Guarderías
+3,2,4,0,02,Gestión y planificación educativa
+3,2,4,0,04,Soporte UNED
+3,2,4,0,05,Escuela de música
+3,3,2,0,01,Bibliotecas
+3,3,5,,,Artes escénicas
+3,3,5,0,,Artes escénicas
+3,3,5,0,01,Artes escénicas
+3,4,1,0,01,Promoción del deporte
 4,3,1,0,01,"43101"
-4,3,3,0,01,"43301"
+4,3,3,0,01,Promoción económica
 4,5,9,0,01,"45901"
-9,2,0,0,16,"92016"
+9,2,0,0,16,Mantenimiento edificios patrimoniales
