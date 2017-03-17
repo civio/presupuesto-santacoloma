@@ -66,7 +66,6 @@
 1,5,1,,,Urbanismo
 1,5,1,0,,"Urbanismo. Planeamiento, gestión, ejecución y disciplina urbanística"
 1,5,1,0,00,Urbanismo
-1,5,1,0,02,-
 1,5,1,1,,Urbanismo: Disciplina urbanística
 1,5,1,0,10,Urbanismo: Disciplina urbanística
 1,5,1,2,,Urbanismo: Gestión urbanística
@@ -241,6 +240,9 @@
 3,3,4,0,05,Centro de recursos para jóvenes Mas Fonollar
 3,3,4,0,06,Servicio PIDCES
 3,3,4,0,07,Programa de juventud
+3,3,5,,,Artes escénicas
+3,3,5,0,,Artes escénicas
+3,3,5,0,01,Artes escénicas
 3,3,6,,,Protección y gestión del patrimonio histórico-artístico
 3,3,6,0,,Protección y gestión del patrimonio histórico-artístico
 3,3,6,0,00,Protección y gestión del patrimonio histórico-artístico
@@ -259,6 +261,7 @@
 3,4,1,,,Promoción y fomento del deporte
 3,4,1,0,,Promoción y fomento del deporte
 3,4,1,0,00,Promoción y fomento del deporte
+3,4,1,0,01,Promoción del deporte
 3,4,2,,,Instalaciones deportivas
 3,4,2,0,,Instalaciones deportivas
 3,4,2,0,00,Instalaciones deportivas
@@ -426,15 +429,9 @@
 9,4,4,,,Transferencias a la administración general del estado
 9,4,4,0,,Transferencias a la administración general del estado
 # -- pre 2015 sin mapeo
-1,5,1,0,03,"15103"
 1,5,2,0,01,Vivienda pública
-1,5,2,0,02,"15202"
-1,6,1,0,01,"16101"
 1,6,2,0,02,Recogida de voluminosos
 1,6,3,0,03,Recogida selectiva
-1,6,9,,,Otros servicios de bienestar comunitario
-1,6,9,0,,Otros servicios de bienestar comunitario
-1,6,9,0,00,"16900"
 1,7,9,0,01,Educación y sensibilización ambiental
 2,3,2,,,Promoción social
 2,3,2,0,,Promoción social
@@ -458,11 +455,5 @@
 3,2,4,0,04,Soporte UNED
 3,2,4,0,05,Escuela de música
 3,3,2,0,01,Bibliotecas
-3,3,5,,,Artes escénicas
-3,3,5,0,,Artes escénicas
-3,3,5,0,01,Artes escénicas
-3,4,1,0,01,Promoción del deporte
-4,3,1,0,01,"43101"
 4,3,3,0,01,Promoción económica
-4,5,9,0,01,"45901"
 9,2,0,0,16,Mantenimiento edificios patrimoniales

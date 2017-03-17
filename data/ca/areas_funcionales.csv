@@ -66,7 +66,6 @@
 1,5,1,,,Urbanisme
 1,5,1,0,,"Urbanisme. Planejament, gestió, execució i disciplina urbanistica"
 1,5,1,0,00,Urbanisme
-1,5,1,0,02,-
 1,5,1,1,,Urbanisme: Disciplina urbanística
 1,5,1,0,10,Urbanisme: Disciplina urbanística
 1,5,1,2,,Urbanisme: Gestió urbanística
@@ -241,6 +240,9 @@
 3,3,4,0,05,Centre de recursos per a joves Mas Fonollar
 3,3,4,0,06,Servei PIDCES
 3,3,4,0,07,Programa de joventut
+3,3,5,,,Arts escèniques
+3,3,5,0,,Arts escèniques
+3,3,5,0,01,Arts escèniques
 3,3,6,,,Protecció i gestió del patrimoni històric-artístic
 3,3,6,0,,Protecció i gestió del patrimoni històric-artístic
 3,3,6,0,00,Protecció i gestió del patrimoni històric-artístic
@@ -259,6 +261,7 @@
 3,4,1,,,Promoció i foment de l'esport
 3,4,1,0,,Promoció i foment de l'esport
 3,4,1,0,00,Promoció i foment de l'esport
+3,4,1,0,01,Promoció de l'esport
 3,4,2,,,Instal·lacions esportives
 3,4,2,0,,Instal·lacions esportives
 3,4,2,0,00,Instal·lacions esportives
@@ -426,15 +429,9 @@
 9,4,4,,,Transferències a l'administració general de l'estat
 9,4,4,0,,Transferències a l'administració general de l'estat
 # -- pre 2015 sin mapeo
-1,5,1,0,03,"15103"
 1,5,2,0,01,Habitatge públic
-1,5,2,0,02,"15202"
-1,6,1,0,01,"16101"
 1,6,2,0,02,Recollida de voluminosos
 1,6,3,0,03,Recollida selectiva
-1,6,9,,,Altres serveis de benestar comunitari
-1,6,9,0,,Altres serveis de benestar comunitari
-1,6,9,0,00,"16900"
 1,7,9,0,01,Educació i sensibilització ambiental
 2,3,2,,,Promoció social
 2,3,2,0,,Promoció social
@@ -458,11 +455,5 @@
 3,2,4,0,04,Suport UNED
 3,2,4,0,05,Escola de música
 3,3,2,0,01,Biblioteques
-3,3,5,,,Arts escèniques
-3,3,5,0,,Arts escèniques
-3,3,5,0,01,Arts escèniques
-3,4,1,0,01,Promoció de l'esport
-4,3,1,0,01,"43101"
 4,3,3,0,01,Promoció econòmica
-4,5,9,0,01,"45901"
 9,2,0,0,16,Manteniment edificis patrimonials
