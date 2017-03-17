@@ -213,8 +213,8 @@
 3,2,7,,,Foment de la convivència ciutadana
 3,2,7,0,,Foment de la convivència ciutadana
 3,2,7,0,00,Foment de la convivència ciutadana
-3,2,7,0,01,"32701"
-3,2,7,0,02,"32702"
+3,2,7,0,01,Foment convivència
+3,2,7,0,02,Foment convivència
 3,3,0,,,Administració general de cultura
 3,3,0,0,,Administració general de cultura
 3,3,0,0,00,Administració general de cultura
@@ -248,7 +248,7 @@
 3,3,7,0,,Instal·lacions d'ocupació del temps lliure
 3,3,7,0,01,Centres cívics i casals
 3,3,7,0,02,Ocupació temps lliure infància i joventut
-3,3,7,0,05,"33705"
+3,3,7,0,05,Parcs i jardins
 3,3,8,,,Festes populars
 3,3,8,0,,Festes populars
 3,3,8,0,01,Festes populars i celebracions
@@ -265,7 +265,6 @@
 3,4,2,0,01,Instal·lacions esportives
 3,4,2,0,02,Pista poliesportiva Pompeu Fabra a Can Franquesa
 3,4,2,0,03,Pista poliesportiva al carrer Milton barri de la Guinardera
-3,8,8,0,02,"38802"
 4,1,0,,,"Administració general d'agricultura, ramaderia i pesca"
 4,1,0,0,,"Administració general d'agricultura, ramaderia i pesca"
 4,1,2,,,Millora de les estructures agropecuarias i dels sistesmes productius
@@ -373,7 +372,7 @@
 9,2,0,0,22,Personal adscrit a diverses àrees
 9,2,0,0,23,Personal adscrit al servei RRPP de SSPP
 9,2,0,0,24,Personal serveis urbans
-9,2,0,0,25,"92025"
+9,2,0,0,25,Información digital
 9,2,2,,,Coordinació i organització institucional entitats locals
 9,2,2,0,,Coordinació i organització institucional entitats locals
 9,2,2,0,00,Coordinació i organització institucional entitats locals
