@@ -266,9 +266,10 @@
 3,4,2,,,Instalaciones deportivas
 3,4,2,0,,Instalaciones deportivas
 3,4,2,0,00,Instalaciones deportivas
-3,4,2,0,01,Instalaciones deportivas
+3,4,2,0,01,Pistas de atletismo Can Zam
 3,4,2,0,02,Pista polideportiva Pompeu Fabra en Can Franquesa
 3,4,2,0,03,Pista polideportiva en la calle Milton barrio de la Guinardera
+3,4,2,0,04,Instalaciones deportivas
 4,1,0,,,"Administración general de agricultura, ganadería y pesca"
 4,1,0,0,,"Administración general de agricultura, ganadería y pesca"
 4,1,2,,,Mejora de las estructuras agropecuarias y los sistesmes productivos
@@ -336,6 +337,7 @@
 4,9,1,0,,Sociedad de la información
 4,9,1,0,00,Sociedad de la información
 4,9,1,0,01,Localret
+4,9,1,0,02,Red de radiocomunicaciones
 4,9,2,,,Gestión del conocimiento
 4,9,2,0,,Gestión del conocimiento
 4,9,3,,,Protección de consumidores y usuarios
